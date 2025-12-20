@@ -29,7 +29,7 @@
         <!-- Header -->
         <?php include 'header.php'; ?>
         <!-- /Header -->
-         
+
         <!-- Grid Collection -->
         <div class="flat-spacing-34 line-top">
             <div class="container-full">
@@ -123,6 +123,7 @@
             </div>
         </div>
         <!-- /Grid Collection -->
+
         <!-- Feature Collection -->
         <section class="flat-spacing-3 pt-0">
             <div class="container">
@@ -422,6 +423,7 @@
             </div>
         </section>
         <!-- /Feature Collection -->
+         
         <!-- Brand -->
         <div class="">
             <div class="infiniteslide tf-brand style-2" data-clone="2" data-style="left" data-speed="80">

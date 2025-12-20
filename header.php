@@ -8,7 +8,7 @@
                     </div>
                     <div class="col-xl-2 col-md-4 col-6">
                         <a href="home-footwear.html" class="logo-header">
-                            <img src="images/logo/logo.svg" alt="logo" class="logo">
+                            <img src="images/logo/zillylogo.webp" alt="logo" class="logo">
                         </a>
                     </div>
                     <div class="col-xl-8 d-none d-xl-block">
