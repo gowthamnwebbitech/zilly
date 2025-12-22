@@ -1,4 +1,4 @@
-    <div class="tf-topbar bg-dark-green-7 topbar-bg">
+    <div class="tf-topbar bg-dark- topbar-bg">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-xl-6">
