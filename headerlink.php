@@ -19,3 +19,4 @@
     <!-- Favicon and Touch Icons  -->
     <link rel="shortcut icon" href="images/logo/favicon.png">
     <link rel="apple-touch-icon-precomposed" href="images/logo/favicon.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">

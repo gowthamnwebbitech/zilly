@@ -1,11 +1,12 @@
 <!DOCTYPE html>
+
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
 
 <head>
     <?php include 'headerlink.php'; ?>
 </head>
 
-<body class="">
+<body>
 
     <!-- RTL -->
     <a href="javascript:void(0);" id="toggle-rtl" class="tf-btn animate-btn"><span>RTL</span></a>
@@ -22,6 +23,7 @@
     <!-- /preload -->
 
     <div id="wrapper">
+
         <!-- Top Bar-->
         <?php include 'topbar.php'; ?>
         <!-- /Top Bar -->
@@ -30,928 +32,226 @@
         <?php include 'header.php'; ?>
         <!-- /Header -->
 
-        <!-- Grid Collection -->
-        <div class="flat-spacing-34 line-top">
-            <div class="container-full">
-                <div class="grid-cls grid-cls-v6 wow fadeInUp">
-                    <div class="item1 s-cls radius-20 style-absolute abs-top-center hover-img">
-                        <div class="image img-style h-100">
-                            <img src="images/cls-categories/grid-cls/banner1.webp"
-                                data-src="images/cls-categories/grid-cls/banner1.webp" alt="banner" class="lazyload">
-                        </div>
-                        <div class="content">
-                            <div class="box-title">
-                                <div class="text-white display-lg">
-                                    New Arrivals
-                                </div>
-                            </div>
-                            <div class="box-btn">
-                                <a href="shop-default.html" class="tf-btn btn-white hover-primary">
-                                    View Collection
-                                    <i class="icon icon-arrow-top-left"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item2 s-cls radius-20 style-absolute abs-top-center hover-img">
-                        <div class="image img-style">
-                            <img src="images/cls-categories/grid-cls/banner3.webp"
-                                data-src="images/cls-categories/grid-cls/banner3.webp" alt="banner" class="lazyload">
-                        </div>
-                        <div class="content">
-                            <div class="box-title">
-                                <div class="text-white display-lg">
-                                    Handbags
-                                </div>
-                            </div>
-                            <div class="box-btn">
-                                <a href="shop-default.html"
-                                    class="d-flex align-items-center text-white text-md fw-medium gap-10 link">
-                                    <span class="text-transform-none">
-                                        Explore Now
-                                    </span>
-                                    <i class="icon-arrow-top-left fs-8"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item3 s-cls radius-20 style-absolute abs-top-center hover-img">
-                        <div class="image img-style">
-                            <img src="images/cls-categories/grid-cls/banner2.jpg"
-                                data-src="images/cls-categories/grid-cls/banner2.jpg" alt="banner" class="lazyload">
-                        </div>
-                        <div class="content">
-                            <div class="box-title">
-                                <div class="text-white display-lg">
-                                    Backpacks
-                                </div>
-                            </div>
-                            <div class="box-btn">
-                                <a href="shop-default.html"
-                                    class="d-flex align-items-center text-white text-md fw-medium gap-10 link">
-                                    <span class="text-transform-none">
-                                        Explore Now
-                                    </span>
-                                    <i class="icon-arrow-top-left fs-8"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item4 s-cls radius-20 style-absolute abs-top-center hover-img">
-                        <div class="image img-style">
-                            <img src="images/cls-categories/grid-cls/banner4.jpg"
-                                data-src="images/cls-categories/grid-cls/banner4.jpg" alt="banner" class="lazyload">
-                        </div>
-                        <div class="content">
-                            <div class="box-title">
-                                <div class="text-white display-lg">
-                                    Signature Handbags
-                                </div>
-                            </div>
-                            <div class="box-btn">
-                                <a href="shop-default.html"
-                                    class="d-flex align-items-center text-white text-md fw-medium gap-10 link">
-                                    <span class="text-transform-none">
-                                        Explore Now
-                                    </span>
-                                    <i class="icon-arrow-top-left fs-8"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /Grid Collection -->
-
-        <!-- Feature Collection -->
-        <section class="flat-spacing-3 pt-0">
+        <section class="flat-spacing-3 pb-0">
             <div class="container">
-                <div class="flat-title wow fadeInUp">
-                    <h4 class="title font-7">Today’s Picks</h4>
-                    <p class="desc text-main font-13 fs-16">Explore our most popular pieces that customers can't get
-                        enough of</p>
-                </div>
-                <div class="fl-control-sw2 wrap-pos-nav sw-over-product wow fadeInUp">
-                    <div dir="ltr" class="swiper tf-swiper wrap-sw-over" data-swiper='{
-                        "slidesPerView": 2,
-                        "spaceBetween": 12,
-                        "speed": 800,
-                        "observer": true,
-                        "observeParents": true,
-                        "slidesPerGroup": 2,
-                        "pagination": { "el": ".sw-pagination-product", "clickable": true },
-                        "breakpoints": {
-                        "768": { "slidesPerView": 3, "spaceBetween": 12, "slidesPerGroup": 3 },
-                        "1200": { "slidesPerView": 4, "spaceBetween": 24, "slidesPerGroup": 4}
-                        }
-                    }'>
-                        <div class="swiper-wrapper">
-
-                            <!-- PRODUCT 1 -->
-                            <div class="swiper-slide">
-                                <div class="card-product">
-                                    <div class="card-product-wrapper asp-ratio-1">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="img-product lazyload" src="images/products/bags/product1.jpg" alt="Product 1">
-                                            <img class="img-hover lazyload" src="images/products/bags/product2.jpg" alt="Product 1 Hover">
-                                        </a>
-                                        <ul class="list-product-btn">
-                                            <li>
-                                                <a href="#quickAdd" data-bs-toggle="modal" class="hover-tooltip tooltip-left box-icon">
-                                                    <span class="icon icon-cart2"></span>
-                                                    <span class="tooltip">Quick Add</span>
-                                                </a>
-                                            </li>
-                                            <li class="wishlist">
-                                                <a href="javascript:void(0);" class="hover-tooltip tooltip-left box-icon">
-                                                    <span class="icon icon-heart2"></span>
-                                                    <span class="tooltip">Add to Wishlist</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#quickView" data-bs-toggle="modal" class="hover-tooltip tooltip-left box-icon quickview">
-                                                    <span class="icon icon-view"></span>
-                                                    <span class="tooltip">Quick View</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="card-product-info text-center">
-                                        <a href="product-detail.html" class="name-product fw-medium">Product One</a>
-                                        <p class="price-wrap fw-medium">
-                                            <span class="price-new text-primary">$120.00</span>
-                                            <span class="price-old">$150.00</span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- PRODUCT 2 -->
-                            <div class="swiper-slide">
-                                <div class="card-product">
-                                    <div class="card-product-wrapper asp-ratio-1">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="img-product lazyload" src="images/products/bags/product2.jpg" alt="Product 2">
-                                            <img class="img-hover lazyload" src="images/products/bags/product3.jpg" alt="Product 2 Hover">
-                                        </a>
-                                    </div>
-                                    <div class="card-product-info text-center">
-                                        <a href="product-detail.html" class="name-product fw-medium">Product Two</a>
-                                        <p class="price-wrap fw-medium">
-                                            <span class="price-new text-primary">$125.00</span>
-                                            <span class="price-old">$155.00</span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- PRODUCT 3 -->
-                            <div class="swiper-slide">
-                                <div class="card-product">
-                                    <div class="card-product-wrapper asp-ratio-1">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="img-product lazyload" src="images/products/bags/product3.jpg" alt="Product 3">
-                                            <img class="img-hover lazyload" src="images/products/bags/product4.jpg" alt="Product 3 Hover">
-                                        </a>
-                                    </div>
-                                    <div class="card-product-info text-center">
-                                        <a href="product-detail.html" class="name-product fw-medium">Product Three</a>
-                                        <p class="price-wrap fw-medium">
-                                            <span class="price-new text-primary">$130.00</span>
-                                            <span class="price-old">$160.00</span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- PRODUCT 4 -->
-                            <div class="swiper-slide">
-                                <div class="card-product">
-                                    <div class="card-product-wrapper asp-ratio-1">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="img-product lazyload" src="images/products/bags/product4.jpg" alt="Product 4">
-                                            <img class="img-hover lazyload" src="images/products/bags/product5.jpg" alt="Product 4 Hover">
-                                        </a>
-                                    </div>
-                                    <div class="card-product-info text-center">
-                                        <a href="product-detail.html" class="name-product fw-medium">Product Four</a>
-                                        <p class="price-wrap fw-medium">
-                                            <span class="price-new text-primary">$135.00</span>
-                                            <span class="price-old">$165.00</span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- PRODUCT 5 -->
-                            <div class="swiper-slide">
-                                <div class="card-product">
-                                    <div class="card-product-wrapper asp-ratio-1">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="img-product lazyload" src="images/products/bags/product5.jpg" alt="Product 5">
-                                            <img class="img-hover lazyload" src="images/products/bags/product6.jpg" alt="Product 5 Hover">
-                                        </a>
-                                    </div>
-                                    <div class="card-product-info text-center">
-                                        <a href="product-detail.html" class="name-product fw-medium">Product Five</a>
-                                        <p class="price-wrap fw-medium">
-                                            <span class="price-new text-primary">$140.00</span>
-                                            <span class="price-old">$170.00</span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- PRODUCT 6 -->
-                            <div class="swiper-slide">
-                                <div class="card-product">
-                                    <div class="card-product-wrapper asp-ratio-1">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="img-product lazyload" src="images/products/bags/product6.jpg" alt="Product 6">
-                                            <img class="img-hover lazyload" src="images/products/bags/product7.jpg" alt="Product 6 Hover">
-                                        </a>
-                                    </div>
-                                    <div class="card-product-info text-center">
-                                        <a href="product-detail.html" class="name-product fw-medium">Product Six</a>
-                                        <p class="price-wrap fw-medium">
-                                            <span class="price-new text-primary">$145.00</span>
-                                            <span class="price-old">$175.00</span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- PRODUCT 7 -->
-                            <div class="swiper-slide">
-                                <div class="card-product">
-                                    <div class="card-product-wrapper asp-ratio-1">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="img-product lazyload" src="images/products/bags/product7.jpg" alt="Product 7">
-                                            <img class="img-hover lazyload" src="images/products/bags/product7.jpg" alt="Product 7 Hover">
-                                        </a>
-                                    </div>
-                                    <div class="card-product-info text-center">
-                                        <a href="product-detail.html" class="name-product fw-medium">Product Seven</a>
-                                        <p class="price-wrap fw-medium">
-                                            <span class="price-new text-primary">$150.00</span>
-                                        </p>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div class="d-flex d-xl-none sw-dot-default sw-pagination-product justify-content-center">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- /Feature Collection -->
-
-        <!-- Brand -->
-        <div class="">
-            <div class="infiniteslide tf-brand style-2" data-clone="2" data-style="left" data-speed="80">
-                <div class="brand-item">
-                    <p class="display-2xl fw-semibold text-grey-7">Free Shipping</p>
-                </div>
-                <div class="brand-item">
-                    <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M42 18.9H26.04L37.38 7.56L34.44 4.62L23.1 15.96V0H18.9V15.96L7.56 4.62L4.62 7.56L15.96 18.9H0V23.1H15.96L4.62 34.44L7.56 37.38L18.9 26.04V42H23.1V26.04L34.44 37.38L37.38 34.44L26.04 23.1H42V18.9Z"
-                            fill="#7B53FF" />
-                    </svg>
-                </div>
-                <div class="brand-item">
-                    <p class="display-2xl fw-semibold text-clip-2">Shop Now, Pay Later</p>
-                </div>
-                <div class="brand-item">
-                    <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M42 18.9H26.04L37.38 7.56L34.44 4.62L23.1 15.96V0H18.9V15.96L7.56 4.62L4.62 7.56L15.96 18.9H0V23.1H15.96L4.62 34.44L7.56 37.38L18.9 26.04V42H23.1V26.04L34.44 37.38L37.38 34.44L26.04 23.1H42V18.9Z"
-                            fill="#7B53FF" />
-                    </svg>
-                </div>
-                <div class="brand-item">
-                    <p class="display-2xl fw-semibold text-grey-7">Free Shipping</p>
-                </div>
-                <div class="brand-item">
-                    <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M42 18.9H26.04L37.38 7.56L34.44 4.62L23.1 15.96V0H18.9V15.96L7.56 4.62L4.62 7.56L15.96 18.9H0V23.1H15.96L4.62 34.44L7.56 37.38L18.9 26.04V42H23.1V26.04L34.44 37.38L37.38 34.44L26.04 23.1H42V18.9Z"
-                            fill="#7B53FF" />
-                    </svg>
-                </div>
-                <div class="brand-item">
-                    <p class="display-2xl fw-semibold text-clip-2">Shop Now, Pay Later</p>
-                </div>
-                <div class="brand-item">
-                    <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M42 18.9H26.04L37.38 7.56L34.44 4.62L23.1 15.96V0H18.9V15.96L7.56 4.62L4.62 7.56L15.96 18.9H0V23.1H15.96L4.62 34.44L7.56 37.38L18.9 26.04V42H23.1V26.04L34.44 37.38L37.38 34.44L26.04 23.1H42V18.9Z"
-                            fill="#7B53FF" />
-                    </svg>
-                </div>
-            </div>
-        </div>
-        <!-- /Brand -->
-        <!-- Brand -->
-        <section class="flat-spacing-3 d-none">
-            <div class="container">
-                <div class="flat-title style-between align-items-end wow fadeInUp">
+                <div class="flat-title-2 d-xl-flex justify-content-xl-between">
                     <div class="box-title">
-                        <h4 class="title">Shop by Brands</h4>
-                        <p class="desc text-main text-md">
-                            Explore our most popular pieces that customers can't get enough of
+                        <p class="display-lg-2 fw-medium">
+                            Welcome to Zilly
+                        </p>
+                        <p class="text-xl">
+                            Where Style Meets Everyday Function
                         </p>
                     </div>
-                    <div class="box-nav-swiper style-2 d-none d-xl-flex">
-                        <div class="swiper-button-prev nav-swiper nav-prev-brand relative"></div>
-                        <div class="swiper-button-next nav-swiper nav-next-brand relative"></div>
+                    <div class="box-text">
+                        <p class="text-md">
+                            At <span class="fw-medium">Zilly</span>, we design and curate premium bags that combine modern style
+                            with everyday practicality. <br class="d-none d-xl-block">
+                            From chic handbags to versatile backpacks and travel essentials, every piece is crafted with <br
+                                class="d-none d-xl-block">
+                            attention to detail, quality materials, and timeless appeal—perfect for work, travel, and life on the go.
+                        </p>
                     </div>
                 </div>
-                <div dir="ltr" class="wow fadeInUp swiper tf-swiper sw-brand border-0" data-swiper='{
-                    "slidesPerView": 2,
-                    "spaceBetween": 6,
-                    "speed": 800,
-                    "observer": true,
-                    "slidesPerGroup": 2,
-                    "pagination": { "el": ".sw-pagination-brand", "clickable": true },
-                    "navigation": {
-                        "clickable": true,
-                        "nextEl": ".nav-next-brand",
-                        "prevEl": ".nav-prev-brand"
-                    },
-                    "breakpoints": {
-                    "575": { "slidesPerView": 3},
-                    "991": { "slidesPerView": 4},
-                    "1200": { "slidesPerView": 6}
-                    }
-                }'>
-                    <div class="swiper-wrapper">
-                        <!-- item 1 -->
-                        <div class="swiper-slide">
-                            <div class="brand-item line radius-8">
-                                <img src="images/brand/zara.png" alt="brand">
-                            </div>
-                        </div>
-                        <!-- item 2 -->
-                        <div class="swiper-slide">
-                            <div class="brand-item line radius-8">
-                                <img src="images/brand/bear.png" alt="brand">
-                            </div>
-                        </div>
-                        <!-- item 3 -->
-                        <div class="swiper-slide">
-                            <div class="brand-item line radius-8">
-                                <img src="images/brand/nike.png" alt="brand">
-                            </div>
-                        </div>
-                        <!-- item 4 -->
-                        <div class="swiper-slide">
-                            <div class="brand-item line radius-8">
-                                <img src="images/brand/asos.png" alt="brand">
-                            </div>
-                        </div>
-                        <!-- item 5 -->
-                        <div class="swiper-slide">
-                            <div class="brand-item line radius-8">
-                                <img src="images/brand/burberry.png" alt="brand">
-                            </div>
-                        </div>
-                        <!-- item 6 -->
-                        <div class="swiper-slide">
-                            <div class="brand-item line radius-8">
-                                <img src="images/brand/forever.png" alt="brand">
-                            </div>
-                        </div>
-                        <!-- item 7 -->
-                        <div class="swiper-slide">
-                            <div class="brand-item line radius-8">
-                                <img src="images/brand/zara.png" alt="brand">
-                            </div>
-                        </div>
-                        <!-- item 8 -->
-                        <div class="swiper-slide">
-                            <div class="brand-item line radius-8">
-                                <img src="images/brand/bear.png" alt="brand">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="d-flex d-xl-none sw-dot-default sw-pagination-brand justify-content-center"></div>
-            </div>
-        </section>
-        <!-- /Brand -->
-        <!-- Collection -->
-        <div class="flat-spacing-3 ">
-            <div class="container">
-                <div class="fl-control-sw2">
-                    <div dir="ltr" class="swiper tf-swiper wow fadeInUp" data-swiper='{
-                        "slidesPerView": 1,
-                        "spaceBetween": 12,
-                        "speed": 800,
-                        "observer": true,
-                        "observeParents": true,
-                        "slidesPerGroup": 1,
-                        "navigation": {
-                            "clickable": true,
-                            "nextEl": ".nav-next-cls",
-                            "prevEl": ".nav-prev-cls"
-                        },
-                        "pagination": { "el": ".sw-pagination-cls", "clickable": true },
-                        "breakpoints": {
-                        "575": { "slidesPerView": 2, "spaceBetween": 12 ,"slidesPerGroup": 2 },
-                        "768": { "slidesPerView": 3, "spaceBetween": 12, "slidesPerGroup": 3 },
-                        "1200": { "slidesPerView": 3, "spaceBetween": 24, "slidesPerGroup": 3}
-                        }
-                    }'>
-                        <div class="swiper-wrapper">
-                            <!-- item 1 -->
-                            <div class="swiper-slide">
-                                <div class="wg-cls style-abs asp-1 hover-img">
-                                    <a href="shop-default.html" class="image img-style d-block">
-                                        <img src="images/products/bags/newproduct1.jpg"
-                                            data-src="images/products/bags/newproduct1.jpg"
-                                            alt="Handbags" class="lazyload">
-                                    </a>
-                                    <div class="cls-btn text-center">
-                                        <a href="shop-default.html" class="tf-btn btn-cls btn-white hover-dark hover-icon-2">
-                                            Classic Handbags <i class="icon icon-arrow-top-left"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
 
-                            <!-- item 2 -->
-                            <div class="swiper-slide">
-                                <div class="wg-cls style-abs asp-1 hover-img">
-                                    <a href="shop-default.html" class="image img-style d-block">
-                                        <img src="images/products/bags/newproduct2.jpg"
-                                            data-src="images/products/bags/newproduct2.jpg"
-                                            alt="Backpacks" class="lazyload">
-                                    </a>
-                                    <div class="cls-btn text-center">
-                                        <a href="shop-default.html" class="tf-btn btn-cls btn-white hover-dark hover-icon-2">
-                                            Modern Backpacks <i class="icon icon-arrow-top-left"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- item 3 -->
-                            <div class="swiper-slide">
-                                <div class="wg-cls style-abs asp-1 hover-img">
-                                    <a href="shop-default.html" class="image img-style d-block">
-                                        <img src="images/products/bags/newproduct3.jpg"
-                                            data-src="images/products/bags/newproduct3.jpg"
-                                            alt="Office Bags" class="lazyload">
-                                    </a>
-                                    <div class="cls-btn text-center">
-                                        <a href="shop-default.html" class="tf-btn btn-cls btn-white hover-dark hover-icon-2">
-                                            Office Bags <i class="icon icon-arrow-top-left"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                        <div class="d-flex d-xl-none sw-dot-default sw-pagination-cls justify-content-center"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /Collection -->
-        <!-- Banner Lookbook -->
-        <section class="flat-spacing-3 pt-0">
-            <div class="container">
-                <div class="banner-lookbook">
-                    <img class="img-banner"
-                        src="images/banner/bannernew.jpg"
-                        data-src="images/banner/bannernew.jpg"
-                        alt="Bag Lookbook">
-
-                    <!-- LOOKBOOK ITEM 1 -->
-                    <div class="lookbook-item position1">
-                        <div class="dropdown dropup-center dropdown-custom">
-                            <div role="dialog" class="tf-pin-btn" data-bs-toggle="dropdown" aria-expanded="false">
-                                <span></span>
-                            </div>
-
-                            <div class="dropdown-menu">
-                                <div class="loobook-product style-row">
-                                    <div class="img-style">
-                                        <img src="images/products/bags/newproduct3.jpg"
-                                            alt="Premium Office Laptop Bag">
-                                    </div>
-
-                                    <div class="content">
-                                        <div class="info">
-                                            <a href="product-detail.html"
-                                                class="text-md fw-medium text-line-clamp-1 link">
-                                                Premium Office Laptop Bag
-                                            </a>
-
-                                            <p class="price-wrap text-md fw-medium">
-                                                <span class="price-new">₹3,999<span class="zero">.00</span></span>
-                                                <span class="price-old">₹5,499<span class="zero">.00</span></span>
-                                            </p>
-                                        </div>
-
-                                        <a href="#quickView" data-bs-toggle="modal"
-                                            class="btn-lookbook hover-tooltip">
-                                            <i class="icon-view"></i>
-                                            <span class="tooltip">Quick view</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- LOOKBOOK ITEM 2 -->
-                    <div class="lookbook-item position2">
-                        <div class="dropdown dropup-center dropdown-custom">
-                            <div role="dialog" class="tf-pin-btn" data-bs-toggle="dropdown" aria-expanded="false">
-                                <span></span>
-                            </div>
-
-                            <div class="dropdown-menu">
-                                <div class="loobook-product style-row">
-                                    <div class="img-style">
-                                        <img src="images/products/bags/newproduct1.jpg"
-                                            alt="Classic Leather Handbag">
-                                    </div>
-
-                                    <div class="content">
-                                        <div class="info">
-                                            <a href="product-detail.html"
-                                                class="text-md fw-medium text-line-clamp-1 link">
-                                                Classic Leather Handbag
-                                            </a>
-
-                                            <p class="price-wrap text-md fw-medium">
-                                                <span class="price-new">₹2,799<span class="zero">.00</span></span>
-                                                <span class="price-old">₹3,999<span class="zero">.00</span></span>
-                                            </p>
-                                        </div>
-
-                                        <a href="#quickView" data-bs-toggle="modal"
-                                            class="btn-lookbook hover-tooltip">
-                                            <i class="icon-view"></i>
-                                            <span class="tooltip">Quick view</span>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="image radius-16 overflow-hidden banner-about">
+                    <img src="images/section/aboutnew.jpg"
+                        data-src="images/section/aboutnew.jpg"
+                        alt="Zilly Premium Bags Collection"
+                        class="w-100 h-100 object-fit-cover lazyload">
                 </div>
             </div>
         </section>
-        <!-- /Banner Lookbook -->
-        <!-- Testimonial -->
-        <section class="flat-spacing-3 pt-0">
+
+
+        <!-- Why Choose -->
+        <section class="flat-spacing-3">
             <div class="container">
-                <div class="flat-title wow fadeInUp">
-                    <h4 class="title">Customer Favorites</h4>
-                    <p class="desc text-main text-md">
-                        Loved by customers for quality, style, and everyday comfort.
+                <div class="flat-title text-center">
+                    <p class="display-md-2 fw-medium">
+                        Why Choose Zilly
                     </p>
+                    <p class="text-md text-main">
+                        At Zilly, we create bags that blend modern design with everyday functionality. Every piece is thoughtfully
+                        crafted to elevate your style while supporting your daily needs—at work, on the move, or while traveling.
+                    </p>
+                </div>
+
+                <div class="row">
+                    <div class="col-xl-7 col-md-6">
+                        <ul class="list-esd d-md-flex flex-md-column justify-content-md-center h-100">
+                            <li class="item">
+                                <h6>
+                                    Premium Craftsmanship
+                                </h6>
+                                <p class="text-md text-main">
+                                    Each Zilly bag is made using high-quality materials and precise craftsmanship, ensuring
+                                    durability, refined finishes, and long-lasting performance you can rely on every day.
+                                </p>
+                            </li>
+
+                            <li class="item">
+                                <h6>
+                                    Designed for Everyday Life
+                                </h6>
+                                <p class="text-md text-main">
+                                    From spacious totes and elegant handbags to functional backpacks and travel bags, Zilly
+                                    designs combine smart storage with effortless style.
+                                </p>
+                            </li>
+
+                            <li class="item">
+                                <h6>
+                                    Style That Reflects You
+                                </h6>
+                                <p class="text-md text-main">
+                                    Our collections are created for modern individuals who value versatility, confidence, and
+                                    timeless fashion—bags that adapt seamlessly to your lifestyle.
+                                </p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-xl-5 col-md-6">
+                        <div class="image radius-16 overflow-hidden w-100 h-100">
+                            <img src="images/section/aboutnew1.jpg"
+                                data-src="images/section/aboutnew1.jpg"
+                                alt="Zilly Premium Bags"
+                                class="lazyload w-100 h-100 object-fit-cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- /Why Choose -->
+
+        <!-- ================= STYLE CURATED SECTION ================= -->
+        <section class="flat-spacing-3 pt-0">
+            <div class="container">
+                <div class="flat-title-2 d-xl-flex justify-content-xl-between">
+                    <div class="box-title">
+                        <p class="display-md-2 fw-medium">
+                            Bags Curated for Your Lifestyle
+                        </p>
+                        <p class="text-xl">
+                            Designed to Match Your Everyday Journey
+                        </p>
+                    </div>
+                    <div class="box-text">
+                        <p class="text-md">
+                            At <span class="fw-medium">Zilly</span>, we thoughtfully design bags that balance style and function. <br
+                                class="d-none d-xl-block">
+                            From workdays to weekends and travel moments, our collections are crafted to <br
+                                class="d-none d-xl-block">
+                            complement your lifestyle with confidence and ease.
+                        </p>
+                    </div>
                 </div>
 
                 <div dir="ltr" class="swiper tf-swiper" data-swiper='{
             "slidesPerView": 1,
             "spaceBetween": 12,
             "speed": 800,
-            "observer": true,
-            "observeParents": true,
-            "slidesPerGroup": 1,
-            "navigation": {
-                "clickable": true,
-                "nextEl": ".nav-next-testimonial",
-                "prevEl": ".nav-prev-testimonial"
-            },
-            "pagination": { "el": ".sw-pagination-testimonial", "clickable": true },
+            "preventInteractionOnTransition": false,
+            "touchStartPreventDefault": false,
+            "pagination": { "el": ".sw-pagination-iconbox", "clickable": true },
             "breakpoints": {
-                "577": { "slidesPerView": 2, "spaceBetween": 12, "slidesPerGroup": 2 },
-                "1200": { "slidesPerView": 3, "spaceBetween": 24, "slidesPerGroup": 3 }
+                "575": { "slidesPerView": 2, "spaceBetween": 12 },
+                "992": { "slidesPerView": 3, "spaceBetween": 24 }
             }
         }'>
+                    <div class="swiper-wrapper">
 
-                    <div class="swiper-wrapper wow fadeInUp">
-
-                        <!-- ITEM 1 -->
-                        <div class="swiper-slide">
-                            <div class="wg-testimonial style-2 type-2">
-                                <div class="content">
-                                    <div class="content-top">
-                                        <div class="list-star-default">
-                                            <i class="icon-star text-green"></i>
-                                            <i class="icon-star text-green"></i>
-                                            <i class="icon-star text-green"></i>
-                                            <i class="icon-star text-green"></i>
-                                            <i class="icon-star text-green"></i>
-                                        </div>
-
-                                        <p class="text-sm fw-medium">Perfect Office Companion</p>
-                                        <p class="text-review text-md text-main">
-                                            This laptop bag looks premium and keeps everything well organized.
-                                            Ideal for daily office use.
-                                        </p>
-
-                                        <div class="box-author">
-                                            <div class="avt">
-                                                <img src="images/testimonial/author/author-1.jpg" alt="">
-                                            </div>
-                                            <p class="name-author text-sm fw-medium">Arjun K.</p>
-                                        </div>
-                                    </div>
-
-                                    <span class="br-line d-block"></span>
-
-                                    <div class="bot">
-                                        <div class="box-avt">
-                                            <div class="avatar rounded-0">
-                                                <img src="images/products/bags/product6.jpg" alt="">
-                                            </div>
-                                            <div class="box-price">
-                                                <a href="product-detail.html" class="link name-item text-md fw-medium">
-                                                    Premium Office Laptop Bag
-                                                </a>
-                                                <p class="price text-md fw-medium">₹3,999</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- ITEM 2 -->
-                        <div class="swiper-slide">
-                            <div class="wg-testimonial style-2 type-2">
-                                <div class="content">
-                                    <div class="content-top">
-                                        <div class="list-star-default">
-                                            <i class="icon-star text-green"></i>
-                                            <i class="icon-star text-green"></i>
-                                            <i class="icon-star text-green"></i>
-                                            <i class="icon-star text-green"></i>
-                                            <i class="icon-star text-green"></i>
-                                        </div>
-
-                                        <p class="text-sm fw-medium">Stylish & Spacious</p>
-                                        <p class="text-review text-md text-main">
-                                            Beautiful handbag with great finishing. Spacious enough for daily essentials.
-                                        </p>
-
-                                        <div class="box-author">
-                                            <div class="avt">
-                                                <img src="images/testimonial/author/author-2.jpg" alt="">
-                                            </div>
-                                            <p class="name-author text-sm fw-medium">Sneha R.</p>
-                                        </div>
-                                    </div>
-
-                                    <span class="br-line d-block"></span>
-
-                                    <div class="bot">
-                                        <div class="box-avt">
-                                            <div class="avatar rounded-0">
-                                                <img src="images/products/bags/product5.jpg" alt="">
-                                            </div>
-                                            <div class="box-price">
-                                                <a href="product-detail.html" class="link name-item text-md fw-medium">
-                                                    Classic Leather Handbag
-                                                </a>
-                                                <p class="price text-md fw-medium">₹2,799</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- ITEM 3 -->
-                        <div class="swiper-slide">
-                            <div class="wg-testimonial style-2 type-2">
-                                <div class="content">
-                                    <div class="content-top">
-                                        <div class="list-star-default">
-                                            <i class="icon-star text-green"></i>
-                                            <i class="icon-star text-green"></i>
-                                            <i class="icon-star text-green"></i>
-                                            <i class="icon-star text-green"></i>
-                                            <i class="icon-star text-green"></i>
-                                        </div>
-
-                                        <p class="text-sm fw-medium">Best Travel Backpack</p>
-                                        <p class="text-review text-md text-main">
-                                            Strong build quality and very comfortable to carry.
-                                            Perfect for travel and weekend trips.
-                                        </p>
-
-                                        <div class="box-author">
-                                            <div class="avt">
-                                                <img src="images/testimonial/author/author-3.jpg" alt="">
-                                            </div>
-                                            <p class="name-author text-sm fw-medium">Rahul S.</p>
-                                        </div>
-                                    </div>
-
-                                    <span class="br-line d-block"></span>
-
-                                    <div class="bot">
-                                        <div class="box-avt">
-                                            <div class="avatar rounded-0">
-                                                <img src="images/products/bags/product7.jpg" alt="">
-                                            </div>
-                                            <div class="box-price">
-                                                <a href="product-detail.html" class="link name-item text-md fw-medium">
-                                                    Urban Travel Backpack
-                                                </a>
-                                                <p class="price text-md fw-medium">₹3,199</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="d-flex d-xl-none sw-dot-default sw-pagination-testimonial justify-content-center"></div>
-                </div>
-            </div>
-        </section>
-
-        <!-- /Testimonial -->
-        <!-- Shop Gram -->
-        <section class="flat-spacing-8 pt-0">
-            <div class="container">
-                <div class="flat-title wow fadeInUp">
-                    <h3 class="title fw-semibold font-7 letter-0">Shop by @Zilly</h3>
-                </div>
-                <div dir="ltr" class="swiper tf-swiper" data-swiper='{
-                        "slidesPerView": 2,
-                        "spaceBetween": 10,
-                        "speed": 800,
-                        "observer": true,
-                        "observeParents": true,
-                        "slidesPerGroup": 2,
-                        "pagination": { "el": ".sw-pagination-gallery", "clickable": true },
-                        "breakpoints": {
-                        "768": { "slidesPerView": 3},
-                        "1200": { "slidesPerView": 5}
-                        }
-                    }'>
-                    <div class="swiper-wrapper wow fadeInUp">
                         <!-- item 1 -->
                         <div class="swiper-slide">
-                            <div class="gallery-item hover-img hover-overlay">
-                                <div class="image img-style">
-                                    <img src="images/gallery/bags/bag1.jpg" data-src="images/gallery/bags/bag1.jpg" alt="Women's Handbag" class="lazyload">
+                            <div class="tf-icon-box style-border">
+                                <div class="box-icon">
+                                    <i class="icon icon-precision"></i>
                                 </div>
-                                <a href="product-detail.html" class="box-icon hover-tooltip">
-                                    <span class="icon icon-cart2"></span>
-                                    <span class="tooltip">View Product</span>
-                                </a>
+                                <div class="content">
+                                    <h6>Crafted with Precision</h6>
+                                    <p class="text-sm text-main text-line-clamp-4">
+                                        Every Zilly bag is crafted using premium materials with careful attention to stitching,
+                                        structure, and finish—ensuring durability and long-lasting quality.
+                                    </p>
+                                </div>
                             </div>
                         </div>
 
                         <!-- item 2 -->
                         <div class="swiper-slide">
-                            <div class="gallery-item hover-img hover-overlay">
-                                <div class="image img-style">
-                                    <img src="images/gallery/bags/bag2.jpg" data-src="images/gallery/bags/bag2.jpg" alt="Women's Shoulder Bag" class="lazyload">
+                            <div class="tf-icon-box style-border">
+                                <div class="box-icon">
+                                    <i class="icon icon-elegance"></i>
                                 </div>
-                                <a href="product-detail.html" class="box-icon hover-tooltip">
-                                    <span class="icon icon-cart2"></span>
-                                    <span class="tooltip">View Product</span>
-                                </a>
+                                <div class="content">
+                                    <h6>Effortless Style</h6>
+                                    <p class="text-sm text-main text-line-clamp-4">
+                                        Designed with a clean, modern aesthetic, Zilly bags elevate any outfit—whether you're
+                                        heading to work, travel, or a casual day out.
+                                    </p>
+                                </div>
                             </div>
                         </div>
 
                         <!-- item 3 -->
                         <div class="swiper-slide">
-                            <div class="gallery-item hover-img hover-overlay">
-                                <div class="image img-style">
-                                    <img src="images/gallery/bags/bag3.jpg" data-src="images/gallery/bags/bag3.jpg" alt="Women's Tote Bag" class="lazyload">
+                            <div class="tf-icon-box style-border">
+                                <div class="box-icon">
+                                    <i class="icon icon-fashion-body"></i>
                                 </div>
-                                <a href="product-detail.html" class="box-icon hover-tooltip">
-                                    <span class="icon icon-cart2"></span>
-                                    <span class="tooltip">View Product</span>
-                                </a>
+                                <div class="content">
+                                    <h6>Made for Every Moment</h6>
+                                    <p class="text-sm text-main text-line-clamp-4">
+                                        From handbags and totes to backpacks and travel bags, our versatile designs adapt
+                                        seamlessly to your everyday needs.
+                                    </p>
+                                </div>
                             </div>
                         </div>
 
-                        <!-- item 4 -->
-                        <div class="swiper-slide">
-                            <div class="gallery-item hover-img hover-overlay">
-                                <div class="image img-style">
-                                    <img src="images/gallery/bags/bag4.jpg" data-src="images/gallery/bags/bag4.jpg" alt="Women's Crossbody Bag" class="lazyload">
-                                </div>
-                                <a href="product-detail.html" class="box-icon hover-tooltip">
-                                    <span class="icon icon-cart2"></span>
-                                    <span class="tooltip">View Product</span>
-                                </a>
-                            </div>
-                        </div>
-
-                        <!-- item 5 -->
-                        <div class="swiper-slide">
-                            <div class="gallery-item hover-img hover-overlay">
-                                <div class="image img-style">
-                                    <img src="images/gallery/bags/bag5.jpg" data-src="images/gallery/bags/bag5.jpg" alt="Women's Evening Bag" class="lazyload">
-                                </div>
-                                <a href="product-detail.html" class="box-icon hover-tooltip">
-                                    <span class="icon icon-cart2"></span>
-                                    <span class="tooltip">View Product</span>
-                                </a>
-                            </div>
-                        </div>
                     </div>
 
-                    <span class="d-flex d-xl-none sw-dot-default sw-pagination-gallery justify-content-center"></span>
+                    <div class="d-flex d-xl-none sw-dot-default sw-pagination-iconbox justify-content-center"></div>
                 </div>
             </div>
         </section>
-        <!-- /Shop Gram -->
-        <!-- Icon box -->
-        <div class="line-top flat-spacing-5">
+
+        <!-- ================= TESTIMONIAL SECTION ================= -->
+        <section class="flat-spacing-13 pt-0">
             <div class="container">
-                <div class="mw-1 mx-auto">
-                    <div dir="ltr" class="swiper tf-swiper" data-swiper='{
-                            "slidesPerView": 1,
-                            "spaceBetween": 12,
-                            "speed": 800,
-                            "preventInteractionOnTransition": false, 
-                            "touchStartPreventDefault": false,
-                            "pagination": { "el": ".sw-pagination-iconbox", "clickable": true },
-                            "breakpoints": {
-                                "575": { "slidesPerView": 2, "spaceBetween": 12, "slidesPerGroup": 2}, 
-                                "768": { "slidesPerView": 3, "spaceBetween": 24, "slidesPerGroup": 2},
-                                "1200": { "slidesPerView": 4, "spaceBetween": 42, "slidesPerGroup": 2}
-                            }
-                        }'>
-                        <div class="swiper-wrapper wow fadeInUp">
-                            <div class="swiper-slide">
-                                <div class="tf-icon-box style-2">
-                                    <div class="box-icon">
-                                        <i class="icon icon-shipping"></i>
-                                    </div>
-                                    <div class="content">
-                                        <div class="title ">FREE DELIVERY</div>
-                                        <p class="desc font-2">Enjoy free delivery on all orders</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="tf-icon-box style-2">
-                                    <div class="box-icon">
-                                        <i class="icon icon-gift"></i>
-                                    </div>
-                                    <div class="content">
-                                        <div class="title ">GIFT PACKAGE</div>
-                                        <p class="desc font-2">Perfectly packaged for gifting</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="tf-icon-box style-2">
-                                    <div class="box-icon">
-                                        <i class="icon icon-return"></i>
-                                    </div>
-                                    <div class="content">
-                                        <div class="title ">EASY RETURNS</div>
-                                        <p class="desc font-2">Within 14 days for a return</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="swiper-slide">
-                                <div class="tf-icon-box style-2">
-                                    <div class="box-icon">
-                                        <i class="icon icon-support"></i>
-                                    </div>
-                                    <div class="content">
-                                        <div class="title ">24/7 PREMIUM SUPPORT</div>
-                                        <p class="desc font-2">Outstanding premium support</p>
-                                    </div>
-                                </div>
-                            </div>
+                <div class="box-testimonial-quote text-center">
+                    <div class="list-star-default justify-content-center">
+                        <i class="icon-star text-green"></i>
+                        <i class="icon-star text-green"></i>
+                        <i class="icon-star text-green"></i>
+                        <i class="icon-star text-green"></i>
+                        <i class="icon-star text-green"></i>
+                    </div>
+
+                    <p class="text-xl lh-xl-32">
+                        "Zilly bags exceeded my expectations. The quality, design, and fast delivery made the entire
+                        shopping experience seamless. I’ve found my go-to brand for everyday bags!"
+                    </p>
+
+                    <div class="box-author">
+                        <div class="avt">
+                            <img src="images/testimonial/tes-about.jpg" alt="Zilly Customer Review">
                         </div>
-                        <div class="d-flex d-xl-none sw-dot-default sw-pagination-iconbox justify-content-center"></div>
+                        <p class="text-md lh-xl-26 fw-medium">
+                            Zilly Customer
+                        </p>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- /Icon box -->
+        </section>
 
         <!-- Footer -->
         <?php include 'footer.php'; ?>
         <!-- /Footer -->
     </div>
+
 
     <!-- modal demo -->
     <div class="modal fade modalDemo" id="modalDemo">
@@ -1267,7 +567,7 @@
     <!-- toolbar -->
     <div class="tf-toolbar-bottom">
         <div class="toolbar-item">
-            <a href="home-footwear.html">
+            <a href="index.html">
                 <div class="toolbar-icon">
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -1525,7 +825,7 @@
                                         <input type="text" placeholder="Search" class="" name="text" tabindex="0"
                                             value="" aria-required="true" required="">
                                     </fieldset>
-                                    <button class="" type="submit">
+                                    <button type="submit">
                                         <i class="icon icon-search"></i>
                                     </button>
                                 </form>
@@ -1558,75 +858,90 @@
                                     }'>
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <div class="card-product">
-                                                <div class="card-product-wrapper asp-ratio-1">
+                                            <div class="card-product style-3 card-product-size">
+                                                <div class="card-product-wrapper">
                                                     <a href="product-detail.html" class="product-img">
                                                         <img class="img-product lazyload"
-                                                            data-src="images/products/footwear/product-1.jpg"
-                                                            src="images/products/footwear/product-1.jpg"
+                                                            data-src="images/products/fashion/product-27.jpg"
+                                                            src="images/products/fashion/product-27.jpg"
                                                             alt="image-product">
                                                         <img class="img-hover lazyload"
-                                                            data-src="images/products/footwear/product-2.jpg"
-                                                            src="images/products/footwear/product-2.jpg"
+                                                            data-src="images/products/fashion/product-23.jpg"
+                                                            src="images/products/fashion/product-23.jpg"
                                                             alt="image-product">
                                                     </a>
                                                     <ul class="list-product-btn">
                                                         <li>
-                                                            <a href="#quickAdd" data-bs-toggle="modal"
-                                                                class="hover-tooltip tooltip-left box-icon">
-                                                                <span class="icon icon-cart2"></span>
-                                                                <span class="tooltip">Quick Add</span>
-                                                            </a>
-                                                        </li>
-                                                        <li class="wishlist">
                                                             <a href="javascript:void(0);"
-                                                                class="hover-tooltip tooltip-left box-icon">
+                                                                class="box-icon hover-tooltip wishlist">
                                                                 <span class="icon icon-heart2"></span>
                                                                 <span class="tooltip">Add to Wishlist</span>
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="#quickView" data-bs-toggle="modal"
-                                                                class="hover-tooltip tooltip-left box-icon quickview">
+                                                            <a href="javascript:void(0);"
+                                                                class="btn-quickview box-icon hover-tooltip quickview">
                                                                 <span class="icon icon-view"></span>
                                                                 <span class="tooltip">Quick View</span>
                                                             </a>
                                                         </li>
-                                                        <li class="compare">
-                                                            <a href="#compare" data-bs-toggle="modal"
-                                                                aria-controls="compare"
-                                                                class="hover-tooltip tooltip-left box-icon">
+                                                        <li>
+                                                            <a href="javascript:void(0);"
+                                                                class="box-icon hover-tooltip compare btn-compare">
                                                                 <span class="icon icon-compare"></span>
                                                                 <span class="tooltip">Add to Compare</span>
                                                             </a>
                                                         </li>
                                                     </ul>
+                                                    <div class="product-btn-main">
+                                                        <a href="#shoppingCart" data-bs-toggle="offcanvas"
+                                                            class="btn-main-product">
+                                                            <span class="icon icon-cart2"></span>
+                                                            <span class="text-md fw-medium">
+                                                                Add to Cart
+                                                            </span>
+                                                        </a>
+                                                    </div>
+                                                    <ul class="size-box">
+                                                        <li class="size-item text-xs text-white">M</li>
+                                                        <li class="size-item text-xs text-white">L</li>
+                                                        <li class="size-item text-xs text-white">XL</li>
+                                                    </ul>
                                                 </div>
-                                                <div class="card-product-info text-center">
+                                                <div class="card-product-info">
                                                     <a href="product-detail.html"
-                                                        class="name-product link fw-medium text-md">Nike Air Force 1
-                                                        '07</a>
+                                                        class="name-product link fw-medium text-md">Basic Sports T-Shirt
+                                                        Crew Neck Ribbed</a>
                                                     <p class="price-wrap fw-medium">
-                                                        <span class="price-new text-xl text-primary">$125.00</span>
-                                                        <span class="price-old">$145.00</span>
+                                                        <span class="price-new">80.00</span>
+                                                        <span class="price-old">$100.00</span>
                                                     </p>
-                                                    <ul class="list-color-product style-2 justify-content-center">
+                                                    <ul class="list-color-product">
                                                         <li
-                                                            class="list-color-item hover-tooltip tooltip-bot line color-swatch active">
-                                                            <span class="tooltip color-filter">White</span>
-                                                            <span class="swatch-value bg-white"></span>
-                                                            <img class=" lazyload"
-                                                                data-src="images/products/footwear/product-1.jpg"
-                                                                src="images/products/footwear/product-1.jpg"
+                                                            class="list-color-item color-swatch hover-tooltip tooltip-bot active">
+                                                            <span class="tooltip color-filter">Purple</span>
+                                                            <span class="swatch-value bg-light-purple-3"></span>
+                                                            <img class="lazyload"
+                                                                data-src="images/products/fashion/product-27.jpg"
+                                                                src="images/products/fashion/product-27.jpg"
                                                                 alt="image-product">
                                                         </li>
                                                         <li
                                                             class="list-color-item color-swatch hover-tooltip tooltip-bot">
-                                                            <span class="tooltip color-filter">Black</span>
-                                                            <span class="swatch-value bg-dark-2"></span>
-                                                            <img class=" lazyload"
-                                                                data-src="images/products/footwear/product-2.jpg"
-                                                                src="images/products/footwear/product-2.jpg"
+                                                            <span class="tooltip color-filter">Light Grey</span>
+                                                            <span class="swatch-value bg-grey-4"></span>
+                                                            <img class="lazyload"
+                                                                data-src="images/products/fashion/product-11.jpg"
+                                                                src="images/products/fashion/product-11.jpg"
+                                                                alt="image-product">
+                                                        </li>
+                                                        <li
+                                                            class="list-color-item color-swatch hover-tooltip tooltip-bot">
+                                                            <span class="tooltip color-filter">Light Orange</span>
+                                                            <span class="swatch-value bg-light-orange"></span>
+                                                            <img class="lazyload"
+                                                                data-src="images/products/fashion/product-12.jpg"
+                                                                src="images/products/fashion/product-12.jpg"
                                                                 alt="image-product">
                                                         </li>
                                                     </ul>
@@ -1634,141 +949,68 @@
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="card-product">
-                                                <div class="card-product-wrapper asp-ratio-1">
+                                            <div class="card-product style-3">
+                                                <div class="card-product-wrapper">
                                                     <a href="product-detail.html" class="product-img">
                                                         <img class="img-product lazyload"
-                                                            data-src="images/products/footwear/product-3.jpg"
-                                                            src="images/products/footwear/product-3.jpg"
+                                                            data-src="images/products/fashion/product-10.jpg"
+                                                            src="images/products/fashion/product-10.jpg"
                                                             alt="image-product">
                                                         <img class="img-hover lazyload"
-                                                            data-src="images/products/footwear/product-4.jpg"
-                                                            src="images/products/footwear/product-4.jpg"
+                                                            data-src="images/products/fashion/product-20.jpg"
+                                                            src="images/products/fashion/product-20.jpg"
                                                             alt="image-product">
                                                     </a>
                                                     <ul class="list-product-btn">
                                                         <li>
-                                                            <a href="#quickAdd" data-bs-toggle="modal"
-                                                                class="hover-tooltip tooltip-left box-icon">
-                                                                <span class="icon icon-cart2"></span>
-                                                                <span class="tooltip">Quick Add</span>
-                                                            </a>
-                                                        </li>
-                                                        <li class="wishlist">
                                                             <a href="javascript:void(0);"
-                                                                class="hover-tooltip tooltip-left box-icon">
+                                                                class="box-icon hover-tooltip wishlist">
                                                                 <span class="icon icon-heart2"></span>
                                                                 <span class="tooltip">Add to Wishlist</span>
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="#quickView" data-bs-toggle="modal"
-                                                                class="hover-tooltip tooltip-left box-icon quickview">
-                                                                <span class="icon icon-view"></span>
-                                                                <span class="tooltip">Quick View</span>
-                                                            </a>
-                                                        </li>
-                                                        <li class="compare">
-                                                            <a href="#compare" data-bs-toggle="modal"
-                                                                aria-controls="compare"
-                                                                class="hover-tooltip tooltip-left box-icon">
-                                                                <span class="icon icon-compare"></span>
-                                                                <span class="tooltip">Add to Compare</span>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="card-product-info text-center">
-                                                    <a href="product-detail.html"
-                                                        class="name-product link fw-medium text-md">Nike P-6000</a>
-                                                    <p class="price-wrap fw-medium">
-                                                        <span class="price-new text-xl text-primary">$120.00</span>
-                                                        <span class="price-old">$140.00</span>
-                                                    </p>
-                                                    <ul class="list-color-product style-2 justify-content-center">
-                                                        <li
-                                                            class="list-color-item hover-tooltip tooltip-bot line color-swatch active">
-                                                            <span class="tooltip color-filter">White</span>
-                                                            <span class="swatch-value bg-white"></span>
-                                                            <img class=" lazyload"
-                                                                data-src="images/products/footwear/product-3.jpg"
-                                                                src="images/products/footwear/product-3.jpg"
-                                                                alt="image-product">
-                                                        </li>
-                                                        <li
-                                                            class="list-color-item color-swatch hover-tooltip tooltip-bot">
-                                                            <span class="tooltip color-filter">Brown</span>
-                                                            <span class="swatch-value bg-brown-9"></span>
-                                                            <img class=" lazyload"
-                                                                data-src="images/products/footwear/product-4.jpg"
-                                                                src="images/products/footwear/product-4.jpg"
-                                                                alt="image-product">
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="card-product">
-                                                <div class="card-product-wrapper asp-ratio-1">
-                                                    <a href="product-detail.html" class="product-img">
-                                                        <img class="img-product lazyload"
-                                                            data-src="images/products/footwear/product-5.jpg"
-                                                            src="images/products/footwear/product-5.jpg"
-                                                            alt="image-product">
-                                                        <img class="img-hover lazyload"
-                                                            data-src="images/products/footwear/product-6.jpg"
-                                                            src="images/products/footwear/product-6.jpg"
-                                                            alt="image-product">
-                                                    </a>
-                                                    <ul class="list-product-btn">
-                                                        <li>
-                                                            <a href="#quickAdd" data-bs-toggle="modal"
-                                                                class="hover-tooltip tooltip-left box-icon">
-                                                                <span class="icon icon-cart2"></span>
-                                                                <span class="tooltip">Quick Add</span>
-                                                            </a>
-                                                        </li>
-                                                        <li class="wishlist">
                                                             <a href="javascript:void(0);"
-                                                                class="hover-tooltip tooltip-left box-icon">
-                                                                <span class="icon icon-heart2"></span>
-                                                                <span class="tooltip">Add to Wishlist</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#quickView" data-bs-toggle="modal"
-                                                                class="hover-tooltip tooltip-left box-icon quickview">
+                                                                class="btn-quickview box-icon hover-tooltip quickview">
                                                                 <span class="icon icon-view"></span>
                                                                 <span class="tooltip">Quick View</span>
                                                             </a>
                                                         </li>
-                                                        <li class="compare">
-                                                            <a href="#compare" data-bs-toggle="modal"
-                                                                aria-controls="compare"
-                                                                class="hover-tooltip tooltip-left box-icon">
+                                                        <li>
+                                                            <a href="javascript:void(0);"
+                                                                class="box-icon hover-tooltip compare btn-compare">
                                                                 <span class="icon icon-compare"></span>
                                                                 <span class="tooltip">Add to Compare</span>
                                                             </a>
                                                         </li>
                                                     </ul>
+                                                    <div class="product-btn-main">
+                                                        <a href="#shoppingCart" data-bs-toggle="offcanvas"
+                                                            class="btn-main-product">
+                                                            <span class="icon icon-cart2"></span>
+                                                            <span class="text-md fw-medium">
+                                                                Add to Cart
+                                                            </span>
+                                                        </a>
+                                                    </div>
+
                                                 </div>
-                                                <div class="card-product-info text-center">
+                                                <div class="card-product-info">
                                                     <a href="product-detail.html"
-                                                        class="name-product link fw-medium text-md">Nike Air Max
-                                                        Plus</a>
+                                                        class="name-product link fw-medium text-md">Regular Fit
+                                                        Fine Knit Polo Shirt</a>
                                                     <p class="price-wrap fw-medium">
-                                                        <span class="price-new text-xl text-primary">$140.00</span>
-                                                        <span class="price-old">$160.00</span>
+                                                        <span class="price-new">$65.00</span>
+                                                        <span class=" price-old">$90.00</span>
                                                     </p>
-                                                    <ul class="list-color-product style-2 justify-content-center">
+                                                    <ul class="list-color-product">
                                                         <li
-                                                            class="list-color-item hover-tooltip tooltip-bot line color-swatch active">
-                                                            <span class="tooltip color-filter">Orange</span>
-                                                            <span class="swatch-value bg-light-orange-5"></span>
+                                                            class="list-color-item color-swatch hover-tooltip tooltip-bot active">
+                                                            <span class="tooltip color-filter">Light Blue</span>
+                                                            <span class="swatch-value bg-light-blue-2"></span>
                                                             <img class=" lazyload"
-                                                                data-src="images/products/footwear/product-5.jpg"
-                                                                src="images/products/footwear/product-5.jpg"
+                                                                data-src="images/products/fashion/product-10.jpg"
+                                                                src="images/products/fashion/product-10.jpg"
                                                                 alt="image-product">
                                                         </li>
                                                         <li
@@ -1776,8 +1018,17 @@
                                                             <span class="tooltip color-filter">Black</span>
                                                             <span class="swatch-value bg-dark"></span>
                                                             <img class=" lazyload"
-                                                                data-src="images/products/footwear/product-6.jpg"
-                                                                src="images/products/footwear/product-6.jpg"
+                                                                data-src="images/products/fashion/product-13.jpg"
+                                                                src="images/products/fashion/product-13.jpg"
+                                                                alt="image-product">
+                                                        </li>
+                                                        <li
+                                                            class="list-color-item color-swatch hover-tooltip tooltip-bot">
+                                                            <span class="tooltip color-filter">Purple</span>
+                                                            <span class="swatch-value bg-light-purple"></span>
+                                                            <img class=" lazyload"
+                                                                data-src="images/products/fashion/product-14.jpg"
+                                                                src="images/products/fashion/product-14.jpg"
                                                                 alt="image-product">
                                                         </li>
                                                     </ul>
@@ -1785,65 +1036,67 @@
                                             </div>
                                         </div>
                                         <div class="swiper-slide">
-                                            <div class="card-product">
-                                                <div class="card-product-wrapper asp-ratio-1">
+                                            <div class="card-product style-3">
+                                                <div class="card-product-wrapper">
                                                     <a href="product-detail.html" class="product-img">
                                                         <img class="img-product lazyload"
-                                                            data-src="images/products/footwear/product-7.jpg"
-                                                            src="images/products/footwear/product-7.jpg"
+                                                            data-src="images/products/fashion/product-21.jpg"
+                                                            src="images/products/fashion/product-21.jpg"
                                                             alt="image-product">
                                                         <img class="img-hover lazyload"
-                                                            data-src="images/products/footwear/product-8.jpg"
-                                                            src="images/products/footwear/product-8.jpg"
+                                                            data-src="images/products/fashion/women-black-3.jpg"
+                                                            src="images/products/fashion/women-black-3.jpg"
                                                             alt="image-product">
                                                     </a>
                                                     <ul class="list-product-btn">
                                                         <li>
-                                                            <a href="#quickAdd" data-bs-toggle="modal"
-                                                                class="hover-tooltip tooltip-left box-icon">
-                                                                <span class="icon icon-cart2"></span>
-                                                                <span class="tooltip">Quick Add</span>
-                                                            </a>
-                                                        </li>
-                                                        <li class="wishlist">
                                                             <a href="javascript:void(0);"
-                                                                class="hover-tooltip tooltip-left box-icon">
+                                                                class="box-icon hover-tooltip wishlist">
                                                                 <span class="icon icon-heart2"></span>
                                                                 <span class="tooltip">Add to Wishlist</span>
                                                             </a>
                                                         </li>
                                                         <li>
-                                                            <a href="#quickView" data-bs-toggle="modal"
-                                                                class="hover-tooltip tooltip-left box-icon quickview">
+                                                            <a href="javascript:void(0);"
+                                                                class="btn-quickview box-icon hover-tooltip quickview">
                                                                 <span class="icon icon-view"></span>
                                                                 <span class="tooltip">Quick View</span>
                                                             </a>
                                                         </li>
-                                                        <li class="compare">
-                                                            <a href="#compare" data-bs-toggle="modal"
-                                                                aria-controls="compare"
-                                                                class="hover-tooltip tooltip-left box-icon">
+                                                        <li>
+                                                            <a href="javascript:void(0);"
+                                                                class="box-icon hover-tooltip compare btn-compare">
                                                                 <span class="icon icon-compare"></span>
                                                                 <span class="tooltip">Add to Compare</span>
                                                             </a>
                                                         </li>
                                                     </ul>
+                                                    <div class="product-btn-main">
+                                                        <a href="#shoppingCart" data-bs-toggle="offcanvas"
+                                                            class="btn-main-product">
+                                                            <span class="icon icon-cart2"></span>
+                                                            <span class="text-md fw-medium">
+                                                                Add to Cart
+                                                            </span>
+                                                        </a>
+                                                    </div>
                                                 </div>
-                                                <div class="card-product-info text-center">
+                                                <div class="card-product-info">
                                                     <a href="product-detail.html"
-                                                        class="name-product link fw-medium text-md">Nike Victori One</a>
+                                                        class="name-product link fw-medium text-md">Crop College
+                                                        T-Shirt</a>
                                                     <p class="price-wrap fw-medium">
-                                                        <span class="price-new text-xl text-primary">$135.00</span>
-                                                        <span class="price-old">$155.00</span>
+                                                        <span class="price-new">$80.00</span>
+                                                        <span class=" price-old">$100.00</span>
                                                     </p>
-                                                    <ul class="list-color-product style-2 justify-content-center">
+                                                    <ul class="list-color-product">
                                                         <li
-                                                            class="list-color-item hover-tooltip tooltip-bot line color-swatch active">
-                                                            <span class="tooltip color-filter">Brown</span>
-                                                            <span class="swatch-value bg-brown-7"></span>
+                                                            class="list-color-item color-swatch hover-tooltip tooltip-bot active">
+                                                            <span class="tooltip color-filter">Dark Green</span>
+                                                            <span class="swatch-value bg-dark-green"></span>
                                                             <img class=" lazyload"
-                                                                data-src="images/products/footwear/product-7.jpg"
-                                                                src="images/products/footwear/product-7.jpg"
+                                                                data-src="images/products/fashion/product-21.jpg"
+                                                                src="images/products/fashion/product-21.jpg"
                                                                 alt="image-product">
                                                         </li>
                                                         <li
@@ -1851,10 +1104,115 @@
                                                             <span class="tooltip color-filter">Black</span>
                                                             <span class="swatch-value bg-dark"></span>
                                                             <img class=" lazyload"
-                                                                data-src="images/products/footwear/product-8.jpg"
-                                                                src="images/products/footwear/product-8.jpg"
+                                                                data-src="images/products/fashion/women-black-3.jpg"
+                                                                src="images/products/fashion/women-black-3.jpg"
                                                                 alt="image-product">
                                                         </li>
+                                                        <li
+                                                            class="list-color-item color-swatch hover-tooltip tooltip-bot">
+                                                            <span class="tooltip color-filter">Purple</span>
+                                                            <span class="swatch-value bg-light-purple-3"></span>
+                                                            <img class="lazyload"
+                                                                data-src="images/products/fashion/product-23.jpg"
+                                                                src="images/products/fashion/product-23.jpg"
+                                                                alt="image-product">
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="card-product style-3 card-product-size">
+                                                <div class="card-product-wrapper">
+                                                    <a href="product-detail.html" class="product-img">
+                                                        <img class="img-product lazyload"
+                                                            data-src="images/products/fashion/product-22.jpg"
+                                                            src="images/products/fashion/product-22.jpg"
+                                                            alt="image-product">
+                                                        <img class="img-hover lazyload"
+                                                            data-src="images/products/fashion/product-5.jpg"
+                                                            src="images/products/fashion/product-5.jpg"
+                                                            alt="image-product">
+                                                    </a>
+                                                    <ul class="list-product-btn">
+                                                        <li>
+                                                            <a href="javascript:void(0);"
+                                                                class="box-icon hover-tooltip wishlist">
+                                                                <span class="icon icon-heart2"></span>
+                                                                <span class="tooltip">Add to Wishlist</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:void(0);"
+                                                                class="btn-quickview box-icon hover-tooltip quickview">
+                                                                <span class="icon icon-view"></span>
+                                                                <span class="tooltip">Quick View</span>
+                                                            </a>
+                                                        </li>
+                                                        <li>
+                                                            <a href="javascript:void(0);"
+                                                                class="box-icon hover-tooltip compare btn-compare">
+                                                                <span class="icon icon-compare"></span>
+                                                                <span class="tooltip">Add to Compare</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                    <div class="product-btn-main">
+                                                        <a href="#shoppingCart" data-bs-toggle="offcanvas"
+                                                            class="btn-main-product">
+                                                            <span class="icon icon-cart2"></span>
+                                                            <span class="text-md fw-medium">
+                                                                Add to Cart
+                                                            </span>
+                                                        </a>
+                                                    </div>
+
+                                                    <ul class="size-box">
+                                                        <li class="size-item text-xs text-white">XS</li>
+                                                        <li class="size-item text-xs text-white">S</li>
+                                                        <li class="size-item text-xs text-white">M</li>
+                                                        <li class="size-item text-xs text-white">L</li>
+                                                        <li class="size-item text-xs text-white">XL</li>
+                                                        <li class="size-item text-xs text-white">2XL</li>
+                                                    </ul>
+
+                                                </div>
+                                                <div class="card-product-info">
+                                                    <a href="product-detail.html"
+                                                        class="name-product link fw-medium text-md">Bow-Tie T-Shirt</a>
+                                                    <p class="price-wrap fw-medium">
+                                                        <span class="price-new">$120.00</span>
+                                                        <span class=" price-old">$140.00</span>
+                                                    </p>
+                                                    <ul class="list-color-product">
+                                                        <li
+                                                            class="list-color-item color-swatch hover-tooltip tooltip-bot active">
+                                                            <span class="tooltip color-filter">Black</span>
+                                                            <span class="swatch-value bg-dark"></span>
+                                                            <img class=" lazyload"
+                                                                data-src="images/products/fashion/product-22.jpg"
+                                                                src="images/products/fashion/product-22.jpg"
+                                                                alt="image-product">
+                                                        </li>
+                                                        <li
+                                                            class="list-color-item color-swatch hover-tooltip tooltip-bot">
+                                                            <span class="tooltip color-filter">Beige</span>
+                                                            <span class="swatch-value bg-beige"></span>
+                                                            <img class=" lazyload"
+                                                                data-src="images/products/fashion/product-5.jpg"
+                                                                src="images/products/fashion/product-5.jpg"
+                                                                alt="image-product">
+                                                        </li>
+                                                        <li
+                                                            class="list-color-item color-swatch hover-tooltip line tooltip-bot">
+                                                            <span class="tooltip color-filter">White</span>
+                                                            <span class="swatch-value bg-white"></span>
+                                                            <img class=" lazyload"
+                                                                data-src="images/products/fashion/product-1.jpg"
+                                                                src="images/products/fashion/product-1.jpg"
+                                                                alt="image-product">
+                                                        </li>
+
                                                     </ul>
                                                 </div>
                                             </div>
@@ -1870,7 +1228,6 @@
                 </div>
             </div>
         </div>
-
     </div>
     <!-- /search -->
 
@@ -1900,20 +1257,28 @@
                                 <div class="tf-mini-cart-item file-delete">
                                     <div class="tf-mini-cart-image">
                                         <a href="product-detail.html">
-                                            <img class="lazyload" data-src="images/products/footwear/product-1.jpg"
-                                                src="images/products/footwear/product-1.jpg" alt="img-product">
+                                            <img class="lazyload" data-src="images/products/fashion/women-1.jpg"
+                                                src="images/products/fashion/women-1.jpg" alt="img-product">
                                         </a>
                                     </div>
                                     <div class="tf-mini-cart-info">
                                         <div class="d-flex justify-content-between">
-                                            <a class="title link text-md fw-medium" href="product-detail.html">Nike Air
-                                                Force 1 '07</a>
+                                            <a class="title link text-md fw-medium" href="product-detail.html">Short
+                                                Sleeve Sweat</a>
                                             <i class="icon icon-close remove fs-12"></i>
                                         </div>
+                                        <div class="info-variant">
+                                            <select class="text-xs">
+                                                <option value="White / L">White / L</option>
+                                                <option value="White / M">White / M</option>
+                                                <option value="Black / L">Black / L</option>
+                                            </select>
+                                            <i class="icon-pen edit"></i>
+                                        </div>
                                         <p class="price-wrap text-sm fw-medium">
-                                            <span class="new-price text-primary">$80.00</span>
+                                            <span class="new-price text-primary">$130.00</span>
                                             <span
-                                                class="old-price text-decoration-line-through text-dark-1">$100.00</span>
+                                                class="old-price text-decoration-line-through text-dark-1">$150.00</span>
                                         </p>
                                         <div class="wg-quantity small">
                                             <button class="btn-quantity minus-btn">-</button>
@@ -1925,18 +1290,28 @@
                                 <div class="tf-mini-cart-item file-delete">
                                     <div class="tf-mini-cart-image">
                                         <a href="product-detail.html">
-                                            <img class="lazyload" data-src="images/products/footwear/product-2.jpg"
-                                                src="images/products/footwear/product-2.jpg" alt="img-product">
+                                            <img class="lazyload" data-src="images/products/fashion/women-2.jpg"
+                                                src="images/products/fashion/women-2.jpg" alt="img-product">
                                         </a>
                                     </div>
                                     <div class="tf-mini-cart-info">
                                         <div class="d-flex justify-content-between">
-                                            <a class="title link text-md fw-medium" href="product-detail.html">Nike
-                                                P-6000</a>
+                                            <a class="title link text-md fw-medium" href="product-detail.html">Loose
+                                                Fit Tee</a>
                                             <i class="icon icon-close remove fs-12"></i>
                                         </div>
+                                        <div class="info-variant">
+                                            <select class="text-xs">
+                                                <option value="White / L">White / L</option>
+                                                <option value="White / M">White / M</option>
+                                                <option value="Black / L">Black / L</option>
+                                            </select>
+                                            <i class="icon-pen edit"></i>
+                                        </div>
                                         <p class="price-wrap text-sm fw-medium">
-                                            <span class="new-price">$60.00</span>
+                                            <span class="new-price text-primary">$130.00</span>
+                                            <span
+                                                class="old-price text-decoration-line-through text-dark-1">$150.00</span>
                                         </p>
                                         <div class="wg-quantity small">
                                             <button class="btn-quantity minus-btn">-</button>
@@ -1979,18 +1354,18 @@
                                                 <div class="tf-mini-cart-image">
                                                     <a href="product-detail.html">
                                                         <img class="lazyload"
-                                                            data-src="images/products/footwear/product-3.jpg"
-                                                            src="images/products/footwear/product-3.jpg"
+                                                            data-src="images/products/fashion/product-1.jpg"
+                                                            src="images/products/fashion/product-1.jpg"
                                                             alt="img-product">
                                                     </a>
                                                 </div>
                                                 <div class="tf-mini-cart-info justify-content-center">
                                                     <a class="title link text-md fw-medium"
-                                                        href="product-detail.html">Nike Air Max Plus</a>
+                                                        href="product-detail.html">Polo T-Shirt</a>
                                                     <p class="price-wrap text-sm fw-medium">
-                                                        <span class="new-price text-primary">$120.00</span>
+                                                        <span class="new-price text-primary">$130.00</span>
                                                         <span
-                                                            class="old-price text-decoration-line-through text-dark-1">$140.00</span>
+                                                            class="old-price text-decoration-line-through text-dark-1">$150.00</span>
                                                     </p>
                                                     <a href="#"
                                                         class="tf-btn animate-btn d-inline-flex bg-dark-2 w-max-content">Add
@@ -2003,18 +1378,42 @@
                                                 <div class="tf-mini-cart-image">
                                                     <a href="product-detail.html">
                                                         <img class="lazyload"
-                                                            data-src="images/products/footwear/product-4.jpg"
-                                                            src="images/products/footwear/product-4.jpg"
+                                                            data-src="images/products/fashion/product-2.jpg"
+                                                            src="images/products/fashion/product-2.jpg"
                                                             alt="img-product">
                                                     </a>
                                                 </div>
                                                 <div class="tf-mini-cart-info justify-content-center">
                                                     <a class="title link text-md fw-medium"
-                                                        href="product-detail.html">Nike Victori One</a>
+                                                        href="product-detail.html">Short Sleeve Sweat</a>
                                                     <p class="price-wrap text-sm fw-medium">
                                                         <span class="new-price text-primary">$100.00</span>
                                                         <span
                                                             class="old-price text-decoration-line-through text-dark-1">$115.00</span>
+                                                    </p>
+                                                    <a href="#"
+                                                        class="tf-btn animate-btn d-inline-flex bg-dark-2 w-max-content">Add
+                                                        to cart</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="tf-mini-cart-item line radius-16">
+                                                <div class="tf-mini-cart-image">
+                                                    <a href="product-detail.html">
+                                                        <img class="lazyload"
+                                                            data-src="images/products/fashion/product-3.jpg"
+                                                            src="images/products/fashion/product-3.jpg"
+                                                            alt="img-product">
+                                                    </a>
+                                                </div>
+                                                <div class="tf-mini-cart-info justify-content-center">
+                                                    <a class="title link text-md fw-medium"
+                                                        href="product-detail.html">Crop T-shirt</a>
+                                                    <p class="price-wrap text-sm fw-medium">
+                                                        <span class="new-price text-primary">$80.00</span>
+                                                        <span
+                                                            class="old-price text-decoration-line-through text-dark-1">$100.00</span>
                                                     </p>
                                                     <a href="#"
                                                         class="tf-btn animate-btn d-inline-flex bg-dark-2 w-max-content">Add
@@ -2197,16 +1596,22 @@
                 <div class="tf-product-media-wrap">
                     <div dir="ltr" class="swiper tf-single-slide">
                         <div class="swiper-wrapper">
-                            <div class="swiper-slide">
+                            <div class="swiper-slide" data-color="orange">
                                 <div class="item">
-                                    <img class="lazyload" data-src="images/products/footwear/product-1.jpg"
-                                        src="images/products/footwear/product-1.jpg" alt="">
+                                    <img class="lazyload" data-src="images/products/fashion/product-40.jpg"
+                                        src="images/products/fashion/product-40.jpg" alt="">
                                 </div>
                             </div>
-                            <div class="swiper-slide">
+                            <div class="swiper-slide" data-color="green">
                                 <div class="item">
-                                    <img class="lazyload" data-src="images/products/footwear/product-2.jpg"
-                                        src="images/products/footwear/product-2.jpg" alt="">
+                                    <img class="lazyload" data-src="images/products/fashion/product-41.jpg"
+                                        src="images/products/fashion/product-41.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="swiper-slide" data-color="pink">
+                                <div class="item">
+                                    <img class="lazyload" data-src="images/products/fashion/product-42.jpg"
+                                        src="images/products/fashion/product-42.jpg" alt="">
                                 </div>
                             </div>
                         </div>
@@ -2217,19 +1622,48 @@
                 <div class="tf-product-info-wrap">
                     <div class="tf-product-info-inner">
                         <div class="tf-product-heading">
-                            <h6 class="product-name"><a href="product-detail.html" class="link">Nike Air Force 1 '07</a>
+                            <h6 class="product-name"><a class="link" href="product-detail.html">Striped T-Shirt</a>
                             </h6>
                             <div class="product-price">
-                                <h6 class="price-new price-on-sale">$80.00</h6>
-                                <h6 class="price-old">$100.00</h6>
+                                <h6 class="price-new price-on-sale">$100.00</h6>
+                                <h6 class="price-old">$130.00</h6>
                                 <span class="badge-sale">20% Off</span>
                             </div>
-                            <p class="text">
-                                A phone case crafted from a durable yet lightweight blend of polycarbonate and TPU.
-                                Designed with a slim profile, it offers a snug fit and effortless access to buttons and
-                                ports. Features a scratch-resistant finish and shock-absorbing edges for enhanced
-                                protection.
-                            </p>
+                            <p class="text">Pants in an airy weave made from a linen and viscose blend. Featuring a high
+                                waist and a zip fly with button. Shaping at the front and back and wide legs.</p>
+                        </div>
+                        <div class="tf-product-variant">
+                            <div class="variant-picker-item variant-color">
+                                <div class="variant-picker-label">
+                                    Color:<span class="variant-picker-label-value value-currentColor">Orange</span>
+                                </div>
+                                <div class="variant-picker-values">
+                                    <div class="hover-tooltip color-btn active" data-color="orange">
+                                        <span class="check-color bg-light-orange-2"></span>
+                                        <span class="tooltip">Orange</span>
+                                    </div>
+                                    <div class="hover-tooltip color-btn" data-color="green">
+                                        <span class="check-color bg-light-green"></span>
+                                        <span class="tooltip">Green</span>
+                                    </div>
+                                    <div class="hover-tooltip color-btn" data-color="pink">
+                                        <span class="check-color bg-pink"></span>
+                                        <span class="tooltip">Pink</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="variant-picker-item variant-size">
+                                <div class="variant-picker-label">
+                                    <div>Size:<span class="variant-picker-label-value value-currentSize">Small</span>
+                                    </div>
+                                </div>
+                                <div class="variant-picker-values">
+                                    <span class="size-btn active" data-size="small">S</span>
+                                    <span class="size-btn" data-size="medium">M</span>
+                                    <span class="size-btn" data-size="large">L</span>
+                                    <span class="size-btn" data-size="extra large">XL</span>
+                                </div>
+                            </div>
                         </div>
                         <div class="tf-product-total-quantity">
                             <div class="group-btn">
@@ -2253,69 +1687,6 @@
     </div>
     <!-- /modal quickView -->
 
-    <!-- quick add -->
-    <div class="modal fade modalCentered popup-quickadd" id="quickAdd">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <span class="icon-close icon-close-popup" data-bs-dismiss="modal"></span>
-                <div class="main-product-quickadd card-product">
-                    <div class="item-product-info">
-                        <div class="product-img">
-                            <img class="img-product lazyload" data-src="images/products/footwear/product-2.jpg"
-                                src="images/products/footwear/product-2.jpg" alt="image-product">
-                        </div>
-                        <div class="content-box">
-                            <a href="product-detail.html" class="name-product link text-lg">Nike Air Force 1 '07</a>
-                            <div class="price-show-badge">
-                                <div class="price-wrap">
-                                    <span class="price-new">$3,000.00</span>
-                                    <span class="price-old">$3,200.00</span>
-                                </div>
-                                <span class="on-sale-item">20% Off</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item-product-variant">
-                        <div class="quickadd-variant-color">
-                            <div class="variant-label text-md">Color: <span class="variant-value">Black</span></div>
-                            <ul class="list-color-product">
-                                <li class="list-color-item color-swatch hover-tooltip tooltip-bot active">
-                                    <span class="tooltip color-label">Black</span>
-                                    <span class="swatch-value bg-dark"></span>
-                                    <img class="lazyload" data-src="images/products/footwear/product-2.jpg"
-                                        src="images/products/footwear/product-2.jpg" alt="image-product">
-                                </li>
-                                <li class="list-color-item color-swatch hover-tooltip tooltip-bot line">
-                                    <span class="tooltip color-label">White</span>
-                                    <span class="swatch-value bg-white"></span>
-                                    <img class="lazyload" data-src="images/products/footwear/product-1.jpg"
-                                        src="images/products/footwear/product-1.jpg" alt="image-product">
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="item-product-quantity">
-                        <div class="label text-md">Quantity</div>
-                        <div class="wg-quantity">
-                            <button class="btn-quantity minus-btn">-</button>
-                            <input class="quantity-product font-4" type="text" name="number" value="1">
-                            <button class="btn-quantity plus-btn">+</button>
-                        </div>
-                    </div>
-                    <div class="item-product-group-btn">
-                        <a href="#shoppingCart" data-bs-toggle="offcanvas" class="tf-btn animate-btn atc">Add to
-                            cart</a>
-                        <a href="wish-list.html" class="box-icon"><i class="icon icon-heart"></i></a>
-                        <a href="javascript:void(0);" class="box-icon btn-compare"><i class="icon icon-compare"></i></a>
-                        <a href="checkout.html" class="tf-btn btn-primary animate-btn w-100">Buy It Now</a>
-                    </div>
-                    <a href="checkout.html" class="tf-btn btn-line-dark payment-link">More payment options</a>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /quick add -->
-
     <!-- compare  -->
     <div class="modal modalCentered fade modal-compare" id="compare">
         <div class="modal-dialog modal-dialog-centered">
@@ -2328,16 +1699,31 @@
                             <div class="tf-compare-item file-delete">
                                 <span class="icon-close remove"></span>
                                 <a href="product-detail.html" class="image">
-                                    <img class="lazyload" data-src="images/products/footwear/product-1.jpg"
-                                        src="images/products/footwear/product-1.jpg" alt="">
+                                    <img class="lazyload" data-src="images/products/fashion/product-8.jpg"
+                                        src="images/products/fashion/product-8.jpg" alt="">
                                 </a>
                                 <div class="content">
                                     <div class="text-title">
-                                        <a class="link text-line-clamp-2" href="product-detail.html">Nike Air Force 1
-                                            '07</a>
+                                        <a class="link text-line-clamp-2" href="product-detail.html">Striped T-Shirt</a>
                                     </div>
                                     <p class="price-wrap">
-                                        <span class="new-price text-primary">$100.00</span>
+                                        <span class="new-price text-primary">$130.00</span>
+                                        <span class="old-price text-decoration-line-through text-dark-1">$150.00</span>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="tf-compare-item file-delete">
+                                <span class="icon-close remove"></span>
+                                <a href="product-detail.html" class="image">
+                                    <img class="lazyload" data-src="images/products/fashion/product-6.jpg"
+                                        src="images/products/fashion/product-6.jpg" alt="">
+                                </a>
+                                <div class="content">
+                                    <div class="text-title">
+                                        <a class="link text-line-clamp-2" href="product-detail.html">Loose Fit Tee</a>
+                                    </div>
+                                    <p class="price-wrap">
+                                        <span class="new-price text-primary">$115.00</span>
                                         <span class="old-price text-decoration-line-through text-dark-1">$130.00</span>
                                     </p>
                                 </div>
@@ -2345,32 +1731,17 @@
                             <div class="tf-compare-item file-delete">
                                 <span class="icon-close remove"></span>
                                 <a href="product-detail.html" class="image">
-                                    <img class="lazyload" data-src="images/products/footwear/product-2.jpg"
-                                        src="images/products/footwear/product-2.jpg" alt="">
+                                    <img class="lazyload" data-src="images/products/fashion/product-15.jpg"
+                                        src="images/products/fashion/product-15.jpg" alt="">
                                 </a>
                                 <div class="content">
                                     <div class="text-title">
-                                        <a class="link text-line-clamp-2" href="product-detail.html">Nike P-6000</a>
+                                        <a class="link text-line-clamp-2" href="product-detail.html">Oversized Fit
+                                            Tee</a>
                                     </div>
                                     <p class="price-wrap">
-                                        <span class="new-price">$60.00</span>
-                                    </p>
-                                </div>
-                            </div>
-                            <div class="tf-compare-item file-delete">
-                                <span class="icon-close remove"></span>
-                                <a href="product-detail.html" class="image">
-                                    <img class="lazyload" data-src="images/products/footwear/product-3.jpg"
-                                        src="images/products/footwear/product-3.jpg" alt="">
-                                </a>
-                                <div class="content">
-                                    <div class="text-title">
-                                        <a class="link text-line-clamp-2" href="product-detail.html">Nike Air Max
-                                            Plus</a>
-                                    </div>
-                                    <p class="price-wrap">
-                                        <span class="new-price text-primary">$130.00</span>
-                                        <span class="old-price text-decoration-line-through text-dark-1">$150.00</span>
+                                        <span class="new-price text-primary">$80.00</span>
+                                        <span class="old-price text-decoration-line-through text-dark-1">$100.00</span>
                                     </p>
                                 </div>
                             </div>
@@ -2387,6 +1758,8 @@
     </div>
     <!-- /compare  -->
 
+
+
     <!-- Javascript -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.min.js"></script>
@@ -2397,8 +1770,7 @@
     <script src="js/count-down.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/multiple-modal.js"></script>
-    <script src="js/infinityslide.js"></script>
-    <script src="js/simpleParallaxVanilla.umd.js"></script>
+
 
     <script src="js/main.js"></script>
     <script src="js/sibforms.js" defer></script>
@@ -2421,7 +1793,5 @@
         var AUTOHIDE = Boolean(0);
     </script>
 </body>
-
-
 
 </html>
