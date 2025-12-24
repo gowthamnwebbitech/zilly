@@ -2,6 +2,7 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
 
+
 <head>
     <?php include 'headerlink.php'; ?>
 </head>
@@ -22,6 +23,7 @@
     <?php include 'preload.php'; ?>
     <!-- /preload -->
 
+
     <div id="wrapper">
 
         <!-- Top Bar-->
@@ -32,226 +34,207 @@
         <?php include 'header.php'; ?>
         <!-- /Header -->
 
-        <section class="flat-spacing-3 pb-0">
+        <!-- Title Page -->
+        <section class="tf-page-title">
             <div class="container">
-                <div class="flat-title-2 d-xl-flex justify-content-xl-between">
-                    <div class="box-title">
-                        <p class="display-lg-2 fw-medium">
-                            Welcome to Zilly
-                        </p>
-                        <p class="text-xl">
-                            Where Style Meets Everyday Function
-                        </p>
+                <div class="box-title text-center">
+                    <h4 class="title">Frequently Asked Questions</h4>
+                    <div class="breadcrumb-list">
+                        <a class="breadcrumb-item" href="index.html">Home</a>
+                        <div class="breadcrumb-item dot"><span></span></div>
+                        <div class="breadcrumb-item current">FAQs</div>
                     </div>
-                    <div class="box-text">
-                        <p class="text-md">
-                            At <span class="fw-medium">Zilly</span>, we design and curate premium bags that combine modern style
-                            with everyday practicality. <br class="d-none d-xl-block">
-                            From chic handbags to versatile backpacks and travel essentials, every piece is crafted with <br
-                                class="d-none d-xl-block">
-                            attention to detail, quality materials, and timeless appeal—perfect for work, travel, and life on the go.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="image radius-16 overflow-hidden banner-about">
-                    <img src="images/section/aboutnew.jpg"
-                        data-src="images/section/aboutnew.jpg"
-                        alt="Zilly Premium Bags Collection"
-                        class="w-100 h-100 object-fit-cover lazyload">
                 </div>
             </div>
         </section>
+        <!-- /Title Page -->
 
-
-        <!-- Why Choose -->
-        <section class="flat-spacing-3">
+        <!-- FAQ -->
+        <section class="s-faq flat-spacing-13">
             <div class="container">
-                <div class="flat-title text-center">
-                    <p class="display-md-2 fw-medium">
-                        Why Choose Zilly
-                    </p>
-                    <p class="text-md text-main">
-                        At Zilly, we create bags that blend modern design with everyday functionality. Every piece is thoughtfully
-                        crafted to elevate your style while supporting your daily needs—at work, on the move, or while traveling.
-                    </p>
-                </div>
-
                 <div class="row">
-                    <div class="col-xl-7 col-md-6">
-                        <ul class="list-esd d-md-flex flex-md-column justify-content-md-center h-100">
-                            <li class="item">
-                                <h6>
-                                    Premium Craftsmanship
-                                </h6>
-                                <p class="text-md text-main">
-                                    Each Zilly bag is made using high-quality materials and precise craftsmanship, ensuring
-                                    durability, refined finishes, and long-lasting performance you can rely on every day.
-                                </p>
+
+                    <!-- CONTACT CONTENT -->
+                    <div class="col-lg-4">
+                        <div class="sb-contact sticky-top">
+                            <p class="title">Contact Us</p>
+                            <p class="sub">
+                                Have a question about our bags, orders, or delivery?
+                                Our support team is here to help you.
+                                <br><br>
+                                Please allow 6–12 business days after your return reaches us
+                                for refunds to be processed.
+                            </p>
+
+                            <ul class="contact-info">
+                                <li><strong>Email:</strong> support@yourbagstore.com</li>
+                                <li><strong>Phone:</strong> +91 98765 43210</li>
+                                <li><strong>Working Hours:</strong> Mon – Sat (10 AM – 6 PM)</li>
+                            </ul>
+
+                            <div class="btn-group">
+                                <a href="contact-us.html" class="tf-btn animate-btn">
+                                    Contact Us
+                                </a>
+                                <a href="#" class="tf-btn btn-white animate-btn animate-dark">
+                                    Chat With Us
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ CONTENT -->
+                    <div class="col-lg-8">
+                        <ul class="faq-list">
+
+                            <!-- SHOPPING INFO -->
+                            <li class="faq-item">
+                                <p class="name-faq">Shopping Information</p>
+                                <div class="faq-wrap" id="accordionShoping">
+
+                                    <div class="widget-accordion">
+                                        <div class="accordion-title" data-bs-toggle="collapse" data-bs-target="#shopOne"
+                                            aria-expanded="true">
+                                            <span>How long does bag delivery take?</span>
+                                            <span class="icon icon-arrow-down"></span>
+                                        </div>
+                                        <div id="shopOne" class="accordion-collapse collapse show">
+                                            <div class="accordion-body">
+                                                <p class="text-main">
+                                                    Orders are processed within 1–3 business days.
+                                                    Delivery usually takes 4–7 business days depending on your location.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="widget-accordion">
+                                        <div class="accordion-title collapsed" data-bs-toggle="collapse"
+                                            data-bs-target="#shopTwo">
+                                            <span>Do you offer free shipping?</span>
+                                            <span class="icon icon-arrow-down"></span>
+                                        </div>
+                                        <div id="shopTwo" class="accordion-collapse collapse">
+                                            <div class="accordion-body">
+                                                <p class="text-main">
+                                                    Yes! Free shipping is available on all bag orders above ₹999.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="widget-accordion">
+                                        <div class="accordion-title collapsed" data-bs-toggle="collapse"
+                                            data-bs-target="#shopThree">
+                                            <span>Can I change my delivery address?</span>
+                                            <span class="icon icon-arrow-down"></span>
+                                        </div>
+                                        <div id="shopThree" class="accordion-collapse collapse">
+                                            <div class="accordion-body">
+                                                <p class="text-main">
+                                                    Address changes are possible before the order is shipped.
+                                                    Please contact support as soon as possible.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
                             </li>
 
-                            <li class="item">
-                                <h6>
-                                    Designed for Everyday Life
-                                </h6>
-                                <p class="text-md text-main">
-                                    From spacious totes and elegant handbags to functional backpacks and travel bags, Zilly
-                                    designs combine smart storage with effortless style.
-                                </p>
+                            <!-- PAYMENT INFO -->
+                            <li class="faq-item">
+                                <p class="name-faq">Payment Information</p>
+                                <div class="faq-wrap" id="accordionPayment">
+
+                                    <div class="widget-accordion">
+                                        <div class="accordion-title" data-bs-toggle="collapse" data-bs-target="#payOne"
+                                            aria-expanded="true">
+                                            <span>What payment methods do you accept?</span>
+                                            <span class="icon icon-arrow-down"></span>
+                                        </div>
+                                        <div id="payOne" class="accordion-collapse collapse show">
+                                            <div class="accordion-body">
+                                                <p class="text-main">
+                                                    We accept Credit/Debit Cards, UPI, Net Banking,
+                                                    Paytm, Google Pay, and PhonePe.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="widget-accordion">
+                                        <div class="accordion-title collapsed" data-bs-toggle="collapse"
+                                            data-bs-target="#payTwo">
+                                            <span>Is Cash on Delivery available?</span>
+                                            <span class="icon icon-arrow-down"></span>
+                                        </div>
+                                        <div id="payTwo" class="accordion-collapse collapse">
+                                            <div class="accordion-body">
+                                                <p class="text-main">
+                                                    Yes, Cash on Delivery is available for selected locations.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
                             </li>
 
-                            <li class="item">
-                                <h6>
-                                    Style That Reflects You
-                                </h6>
-                                <p class="text-md text-main">
-                                    Our collections are created for modern individuals who value versatility, confidence, and
-                                    timeless fashion—bags that adapt seamlessly to your lifestyle.
-                                </p>
+                            <!-- RETURNS -->
+                            <li class="faq-item">
+                                <p class="name-faq">Return & Exchange</p>
+                                <div class="faq-wrap" id="accordionExchange">
+
+                                    <div class="widget-accordion">
+                                        <div class="accordion-title" data-bs-toggle="collapse" data-bs-target="#exOne"
+                                            aria-expanded="true">
+                                            <span>What is your return policy?</span>
+                                            <span class="icon icon-arrow-down"></span>
+                                        </div>
+                                        <div id="exOne" class="accordion-collapse collapse show">
+                                            <div class="accordion-body">
+                                                <p class="text-main">
+                                                    Bags can be returned within 14 days of delivery
+                                                    if unused and in original condition.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="widget-accordion">
+                                        <div class="accordion-title collapsed" data-bs-toggle="collapse"
+                                            data-bs-target="#exTwo">
+                                            <span>When will I get my refund?</span>
+                                            <span class="icon icon-arrow-down"></span>
+                                        </div>
+                                        <div id="exTwo" class="accordion-collapse collapse">
+                                            <div class="accordion-body">
+                                                <p class="text-main">
+                                                    Refunds are processed within 5–7 business days
+                                                    after quality inspection.
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
                             </li>
+
                         </ul>
                     </div>
 
-                    <div class="col-xl-5 col-md-6">
-                        <div class="image radius-16 overflow-hidden w-100 h-100">
-                            <img src="images/section/aboutnew1.jpg"
-                                data-src="images/section/aboutnew1.jpg"
-                                alt="Zilly Premium Bags"
-                                class="lazyload w-100 h-100 object-fit-cover">
-                        </div>
-                    </div>
                 </div>
             </div>
         </section>
 
-        <!-- /Why Choose -->
+        <!-- /FAQ -->
 
-        <!-- ================= STYLE CURATED SECTION ================= -->
-        <section class="flat-spacing-3 pt-0">
-            <div class="container">
-                <div class="flat-title-2 d-xl-flex justify-content-xl-between">
-                    <div class="box-title">
-                        <p class="display-md-2 fw-medium">
-                            Bags Curated for Your Lifestyle
-                        </p>
-                        <p class="text-xl">
-                            Designed to Match Your Everyday Journey
-                        </p>
-                    </div>
-                    <div class="box-text">
-                        <p class="text-md">
-                            At <span class="fw-medium">Zilly</span>, we thoughtfully design bags that balance style and function. <br
-                                class="d-none d-xl-block">
-                            From workdays to weekends and travel moments, our collections are crafted to <br
-                                class="d-none d-xl-block">
-                            complement your lifestyle with confidence and ease.
-                        </p>
-                    </div>
-                </div>
-
-                <div dir="ltr" class="swiper tf-swiper" data-swiper='{
-            "slidesPerView": 1,
-            "spaceBetween": 12,
-            "speed": 800,
-            "preventInteractionOnTransition": false,
-            "touchStartPreventDefault": false,
-            "pagination": { "el": ".sw-pagination-iconbox", "clickable": true },
-            "breakpoints": {
-                "575": { "slidesPerView": 2, "spaceBetween": 12 },
-                "992": { "slidesPerView": 3, "spaceBetween": 24 }
-            }
-        }'>
-                    <div class="swiper-wrapper">
-
-                        <!-- item 1 -->
-                        <div class="swiper-slide">
-                            <div class="tf-icon-box style-border">
-                                <div class="box-icon">
-                                    <i class="icon icon-precision"></i>
-                                </div>
-                                <div class="content">
-                                    <h6>Crafted with Precision</h6>
-                                    <p class="text-sm text-main text-line-clamp-4">
-                                        Every Zilly bag is crafted using premium materials with careful attention to stitching,
-                                        structure, and finish—ensuring durability and long-lasting quality.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- item 2 -->
-                        <div class="swiper-slide">
-                            <div class="tf-icon-box style-border">
-                                <div class="box-icon">
-                                    <i class="icon icon-elegance"></i>
-                                </div>
-                                <div class="content">
-                                    <h6>Effortless Style</h6>
-                                    <p class="text-sm text-main text-line-clamp-4">
-                                        Designed with a clean, modern aesthetic, Zilly bags elevate any outfit—whether you're
-                                        heading to work, travel, or a casual day out.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- item 3 -->
-                        <div class="swiper-slide">
-                            <div class="tf-icon-box style-border">
-                                <div class="box-icon">
-                                    <i class="icon icon-fashion-body"></i>
-                                </div>
-                                <div class="content">
-                                    <h6>Made for Every Moment</h6>
-                                    <p class="text-sm text-main text-line-clamp-4">
-                                        From handbags and totes to backpacks and travel bags, our versatile designs adapt
-                                        seamlessly to your everyday needs.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="d-flex d-xl-none sw-dot-default sw-pagination-iconbox justify-content-center"></div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ================= TESTIMONIAL SECTION ================= -->
-        <section class="flat-spacing-13 pt-0">
-            <div class="container">
-                <div class="box-testimonial-quote text-center">
-                    <div class="list-star-default justify-content-center">
-                        <i class="icon-star text-green"></i>
-                        <i class="icon-star text-green"></i>
-                        <i class="icon-star text-green"></i>
-                        <i class="icon-star text-green"></i>
-                        <i class="icon-star text-green"></i>
-                    </div>
-
-                    <p class="text-xl lh-xl-32">
-                        "Zilly bags exceeded my expectations. The quality, design, and fast delivery made the entire
-                        shopping experience seamless. I’ve found my go-to brand for everyday bags!"
-                    </p>
-
-                    <div class="box-author">
-                        <div class="avt">
-                            <img src="images/testimonial/tes-about.jpg" alt="Zilly Customer Review">
-                        </div>
-                        <p class="text-md lh-xl-26 fw-medium">
-                            Zilly Customer
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
 
         <!-- Footer -->
         <?php include 'footer.php'; ?>
         <!-- /Footer -->
     </div>
-
 
     <!-- modal demo -->
     <div class="modal fade modalDemo" id="modalDemo">
@@ -670,7 +653,8 @@
                 <button class="icon-close icon-close-popup" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="canvas-body popup-inner">
-                <form action="https://themesflat.co/html/vineta/account-page.html" accept-charset="utf-8" class="form-login">
+                <form action="https://themesflat.co/html/vineta/account-page.html" accept-charset="utf-8"
+                    class="form-login">
                     <div>
                         <fieldset class="email mb_12">
                             <input type="email" class="" placeholder="Email*" required>
@@ -1339,8 +1323,6 @@
     </div>
     <!-- /compare  -->
 
-
-
     <!-- Javascript -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.min.js"></script>
@@ -1351,7 +1333,6 @@
     <script src="js/count-down.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/multiple-modal.js"></script>
-
 
     <script src="js/main.js"></script>
     <script src="js/sibforms.js" defer></script>

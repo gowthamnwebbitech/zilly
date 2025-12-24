@@ -11,8 +11,6 @@
             margin-bottom: 12px;
         }
     </style>
-
-
 </head>
 
 <body>
@@ -73,228 +71,247 @@
                                     <span class="icon-close icon-close-popup close-filter"></span>
                                 </div>
                                 <div class="canvas-body">
+
+                                    <!-- COLLECTIONS -->
                                     <div class="widget-facet">
                                         <div class="facet-title text-xl fw-medium" data-bs-target="#collections"
-                                            data-bs-toggle="collapse" aria-expanded="true" aria-controls="collections">
-                                            <span>Collections</span>
+                                            data-bs-toggle="collapse" aria-expanded="true">
+                                            <span>Bag Categories</span>
                                             <span class="icon icon-arrow-up"></span>
                                         </div>
+
                                         <div id="collections" class="collapse show">
                                             <ul class="collapse-body list-categories current-scrollbar">
                                                 <li class="cate-item">
                                                     <a class="text-sm link" href="shop-default.html">
-                                                        <span>Men’s top</span>
-                                                        <span class="count">(20)</span>
+                                                        <span>Handbags</span>
+                                                        <span class="count">(18)</span>
                                                     </a>
                                                 </li>
                                                 <li class="cate-item">
                                                     <a class="text-sm link" href="shop-default.html">
-                                                        <span>Men</span>
-                                                        <span class="count">(20)</span>
+                                                        <span>Sling Bags</span>
+                                                        <span class="count">(12)</span>
                                                     </a>
                                                 </li>
                                                 <li class="cate-item">
                                                     <a class="text-sm link" href="shop-default.html">
-                                                        <span>Women</span>
-                                                        <span class="count">(20)</span>
+                                                        <span>Tote Bags</span>
+                                                        <span class="count">(9)</span>
                                                     </a>
                                                 </li>
                                                 <li class="cate-item">
                                                     <a class="text-sm link" href="shop-default.html">
-                                                        <span>Kid</span>
-                                                        <span class="count">(20)</span>
+                                                        <span>Backpacks</span>
+                                                        <span class="count">(14)</span>
                                                     </a>
                                                 </li>
                                                 <li class="cate-item">
                                                     <a class="text-sm link" href="shop-default.html">
-                                                        <span>T-shirt</span>
-                                                        <span class="count">(20)</span>
+                                                        <span>Clutches</span>
+                                                        <span class="count">(6)</span>
                                                     </a>
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
+
+                                    <!-- AVAILABILITY -->
                                     <div class="widget-facet">
                                         <div class="facet-title text-xl fw-medium" data-bs-target="#availability"
-                                            role="button" data-bs-toggle="collapse" aria-expanded="true"
-                                            aria-controls="availability">
+                                            data-bs-toggle="collapse" aria-expanded="true">
                                             <span>Availability</span>
                                             <span class="icon icon-arrow-up"></span>
                                         </div>
+
                                         <div id="availability" class="collapse show">
                                             <ul class="collapse-body filter-group-check current-scrollbar">
                                                 <li class="list-item">
                                                     <input type="radio" name="availability" class="tf-check"
                                                         id="inStock">
-                                                    <label for="inStock" class="label"><span>In stock</span>&nbsp;<span
-                                                            class="count">(20)</span></label>
+                                                    <label for="inStock" class="label">
+                                                        <span>In stock</span> <span class="count">(42)</span>
+                                                    </label>
                                                 </li>
                                                 <li class="list-item">
                                                     <input type="radio" name="availability" class="tf-check"
                                                         id="outStock">
-                                                    <label for="outStock" class="label"><span>Out of
-                                                            stock</span>&nbsp;<span class="count">(3)</span></label>
+                                                    <label for="outStock" class="label">
+                                                        <span>Out of stock</span> <span class="count">(5)</span>
+                                                    </label>
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
+
+                                    <!-- PRICE -->
                                     <div class="widget-facet">
-                                        <div class="facet-title text-xl fw-medium" data-bs-target="#price" role="button"
-                                            data-bs-toggle="collapse" aria-expanded="true" aria-controls="price">
-                                            <span>Price</span>
+                                        <div class="facet-title text-xl fw-medium" data-bs-target="#price"
+                                            data-bs-toggle="collapse" aria-expanded="true">
+                                            <span>Price (₹)</span>
                                             <span class="icon icon-arrow-up"></span>
                                         </div>
+
                                         <div id="price" class="collapse show">
                                             <div class="collapse-body widget-price filter-price">
                                                 <span class="reset-price">Reset</span>
-                                                <div class="price-val-range" id="price-value-range" data-min="0"
-                                                    data-max="500"></div>
+                                                <div class="price-val-range" data-min="999" data-max="6999"></div>
                                                 <div class="box-value-price">
                                                     <span class="text-sm">Price:</span>
                                                     <div class="price-box">
-                                                        <div class="price-val" id="price-min-value" data-currency="$">
-                                                        </div>
+                                                        <div class="price-val" data-currency="₹">999</div>
                                                         <span>-</span>
-                                                        <div class="price-val" id="price-max-value" data-currency="$">
-                                                        </div>
+                                                        <div class="price-val" data-currency="₹">6999</div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
+
+                                    <!-- COLOR -->
                                     <div class="widget-facet">
-                                        <div class="facet-title text-xl fw-medium" data-bs-target="#color" role="button"
-                                            data-bs-toggle="collapse" aria-expanded="true" aria-controls="color">
+                                        <div class="facet-title text-xl fw-medium" data-bs-target="#color"
+                                            data-bs-toggle="collapse" aria-expanded="true">
                                             <span>Color</span>
                                             <span class="icon icon-arrow-up"></span>
                                         </div>
+
                                         <div id="color" class="collapse show">
                                             <div class="collapse-body filter-color-box flat-check-list">
-                                                <div class="check-item color-item color-check"><span
-                                                        class="color bg-yellow"></span><span
-                                                        class="color-text">Yellow</span></div>
-                                                <div class="check-item color-item color-check"><span
+                                                <div class="check-item color-item"><span
                                                         class="color bg-dark"></span><span
                                                         class="color-text">Black</span></div>
-                                                <div class="check-item color-item color-check line"><span
-                                                        class="color bg-white"></span><span
-                                                        class="color-text">White</span></div>
-                                                <div class="check-item color-item color-check"><span
-                                                        class="color bg-purple-3"></span><span
-                                                        class="color-text">Purple</span></div>
-                                                <div class="check-item color-item color-check"><span
-                                                        class="color bg-light-orange"></span><span
-                                                        class="color-text">Light Orange</span></div>
-                                                <div class="check-item color-item color-check"><span
-                                                        class="color bg-light-pink-4"></span><span
-                                                        class="color-text">Light Pink</span></div>
-                                                <div class="check-item color-item color-check"><span
+                                                <div class="check-item color-item"><span
+                                                        class="color bg-brown"></span><span
+                                                        class="color-text">Brown</span></div>
+                                                <div class="check-item color-item"><span
+                                                        class="color bg-beige"></span><span
+                                                        class="color-text">Beige</span></div>
+                                                <div class="check-item color-item"><span
                                                         class="color bg-pink"></span><span
                                                         class="color-text">Pink</span></div>
-                                                <div class="check-item color-item color-check"><span
-                                                        class="color bg-dark-green"></span><span class="color-text">Dark
-                                                        Green</span></div>
-                                                <div class="check-item color-item color-check"><span
+                                                <div class="check-item color-item"><span
+                                                        class="color bg-red"></span><span class="color-text">Red</span>
+                                                </div>
+                                                <div class="check-item color-item"><span
                                                         class="color bg-grey-4"></span><span
                                                         class="color-text">Grey</span></div>
                                             </div>
                                         </div>
                                     </div>
+
+                                    <!-- BAG SIZE -->
                                     <div class="widget-facet">
-                                        <div class="facet-title text-xl fw-medium" data-bs-target="#size" role="button"
-                                            data-bs-toggle="collapse" aria-expanded="true" aria-controls="size">
-                                            <span>Size</span>
+                                        <div class="facet-title text-xl fw-medium" data-bs-target="#size"
+                                            data-bs-toggle="collapse" aria-expanded="true">
+                                            <span>Bag Size</span>
                                             <span class="icon icon-arrow-up"></span>
                                         </div>
+
                                         <div id="size" class="collapse show">
                                             <div class="collapse-body filter-size-box flat-check-list">
-                                                <div class="check-item size-item size-check"><span
-                                                        class="size">XS</span>&nbsp;<span class="count">(10)</span>
-                                                </div>
-                                                <div class="check-item size-item size-check"><span
-                                                        class="size">S</span>&nbsp;<span class="count">(8)</span></div>
-                                                <div class="check-item size-item size-check"><span
-                                                        class="size">L</span>&nbsp;<span class="count">(20)</span></div>
-                                                <div class="check-item size-item size-check"><span
-                                                        class="size">M</span>&nbsp;<span class="count">(10)</span></div>
-                                                <div class="check-item size-item size-check"><span
-                                                        class="size">XL</span>&nbsp;<span class="count">(20)</span>
-                                                </div>
+                                                <div class="check-item size-item"><span class="size">Small</span> <span
+                                                        class="count">(10)</span></div>
+                                                <div class="check-item size-item"><span class="size">Medium</span> <span
+                                                        class="count">(18)</span></div>
+                                                <div class="check-item size-item"><span class="size">Large</span> <span
+                                                        class="count">(14)</span></div>
                                             </div>
                                         </div>
                                     </div>
+
+                                    <!-- BRAND -->
                                     <div class="widget-facet">
-                                        <div class="facet-title text-xl fw-medium" data-bs-target="#brand" role="button"
-                                            data-bs-toggle="collapse" aria-expanded="true" aria-controls="brand">
+                                        <div class="facet-title text-xl fw-medium" data-bs-target="#brand"
+                                            data-bs-toggle="collapse" aria-expanded="true">
                                             <span>Brand</span>
                                             <span class="icon icon-arrow-up"></span>
                                         </div>
+
                                         <div id="brand" class="collapse show">
                                             <ul class="collapse-body filter-group-check current-scrollbar">
                                                 <li class="list-item">
-                                                    <input type="radio" name="brand" class="tf-check" id="Vineta">
-                                                    <label for="Vineta" class="label"><span>Vineta</span>&nbsp;<span
-                                                            class="count">(11)</span></label>
+                                                    <input type="radio" name="brand" class="tf-check" id="zilly">
+                                                    <label for="zilly" class="label">
+                                                        <span>Zilly</span> <span class="count">(15)</span>
+                                                    </label>
                                                 </li>
                                                 <li class="list-item">
-                                                    <input type="radio" name="brand" class="tf-check" id="Zotac">
-                                                    <label for="Zotac" class="label"><span>Zotac</span>&nbsp;<span
-                                                            class="count">(20)</span></label>
+                                                    <input type="radio" name="brand" class="tf-check" id="luxe">
+                                                    <label for="luxe" class="label">
+                                                        <span>LuxeCarry</span> <span class="count">(12)</span>
+                                                    </label>
+                                                </li>
+                                                <li class="list-item">
+                                                    <input type="radio" name="brand" class="tf-check" id="urban">
+                                                    <label for="urban" class="label">
+                                                        <span>Urban Muse</span> <span class="count">(10)</span>
+                                                    </label>
                                                 </li>
                                             </ul>
                                         </div>
                                     </div>
+
+                                    <!-- ON SALE -->
                                     <div class="widget-facet">
-                                        <div class="facet-title text-xl fw-medium"><span>On sale</span></div>
+                                        <div class="facet-title text-xl fw-medium"><span>On Sale</span></div>
                                         <ul class="collapse-body list-recent">
                                             <li>
                                                 <div class="recent-blog-item">
-                                                    <a href="product-detail.html" class="img-product"><img
-                                                            src="images/products/recent/recent6.jpg" alt="img"></a>
+                                                    <a href="product-detail.php" class="img-product">
+                                                        <img src="images/products/bags/newproduct1.jpg" alt="">
+                                                    </a>
                                                     <div class="content">
-                                                        <a href="product-detail.html"
-                                                            class="title text-md link fw-medium">Striped short sleeve
-                                                            shirt</a>
+                                                        <a href="product-detail.php"
+                                                            class="title text-md link fw-medium">
+                                                            Classic Leather Handbag
+                                                        </a>
                                                         <div class="price text-md fw-medium">
-                                                            <span class="new-price">$80.00</span>
-                                                            <span class="old-price">$100.00</span>
+                                                            <span class="new-price">₹2,499</span>
+                                                            <span class="old-price">₹3,499</span>
                                                         </div>
-
                                                     </div>
                                                 </div>
                                             </li>
                                             <li>
                                                 <div class="recent-blog-item">
-                                                    <a href="product-detail.html" class="img-product"><img
-                                                            src="images/products/recent/recent7.jpg" alt="img"></a>
+                                                    <a href="product-detail.php" class="img-product">
+                                                        <img src="images/products/bags/newproduct2.jpg" alt="">
+                                                    </a>
                                                     <div class="content">
-                                                        <a href="product-detail.html"
-                                                            class="title text-md link fw-medium">Short Sleeve Sweat</a>
+                                                        <a href="product-detail.php"
+                                                            class="title text-md link fw-medium">
+                                                            Casual Sling Bag
+                                                        </a>
                                                         <div class="price text-md fw-medium">
-                                                            <span class="new-price">$65.00</span>
-                                                            <span class="old-price">$90.00</span>
+                                                            <span class="new-price">₹1,699</span>
+                                                            <span class="old-price">₹2,299</span>
                                                         </div>
                                                     </div>
                                                 </div>
                                             </li>
                                         </ul>
                                     </div>
+
+                                    <!-- SIDEBAR BANNER -->
                                     <div class="widget-facet">
                                         <div class="sb-banner hover-img">
                                             <div class="image img-style">
-                                                <img src="images/blog/sb-banner.jpg"
-                                                    data-src="./images/blog/sb-banner.jpg" alt="banner"
-                                                    class="lazyload">
+                                                <img src="images/products/bags/newproduct3.jpg" alt="Women's Bags">
                                             </div>
                                             <div class="banner-content">
                                                 <p class="title">
-                                                    Elevate <br> Your Style
+                                                    Chic Bags <br> For Every Look
                                                 </p>
-                                                <a href="#" class="tf-btn btn-white hover-primary">Shop Now</a>
+                                                <a href="shop-default.html" class="tf-btn btn-white hover-primary">
+                                                    Shop Now
+                                                </a>
                                             </div>
                                         </div>
                                     </div>
+
                                 </div>
+
                             </div>
                         </div>
                     </div>
@@ -372,12 +389,10 @@
                                 <!-- Card Product 1 -->
                                 <div class="card-product style-list" data-availability="In stock" data-brand="Zilly">
                                     <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="img-product lazyload"
-                                                src="images/products/bags/product1.jpg"
+                                        <a href="product-detail.php" class="product-img">
+                                            <img class="img-product lazyload" src="images/products/bags/product1.jpg"
                                                 data-src="images/products/bags/product1.jpg" alt="Zilly Tote Bag">
-                                            <img class="img-hover lazyload"
-                                                src="images/products/bags/product2.jpg"
+                                            <img class="img-hover lazyload" src="images/products/bags/product2.jpg"
                                                 data-src="images/products/bags/product2.jpg" alt="Zilly Tote Bag Hover">
                                         </a>
                                         <div class="on-sale-wrap"><span class="on-sale-item">20% Off</span></div>
@@ -385,7 +400,7 @@
 
                                     <div class="card-product-info">
                                         <div class="info-list">
-                                            <a href="product-detail.html" class="name-product link fw-medium text-md">
+                                            <a href="product-detail.php" class="name-product link fw-medium text-md">
                                                 Classic Leather Tote Bag
                                             </a>
 
@@ -395,7 +410,8 @@
                                             </p>
 
                                             <p class="desc text-sm text-main text-line-clamp-2">
-                                                A spacious and elegant leather tote designed for work and everyday use. Features sturdy handles,
+                                                A spacious and elegant leather tote designed for work and everyday use.
+                                                Features sturdy handles,
                                                 secure closure, and refined craftsmanship.
                                             </p>
 
@@ -441,12 +457,10 @@
                                 <!-- Card Product 2 -->
                                 <div class="card-product style-list" data-availability="In stock" data-brand="Zilly">
                                     <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="img-product lazyload"
-                                                src="images/products/bags/product3.jpg"
+                                        <a href="product-detail.php" class="product-img">
+                                            <img class="img-product lazyload" src="images/products/bags/product3.jpg"
                                                 data-src="images/products/bags/product3.jpg" alt="Zilly Tote Bag">
-                                            <img class="img-hover lazyload"
-                                                src="images/products/bags/product4.jpg"
+                                            <img class="img-hover lazyload" src="images/products/bags/product4.jpg"
                                                 data-src="images/products/bags/product4.jpg" alt="Zilly Tote Bag Hover">
                                         </a>
                                         <div class="on-sale-wrap"><span class="on-sale-item">20% Off</span></div>
@@ -455,7 +469,7 @@
 
                                     <div class="card-product-info">
                                         <div class="info-list">
-                                            <a href="product-detail.html" class="name-product link fw-medium text-md">
+                                            <a href="product-detail.php" class="name-product link fw-medium text-md">
                                                 Classic Leather Tote Bag
                                             </a>
 
@@ -465,7 +479,8 @@
                                             </p>
 
                                             <p class="desc text-sm text-main text-line-clamp-2">
-                                                A spacious and elegant leather tote designed for work and everyday use. Features sturdy handles,
+                                                A spacious and elegant leather tote designed for work and everyday use.
+                                                Features sturdy handles,
                                                 secure closure, and refined craftsmanship.
                                             </p>
 
@@ -511,12 +526,10 @@
                                 <!-- Card Product 3 -->
                                 <div class="card-product style-list" data-availability="In stock" data-brand="Zilly">
                                     <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="img-product lazyload"
-                                                src="images/products/bags/product5.jpg"
+                                        <a href="product-detail.php" class="product-img">
+                                            <img class="img-product lazyload" src="images/products/bags/product5.jpg"
                                                 data-src="images/products/bags/product5.jpg" alt="Zilly Tote Bag">
-                                            <img class="img-hover lazyload"
-                                                src="images/products/bags/product6.jpg"
+                                            <img class="img-hover lazyload" src="images/products/bags/product6.jpg"
                                                 data-src="images/products/bags/product6.jpg" alt="Zilly Tote Bag Hover">
                                         </a>
                                         <div class="on-sale-wrap"><span class="on-sale-item">20% Off</span></div>
@@ -524,7 +537,7 @@
 
                                     <div class="card-product-info">
                                         <div class="info-list">
-                                            <a href="product-detail.html" class="name-product link fw-medium text-md">
+                                            <a href="product-detail.php" class="name-product link fw-medium text-md">
                                                 Classic Leather Tote Bag
                                             </a>
 
@@ -534,7 +547,8 @@
                                             </p>
 
                                             <p class="desc text-sm text-main text-line-clamp-2">
-                                                A spacious and elegant leather tote designed for work and everyday use. Features sturdy handles,
+                                                A spacious and elegant leather tote designed for work and everyday use.
+                                                Features sturdy handles,
                                                 secure closure, and refined craftsmanship.
                                             </p>
 
@@ -580,12 +594,10 @@
                                 <!-- Card Product 4 -->
                                 <div class="card-product style-list" data-availability="In stock" data-brand="Zilly">
                                     <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="img-product lazyload"
-                                                src="images/products/bags/product7.jpg"
+                                        <a href="product-detail.php" class="product-img">
+                                            <img class="img-product lazyload" src="images/products/bags/product7.jpg"
                                                 data-src="images/products/bags/product7.jpg" alt="Zilly Tote Bag">
-                                            <img class="img-hover lazyload"
-                                                src="images/products/bags/product1.jpg"
+                                            <img class="img-hover lazyload" src="images/products/bags/product1.jpg"
                                                 data-src="images/products/bags/product1.jpg" alt="Zilly Tote Bag Hover">
                                         </a>
                                         <div class="on-sale-wrap"><span class="on-sale-item">20% Off</span></div>
@@ -593,7 +605,7 @@
 
                                     <div class="card-product-info">
                                         <div class="info-list">
-                                            <a href="product-detail.html" class="name-product link fw-medium text-md">
+                                            <a href="product-detail.php" class="name-product link fw-medium text-md">
                                                 Classic Leather Tote Bag
                                             </a>
 
@@ -603,7 +615,8 @@
                                             </p>
 
                                             <p class="desc text-sm text-main text-line-clamp-2">
-                                                A spacious and elegant leather tote designed for work and everyday use. Features sturdy handles,
+                                                A spacious and elegant leather tote designed for work and everyday use.
+                                                Features sturdy handles,
                                                 secure closure, and refined craftsmanship.
                                             </p>
 
@@ -649,12 +662,10 @@
                                 <!-- Card Product 5 -->
                                 <div class="card-product style-list" data-availability="In stock" data-brand="Zilly">
                                     <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="img-product lazyload"
-                                                src="images/products/bags/product2.jpg"
+                                        <a href="product-detail.php" class="product-img">
+                                            <img class="img-product lazyload" src="images/products/bags/product2.jpg"
                                                 data-src="images/products/bags/product2.jpg" alt="Zilly Tote Bag">
-                                            <img class="img-hover lazyload"
-                                                src="images/products/bags/product3.jpg"
+                                            <img class="img-hover lazyload" src="images/products/bags/product3.jpg"
                                                 data-src="images/products/bags/product3.jpg" alt="Zilly Tote Bag Hover">
                                         </a>
                                         <div class="on-sale-wrap"><span class="on-sale-item">20% Off</span></div>
@@ -662,7 +673,7 @@
 
                                     <div class="card-product-info">
                                         <div class="info-list">
-                                            <a href="product-detail.html" class="name-product link fw-medium text-md">
+                                            <a href="product-detail.php" class="name-product link fw-medium text-md">
                                                 Classic Leather Tote Bag
                                             </a>
 
@@ -672,7 +683,8 @@
                                             </p>
 
                                             <p class="desc text-sm text-main text-line-clamp-2">
-                                                A spacious and elegant leather tote designed for work and everyday use. Features sturdy handles,
+                                                A spacious and elegant leather tote designed for work and everyday use.
+                                                Features sturdy handles,
                                                 secure closure, and refined craftsmanship.
                                             </p>
 
@@ -718,12 +730,10 @@
                                 <!-- Card Product 6 -->
                                 <div class="card-product style-list" data-availability="In stock" data-brand="Zilly">
                                     <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="img-product lazyload"
-                                                src="images/products/bags/product4.jpg"
+                                        <a href="product-detail.php" class="product-img">
+                                            <img class="img-product lazyload" src="images/products/bags/product4.jpg"
                                                 data-src="images/products/bags/product4.jpg" alt="Zilly Tote Bag">
-                                            <img class="img-hover lazyload"
-                                                src="images/products/bags/product5.jpg"
+                                            <img class="img-hover lazyload" src="images/products/bags/product5.jpg"
                                                 data-src="images/products/bags/product5.jpg" alt="Zilly Tote Bag Hover">
                                         </a>
                                         <div class="on-sale-wrap"><span class="on-sale-item">20% Off</span></div>
@@ -731,7 +741,7 @@
 
                                     <div class="card-product-info">
                                         <div class="info-list">
-                                            <a href="product-detail.html" class="name-product link fw-medium text-md">
+                                            <a href="product-detail.php" class="name-product link fw-medium text-md">
                                                 Classic Leather Tote Bag
                                             </a>
 
@@ -741,7 +751,8 @@
                                             </p>
 
                                             <p class="desc text-sm text-main text-line-clamp-2">
-                                                A spacious and elegant leather tote designed for work and everyday use. Features sturdy handles,
+                                                A spacious and elegant leather tote designed for work and everyday use.
+                                                Features sturdy handles,
                                                 secure closure, and refined craftsmanship.
                                             </p>
 
@@ -787,12 +798,10 @@
                                 <!-- Card Product 7 -->
                                 <div class="card-product style-list" data-availability="In stock" data-brand="Zilly">
                                     <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="img-product lazyload"
-                                                src="images/products/bags/product6.jpg"
+                                        <a href="product-detail.php" class="product-img">
+                                            <img class="img-product lazyload" src="images/products/bags/product6.jpg"
                                                 data-src="images/products/bags/product6.jpg" alt="Zilly Tote Bag">
-                                            <img class="img-hover lazyload"
-                                                src="images/products/bags/product7.jpg"
+                                            <img class="img-hover lazyload" src="images/products/bags/product7.jpg"
                                                 data-src="images/products/bags/product7.jpg" alt="Zilly Tote Bag Hover">
                                         </a>
                                         <div class="on-sale-wrap"><span class="on-sale-item">20% Off</span></div>
@@ -800,7 +809,7 @@
 
                                     <div class="card-product-info">
                                         <div class="info-list">
-                                            <a href="product-detail.html" class="name-product link fw-medium text-md">
+                                            <a href="product-detail.php" class="name-product link fw-medium text-md">
                                                 Classic Leather Tote Bag
                                             </a>
 
@@ -810,7 +819,8 @@
                                             </p>
 
                                             <p class="desc text-sm text-main text-line-clamp-2">
-                                                A spacious and elegant leather tote designed for work and everyday use. Features sturdy handles,
+                                                A spacious and elegant leather tote designed for work and everyday use.
+                                                Features sturdy handles,
                                                 secure closure, and refined craftsmanship.
                                             </p>
 
@@ -871,13 +881,11 @@
                                 <!-- Zilly Bag 1 -->
                                 <div class="card-product grid" data-availability="In stock" data-brand="Zilly">
                                     <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="img-product lazyload"
-                                                src="images/products/bags/product1.jpg"
+                                        <a href="product-detail.php" class="product-img">
+                                            <img class="img-product lazyload" src="images/products/bags/product1.jpg"
                                                 data-src="images/products/bags/product1.jpg"
                                                 alt="Zilly Classic Tote Bag">
-                                            <img class="img-hover lazyload"
-                                                src="images/products/bags/product2.jpg"
+                                            <img class="img-hover lazyload" src="images/products/bags/product2.jpg"
                                                 data-src="images/products/bags/product2.jpg"
                                                 alt="Zilly Classic Tote Bag Hover">
                                         </a>
@@ -891,7 +899,8 @@
                                                 </a>
                                             </li>
                                             <li class="wishlist">
-                                                <a href="javascript:void(0);" class="box-icon hover-tooltip tooltip-left">
+                                                <a href="javascript:void(0);"
+                                                    class="box-icon hover-tooltip tooltip-left">
                                                     <span class="icon icon-heart2"></span>
                                                     <span class="tooltip">Add to Wishlist</span>
                                                 </a>
@@ -907,7 +916,7 @@
                                     </div>
 
                                     <div class="card-product-info">
-                                        <a href="product-detail.html" class="name-product link fw-medium text-md">
+                                        <a href="product-detail.php" class="name-product link fw-medium text-md">
                                             Zilly Classic Tote Bag
                                         </a>
                                         <p class="price-wrap fw-medium">
@@ -931,13 +940,11 @@
                                 <!-- Zilly Bag 2 -->
                                 <div class="card-product grid" data-availability="In stock" data-brand="Zilly">
                                     <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="img-product lazyload"
-                                                src="images/products/bags/product3.jpg"
+                                        <a href="product-detail.php" class="product-img">
+                                            <img class="img-product lazyload" src="images/products/bags/product3.jpg"
                                                 data-src="images/products/bags/product3.jpg"
                                                 alt="Zilly Classic Tote Bag">
-                                            <img class="img-hover lazyload"
-                                                src="images/products/bags/product4.jpg"
+                                            <img class="img-hover lazyload" src="images/products/bags/product4.jpg"
                                                 data-src="images/products/bags/product4.jpg"
                                                 alt="Zilly Classic Tote Bag Hover">
                                         </a>
@@ -951,7 +958,8 @@
                                                 </a>
                                             </li>
                                             <li class="wishlist">
-                                                <a href="javascript:void(0);" class="box-icon hover-tooltip tooltip-left">
+                                                <a href="javascript:void(0);"
+                                                    class="box-icon hover-tooltip tooltip-left">
                                                     <span class="icon icon-heart2"></span>
                                                     <span class="tooltip">Add to Wishlist</span>
                                                 </a>
@@ -967,7 +975,7 @@
                                     </div>
 
                                     <div class="card-product-info">
-                                        <a href="product-detail.html" class="name-product link fw-medium text-md">
+                                        <a href="product-detail.php" class="name-product link fw-medium text-md">
                                             Zilly Classic Tote Bag
                                         </a>
                                         <p class="price-wrap fw-medium">
@@ -991,13 +999,11 @@
                                 <!-- Zilly Bag 3 -->
                                 <div class="card-product grid" data-availability="In stock" data-brand="Zilly">
                                     <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="img-product lazyload"
-                                                src="images/products/bags/product5.jpg"
+                                        <a href="product-detail.php" class="product-img">
+                                            <img class="img-product lazyload" src="images/products/bags/product5.jpg"
                                                 data-src="images/products/bags/product5.jpg"
                                                 alt="Zilly Classic Tote Bag">
-                                            <img class="img-hover lazyload"
-                                                src="images/products/bags/product6.jpg"
+                                            <img class="img-hover lazyload" src="images/products/bags/product6.jpg"
                                                 data-src="images/products/bags/product6.jpg"
                                                 alt="Zilly Classic Tote Bag Hover">
                                         </a>
@@ -1011,7 +1017,8 @@
                                                 </a>
                                             </li>
                                             <li class="wishlist">
-                                                <a href="javascript:void(0);" class="box-icon hover-tooltip tooltip-left">
+                                                <a href="javascript:void(0);"
+                                                    class="box-icon hover-tooltip tooltip-left">
                                                     <span class="icon icon-heart2"></span>
                                                     <span class="tooltip">Add to Wishlist</span>
                                                 </a>
@@ -1027,7 +1034,7 @@
                                     </div>
 
                                     <div class="card-product-info">
-                                        <a href="product-detail.html" class="name-product link fw-medium text-md">
+                                        <a href="product-detail.php" class="name-product link fw-medium text-md">
                                             Zilly Classic Tote Bag
                                         </a>
                                         <p class="price-wrap fw-medium">
@@ -1051,13 +1058,11 @@
                                 <!-- Zilly Bag 4 -->
                                 <div class="card-product grid" data-availability="In stock" data-brand="Zilly">
                                     <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="img-product lazyload"
-                                                src="images/products/bags/product7.jpg"
+                                        <a href="product-detail.php" class="product-img">
+                                            <img class="img-product lazyload" src="images/products/bags/product7.jpg"
                                                 data-src="images/products/bags/product7.jpg"
                                                 alt="Zilly Classic Tote Bag">
-                                            <img class="img-hover lazyload"
-                                                src="images/products/bags/product1.jpg"
+                                            <img class="img-hover lazyload" src="images/products/bags/product1.jpg"
                                                 data-src="images/products/bags/product1.jpg"
                                                 alt="Zilly Classic Tote Bag Hover">
                                         </a>
@@ -1071,7 +1076,8 @@
                                                 </a>
                                             </li>
                                             <li class="wishlist">
-                                                <a href="javascript:void(0);" class="box-icon hover-tooltip tooltip-left">
+                                                <a href="javascript:void(0);"
+                                                    class="box-icon hover-tooltip tooltip-left">
                                                     <span class="icon icon-heart2"></span>
                                                     <span class="tooltip">Add to Wishlist</span>
                                                 </a>
@@ -1087,7 +1093,7 @@
                                     </div>
 
                                     <div class="card-product-info">
-                                        <a href="product-detail.html" class="name-product link fw-medium text-md">
+                                        <a href="product-detail.php" class="name-product link fw-medium text-md">
                                             Zilly Classic Tote Bag
                                         </a>
                                         <p class="price-wrap fw-medium">
@@ -1648,7 +1654,8 @@
                 <button class="icon-close icon-close-popup" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="canvas-body popup-inner">
-                <form action="https://themesflat.co/html/vineta/account-page.html" accept-charset="utf-8" class="form-login">
+                <form action="https://themesflat.co/html/vineta/account-page.html" accept-charset="utf-8"
+                    class="form-login">
                     <div>
                         <fieldset class="email mb_12">
                             <input type="email" class="" placeholder="Email*" required>
@@ -1787,426 +1794,7 @@
     <!-- /Reset pass -->
 
     <!-- search -->
-    <div class="modal fade popup-search" id="search">
-        <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content">
-                <div class="header">
-                    <button class="icon-close icon-close-popup" data-bs-dismiss="modal"></button>
-                </div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="looking-for-wrap">
-                                <div class="heading">What are you looking for?</div>
-                                <form class="form-search">
-                                    <fieldset class="text">
-                                        <input type="text" placeholder="Search" class="" name="text" tabindex="0"
-                                            value="" aria-required="true" required="">
-                                    </fieldset>
-                                    <button type="submit">
-                                        <i class="icon icon-search"></i>
-                                    </button>
-                                </form>
-                                <div class="popular-searches justify-content-md-center">
-                                    <div class="text fw-medium">Popular searches:</div>
-                                    <ul>
-                                        <li><a class="link" href="#">Featured</a></li>
-                                        <li><a class="link" href="#">Trendy</a></li>
-                                        <li><a class="link" href="#">New</a></li>
-                                        <li><a class="link" href="#">Sale</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="featured-product">
-                                <div class="text-xl-2 fw-medium featured-product-heading">Featured product</div>
-                                <div dir="ltr" class="swiper tf-swiper wrap-sw-over" data-swiper='{
-                                        "slidesPerView": 2,
-                                        "spaceBetween": 12,
-                                        "speed": 800,
-                                        "observer": true,
-                                        "observeParents": true,
-                                        "slidesPerGroup": 2,
-                                        "pagination": { "el": ".sw-pagination-search", "clickable": true },
-                                        "breakpoints": {
-                                        "768": { "slidesPerView": 3, "spaceBetween": 12, "slidesPerGroup": 3 },
-                                        "1200": { "slidesPerView": 4, "spaceBetween": 24, "slidesPerGroup": 4}
-                                        }
-                                    }'>
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <div class="card-product style-3 card-product-size">
-                                                <div class="card-product-wrapper">
-                                                    <a href="product-detail.html" class="product-img">
-                                                        <img class="img-product lazyload"
-                                                            data-src="images/products/fashion/product-27.jpg"
-                                                            src="images/products/fashion/product-27.jpg"
-                                                            alt="image-product">
-                                                        <img class="img-hover lazyload"
-                                                            data-src="images/products/fashion/product-23.jpg"
-                                                            src="images/products/fashion/product-23.jpg"
-                                                            alt="image-product">
-                                                    </a>
-                                                    <ul class="list-product-btn">
-                                                        <li>
-                                                            <a href="javascript:void(0);"
-                                                                class="box-icon hover-tooltip wishlist">
-                                                                <span class="icon icon-heart2"></span>
-                                                                <span class="tooltip">Add to Wishlist</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="javascript:void(0);"
-                                                                class="btn-quickview box-icon hover-tooltip quickview">
-                                                                <span class="icon icon-view"></span>
-                                                                <span class="tooltip">Quick View</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="javascript:void(0);"
-                                                                class="box-icon hover-tooltip compare btn-compare">
-                                                                <span class="icon icon-compare"></span>
-                                                                <span class="tooltip">Add to Compare</span>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                    <div class="product-btn-main">
-                                                        <a href="#shoppingCart" data-bs-toggle="offcanvas"
-                                                            class="btn-main-product">
-                                                            <span class="icon icon-cart2"></span>
-                                                            <span class="text-md fw-medium">
-                                                                Add to Cart
-                                                            </span>
-                                                        </a>
-                                                    </div>
-                                                    <ul class="size-box">
-                                                        <li class="size-item text-xs text-white">M</li>
-                                                        <li class="size-item text-xs text-white">L</li>
-                                                        <li class="size-item text-xs text-white">XL</li>
-                                                    </ul>
-                                                </div>
-                                                <div class="card-product-info">
-                                                    <a href="product-detail.html"
-                                                        class="name-product link fw-medium text-md">Basic Sports T-Shirt
-                                                        Crew Neck Ribbed</a>
-                                                    <p class="price-wrap fw-medium">
-                                                        <span class="price-new">80.00</span>
-                                                        <span class="price-old">$100.00</span>
-                                                    </p>
-                                                    <ul class="list-color-product">
-                                                        <li
-                                                            class="list-color-item color-swatch hover-tooltip tooltip-bot active">
-                                                            <span class="tooltip color-filter">Purple</span>
-                                                            <span class="swatch-value bg-light-purple-3"></span>
-                                                            <img class="lazyload"
-                                                                data-src="images/products/fashion/product-27.jpg"
-                                                                src="images/products/fashion/product-27.jpg"
-                                                                alt="image-product">
-                                                        </li>
-                                                        <li
-                                                            class="list-color-item color-swatch hover-tooltip tooltip-bot">
-                                                            <span class="tooltip color-filter">Light Grey</span>
-                                                            <span class="swatch-value bg-grey-4"></span>
-                                                            <img class="lazyload"
-                                                                data-src="images/products/fashion/product-11.jpg"
-                                                                src="images/products/fashion/product-11.jpg"
-                                                                alt="image-product">
-                                                        </li>
-                                                        <li
-                                                            class="list-color-item color-swatch hover-tooltip tooltip-bot">
-                                                            <span class="tooltip color-filter">Light Orange</span>
-                                                            <span class="swatch-value bg-light-orange"></span>
-                                                            <img class="lazyload"
-                                                                data-src="images/products/fashion/product-12.jpg"
-                                                                src="images/products/fashion/product-12.jpg"
-                                                                alt="image-product">
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="card-product style-3">
-                                                <div class="card-product-wrapper">
-                                                    <a href="product-detail.html" class="product-img">
-                                                        <img class="img-product lazyload"
-                                                            data-src="images/products/fashion/product-10.jpg"
-                                                            src="images/products/fashion/product-10.jpg"
-                                                            alt="image-product">
-                                                        <img class="img-hover lazyload"
-                                                            data-src="images/products/fashion/product-20.jpg"
-                                                            src="images/products/fashion/product-20.jpg"
-                                                            alt="image-product">
-                                                    </a>
-                                                    <ul class="list-product-btn">
-                                                        <li>
-                                                            <a href="javascript:void(0);"
-                                                                class="box-icon hover-tooltip wishlist">
-                                                                <span class="icon icon-heart2"></span>
-                                                                <span class="tooltip">Add to Wishlist</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="javascript:void(0);"
-                                                                class="btn-quickview box-icon hover-tooltip quickview">
-                                                                <span class="icon icon-view"></span>
-                                                                <span class="tooltip">Quick View</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="javascript:void(0);"
-                                                                class="box-icon hover-tooltip compare btn-compare">
-                                                                <span class="icon icon-compare"></span>
-                                                                <span class="tooltip">Add to Compare</span>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                    <div class="product-btn-main">
-                                                        <a href="#shoppingCart" data-bs-toggle="offcanvas"
-                                                            class="btn-main-product">
-                                                            <span class="icon icon-cart2"></span>
-                                                            <span class="text-md fw-medium">
-                                                                Add to Cart
-                                                            </span>
-                                                        </a>
-                                                    </div>
-
-                                                </div>
-                                                <div class="card-product-info">
-                                                    <a href="product-detail.html"
-                                                        class="name-product link fw-medium text-md">Regular Fit
-                                                        Fine Knit Polo Shirt</a>
-                                                    <p class="price-wrap fw-medium">
-                                                        <span class="price-new">$65.00</span>
-                                                        <span class=" price-old">$90.00</span>
-                                                    </p>
-                                                    <ul class="list-color-product">
-                                                        <li
-                                                            class="list-color-item color-swatch hover-tooltip tooltip-bot active">
-                                                            <span class="tooltip color-filter">Light Blue</span>
-                                                            <span class="swatch-value bg-light-blue-2"></span>
-                                                            <img class=" lazyload"
-                                                                data-src="images/products/fashion/product-10.jpg"
-                                                                src="images/products/fashion/product-10.jpg"
-                                                                alt="image-product">
-                                                        </li>
-                                                        <li
-                                                            class="list-color-item color-swatch hover-tooltip tooltip-bot">
-                                                            <span class="tooltip color-filter">Black</span>
-                                                            <span class="swatch-value bg-dark"></span>
-                                                            <img class=" lazyload"
-                                                                data-src="images/products/fashion/product-13.jpg"
-                                                                src="images/products/fashion/product-13.jpg"
-                                                                alt="image-product">
-                                                        </li>
-                                                        <li
-                                                            class="list-color-item color-swatch hover-tooltip tooltip-bot">
-                                                            <span class="tooltip color-filter">Purple</span>
-                                                            <span class="swatch-value bg-light-purple"></span>
-                                                            <img class=" lazyload"
-                                                                data-src="images/products/fashion/product-14.jpg"
-                                                                src="images/products/fashion/product-14.jpg"
-                                                                alt="image-product">
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="card-product style-3">
-                                                <div class="card-product-wrapper">
-                                                    <a href="product-detail.html" class="product-img">
-                                                        <img class="img-product lazyload"
-                                                            data-src="images/products/fashion/product-21.jpg"
-                                                            src="images/products/fashion/product-21.jpg"
-                                                            alt="image-product">
-                                                        <img class="img-hover lazyload"
-                                                            data-src="images/products/fashion/women-black-3.jpg"
-                                                            src="images/products/fashion/women-black-3.jpg"
-                                                            alt="image-product">
-                                                    </a>
-                                                    <ul class="list-product-btn">
-                                                        <li>
-                                                            <a href="javascript:void(0);"
-                                                                class="box-icon hover-tooltip wishlist">
-                                                                <span class="icon icon-heart2"></span>
-                                                                <span class="tooltip">Add to Wishlist</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="javascript:void(0);"
-                                                                class="btn-quickview box-icon hover-tooltip quickview">
-                                                                <span class="icon icon-view"></span>
-                                                                <span class="tooltip">Quick View</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="javascript:void(0);"
-                                                                class="box-icon hover-tooltip compare btn-compare">
-                                                                <span class="icon icon-compare"></span>
-                                                                <span class="tooltip">Add to Compare</span>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                    <div class="product-btn-main">
-                                                        <a href="#shoppingCart" data-bs-toggle="offcanvas"
-                                                            class="btn-main-product">
-                                                            <span class="icon icon-cart2"></span>
-                                                            <span class="text-md fw-medium">
-                                                                Add to Cart
-                                                            </span>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                                <div class="card-product-info">
-                                                    <a href="product-detail.html"
-                                                        class="name-product link fw-medium text-md">Crop College
-                                                        T-Shirt</a>
-                                                    <p class="price-wrap fw-medium">
-                                                        <span class="price-new">$80.00</span>
-                                                        <span class=" price-old">$100.00</span>
-                                                    </p>
-                                                    <ul class="list-color-product">
-                                                        <li
-                                                            class="list-color-item color-swatch hover-tooltip tooltip-bot active">
-                                                            <span class="tooltip color-filter">Dark Green</span>
-                                                            <span class="swatch-value bg-dark-green"></span>
-                                                            <img class=" lazyload"
-                                                                data-src="images/products/fashion/product-21.jpg"
-                                                                src="images/products/fashion/product-21.jpg"
-                                                                alt="image-product">
-                                                        </li>
-                                                        <li
-                                                            class="list-color-item color-swatch hover-tooltip tooltip-bot">
-                                                            <span class="tooltip color-filter">Black</span>
-                                                            <span class="swatch-value bg-dark"></span>
-                                                            <img class=" lazyload"
-                                                                data-src="images/products/fashion/women-black-3.jpg"
-                                                                src="images/products/fashion/women-black-3.jpg"
-                                                                alt="image-product">
-                                                        </li>
-                                                        <li
-                                                            class="list-color-item color-swatch hover-tooltip tooltip-bot">
-                                                            <span class="tooltip color-filter">Purple</span>
-                                                            <span class="swatch-value bg-light-purple-3"></span>
-                                                            <img class="lazyload"
-                                                                data-src="images/products/fashion/product-23.jpg"
-                                                                src="images/products/fashion/product-23.jpg"
-                                                                alt="image-product">
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="card-product style-3 card-product-size">
-                                                <div class="card-product-wrapper">
-                                                    <a href="product-detail.html" class="product-img">
-                                                        <img class="img-product lazyload"
-                                                            data-src="images/products/fashion/product-22.jpg"
-                                                            src="images/products/fashion/product-22.jpg"
-                                                            alt="image-product">
-                                                        <img class="img-hover lazyload"
-                                                            data-src="images/products/fashion/product-5.jpg"
-                                                            src="images/products/fashion/product-5.jpg"
-                                                            alt="image-product">
-                                                    </a>
-                                                    <ul class="list-product-btn">
-                                                        <li>
-                                                            <a href="javascript:void(0);"
-                                                                class="box-icon hover-tooltip wishlist">
-                                                                <span class="icon icon-heart2"></span>
-                                                                <span class="tooltip">Add to Wishlist</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="javascript:void(0);"
-                                                                class="btn-quickview box-icon hover-tooltip quickview">
-                                                                <span class="icon icon-view"></span>
-                                                                <span class="tooltip">Quick View</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="javascript:void(0);"
-                                                                class="box-icon hover-tooltip compare btn-compare">
-                                                                <span class="icon icon-compare"></span>
-                                                                <span class="tooltip">Add to Compare</span>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                    <div class="product-btn-main">
-                                                        <a href="#shoppingCart" data-bs-toggle="offcanvas"
-                                                            class="btn-main-product">
-                                                            <span class="icon icon-cart2"></span>
-                                                            <span class="text-md fw-medium">
-                                                                Add to Cart
-                                                            </span>
-                                                        </a>
-                                                    </div>
-
-                                                    <ul class="size-box">
-                                                        <li class="size-item text-xs text-white">XS</li>
-                                                        <li class="size-item text-xs text-white">S</li>
-                                                        <li class="size-item text-xs text-white">M</li>
-                                                        <li class="size-item text-xs text-white">L</li>
-                                                        <li class="size-item text-xs text-white">XL</li>
-                                                        <li class="size-item text-xs text-white">2XL</li>
-                                                    </ul>
-
-                                                </div>
-                                                <div class="card-product-info">
-                                                    <a href="product-detail.html"
-                                                        class="name-product link fw-medium text-md">Bow-Tie T-Shirt</a>
-                                                    <p class="price-wrap fw-medium">
-                                                        <span class="price-new">$120.00</span>
-                                                        <span class=" price-old">$140.00</span>
-                                                    </p>
-                                                    <ul class="list-color-product">
-                                                        <li
-                                                            class="list-color-item color-swatch hover-tooltip tooltip-bot active">
-                                                            <span class="tooltip color-filter">Black</span>
-                                                            <span class="swatch-value bg-dark"></span>
-                                                            <img class=" lazyload"
-                                                                data-src="images/products/fashion/product-22.jpg"
-                                                                src="images/products/fashion/product-22.jpg"
-                                                                alt="image-product">
-                                                        </li>
-                                                        <li
-                                                            class="list-color-item color-swatch hover-tooltip tooltip-bot">
-                                                            <span class="tooltip color-filter">Beige</span>
-                                                            <span class="swatch-value bg-beige"></span>
-                                                            <img class=" lazyload"
-                                                                data-src="images/products/fashion/product-5.jpg"
-                                                                src="images/products/fashion/product-5.jpg"
-                                                                alt="image-product">
-                                                        </li>
-                                                        <li
-                                                            class="list-color-item color-swatch hover-tooltip line tooltip-bot">
-                                                            <span class="tooltip color-filter">White</span>
-                                                            <span class="swatch-value bg-white"></span>
-                                                            <img class=" lazyload"
-                                                                data-src="images/products/fashion/product-1.jpg"
-                                                                src="images/products/fashion/product-1.jpg"
-                                                                alt="image-product">
-                                                        </li>
-
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="d-flex d-xl-none sw-dot-default sw-pagination-search justify-content-center">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <?php include 'searchmodal.php'; ?>
     <!-- /search -->
 
     <!-- shoppingCart -->
@@ -2234,14 +1822,14 @@
                             <div class="tf-mini-cart-items">
                                 <div class="tf-mini-cart-item file-delete">
                                     <div class="tf-mini-cart-image">
-                                        <a href="product-detail.html">
+                                        <a href="product-detail.php">
                                             <img class="lazyload" data-src="images/products/fashion/women-1.jpg"
                                                 src="images/products/fashion/women-1.jpg" alt="img-product">
                                         </a>
                                     </div>
                                     <div class="tf-mini-cart-info">
                                         <div class="d-flex justify-content-between">
-                                            <a class="title link text-md fw-medium" href="product-detail.html">Short
+                                            <a class="title link text-md fw-medium" href="product-detail.php">Short
                                                 Sleeve Sweat</a>
                                             <i class="icon icon-close remove fs-12"></i>
                                         </div>
@@ -2267,14 +1855,14 @@
                                 </div>
                                 <div class="tf-mini-cart-item file-delete">
                                     <div class="tf-mini-cart-image">
-                                        <a href="product-detail.html">
+                                        <a href="product-detail.php">
                                             <img class="lazyload" data-src="images/products/fashion/women-2.jpg"
                                                 src="images/products/fashion/women-2.jpg" alt="img-product">
                                         </a>
                                     </div>
                                     <div class="tf-mini-cart-info">
                                         <div class="d-flex justify-content-between">
-                                            <a class="title link text-md fw-medium" href="product-detail.html">Loose
+                                            <a class="title link text-md fw-medium" href="product-detail.php">Loose
                                                 Fit Tee</a>
                                             <i class="icon icon-close remove fs-12"></i>
                                         </div>
@@ -2330,7 +1918,7 @@
                                         <div class="swiper-slide">
                                             <div class="tf-mini-cart-item line radius-16">
                                                 <div class="tf-mini-cart-image">
-                                                    <a href="product-detail.html">
+                                                    <a href="product-detail.php">
                                                         <img class="lazyload"
                                                             data-src="images/products/fashion/product-1.jpg"
                                                             src="images/products/fashion/product-1.jpg"
@@ -2339,7 +1927,7 @@
                                                 </div>
                                                 <div class="tf-mini-cart-info justify-content-center">
                                                     <a class="title link text-md fw-medium"
-                                                        href="product-detail.html">Polo T-Shirt</a>
+                                                        href="product-detail.php">Polo T-Shirt</a>
                                                     <p class="price-wrap text-sm fw-medium">
                                                         <span class="new-price text-primary">$130.00</span>
                                                         <span
@@ -2354,7 +1942,7 @@
                                         <div class="swiper-slide">
                                             <div class="tf-mini-cart-item line radius-16">
                                                 <div class="tf-mini-cart-image">
-                                                    <a href="product-detail.html">
+                                                    <a href="product-detail.php">
                                                         <img class="lazyload"
                                                             data-src="images/products/fashion/product-2.jpg"
                                                             src="images/products/fashion/product-2.jpg"
@@ -2363,7 +1951,7 @@
                                                 </div>
                                                 <div class="tf-mini-cart-info justify-content-center">
                                                     <a class="title link text-md fw-medium"
-                                                        href="product-detail.html">Short Sleeve Sweat</a>
+                                                        href="product-detail.php">Short Sleeve Sweat</a>
                                                     <p class="price-wrap text-sm fw-medium">
                                                         <span class="new-price text-primary">$100.00</span>
                                                         <span
@@ -2378,7 +1966,7 @@
                                         <div class="swiper-slide">
                                             <div class="tf-mini-cart-item line radius-16">
                                                 <div class="tf-mini-cart-image">
-                                                    <a href="product-detail.html">
+                                                    <a href="product-detail.php">
                                                         <img class="lazyload"
                                                             data-src="images/products/fashion/product-3.jpg"
                                                             src="images/products/fashion/product-3.jpg"
@@ -2387,7 +1975,7 @@
                                                 </div>
                                                 <div class="tf-mini-cart-info justify-content-center">
                                                     <a class="title link text-md fw-medium"
-                                                        href="product-detail.html">Crop T-shirt</a>
+                                                        href="product-detail.php">Crop T-shirt</a>
                                                     <p class="price-wrap text-sm fw-medium">
                                                         <span class="new-price text-primary">$80.00</span>
                                                         <span
@@ -2600,7 +2188,7 @@
                 <div class="tf-product-info-wrap">
                     <div class="tf-product-info-inner">
                         <div class="tf-product-heading">
-                            <h6 class="product-name"><a class="link" href="product-detail.html">Striped T-Shirt</a>
+                            <h6 class="product-name"><a class="link" href="product-detail.php">Striped T-Shirt</a>
                             </h6>
                             <div class="product-price">
                                 <h6 class="price-new price-on-sale">$100.00</h6>
@@ -2656,7 +2244,7 @@
                             <a href="checkout.html" class="tf-btn w-100 animate-btn paypal btn-primary">Buy It Now</a>
                             <a href="checkout.html" class="more-choose-payment link">More payment options</a>
                         </div>
-                        <a href="product-detail.html" class="view-details link">View full details <i
+                        <a href="product-detail.php" class="view-details link">View full details <i
                                 class="icon icon-arrow-right"></i></a>
                     </div>
                 </div>
@@ -2676,13 +2264,13 @@
                         <div class="tf-compare-list">
                             <div class="tf-compare-item file-delete">
                                 <span class="icon-close remove"></span>
-                                <a href="product-detail.html" class="image">
+                                <a href="product-detail.php" class="image">
                                     <img class="lazyload" data-src="images/products/fashion/product-8.jpg"
                                         src="images/products/fashion/product-8.jpg" alt="">
                                 </a>
                                 <div class="content">
                                     <div class="text-title">
-                                        <a class="link text-line-clamp-2" href="product-detail.html">Striped T-Shirt</a>
+                                        <a class="link text-line-clamp-2" href="product-detail.php">Striped T-Shirt</a>
                                     </div>
                                     <p class="price-wrap">
                                         <span class="new-price text-primary">$130.00</span>
@@ -2692,13 +2280,13 @@
                             </div>
                             <div class="tf-compare-item file-delete">
                                 <span class="icon-close remove"></span>
-                                <a href="product-detail.html" class="image">
+                                <a href="product-detail.php" class="image">
                                     <img class="lazyload" data-src="images/products/fashion/product-6.jpg"
                                         src="images/products/fashion/product-6.jpg" alt="">
                                 </a>
                                 <div class="content">
                                     <div class="text-title">
-                                        <a class="link text-line-clamp-2" href="product-detail.html">Loose Fit Tee</a>
+                                        <a class="link text-line-clamp-2" href="product-detail.php">Loose Fit Tee</a>
                                     </div>
                                     <p class="price-wrap">
                                         <span class="new-price text-primary">$115.00</span>
@@ -2708,13 +2296,13 @@
                             </div>
                             <div class="tf-compare-item file-delete">
                                 <span class="icon-close remove"></span>
-                                <a href="product-detail.html" class="image">
+                                <a href="product-detail.php" class="image">
                                     <img class="lazyload" data-src="images/products/fashion/product-15.jpg"
                                         src="images/products/fashion/product-15.jpg" alt="">
                                 </a>
                                 <div class="content">
                                     <div class="text-title">
-                                        <a class="link text-line-clamp-2" href="product-detail.html">Oversized Fit
+                                        <a class="link text-line-clamp-2" href="product-detail.php">Oversized Fit
                                             Tee</a>
                                     </div>
                                     <p class="price-wrap">

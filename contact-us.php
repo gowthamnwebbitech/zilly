@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 
+
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-US" lang="en-US">
 
 <head>
@@ -24,7 +25,7 @@
 
     <div id="wrapper">
 
-        <!-- Top Bar-->
+      <!-- Top Bar-->
         <?php include 'topbar.php'; ?>
         <!-- /Top Bar -->
 
@@ -32,226 +33,151 @@
         <?php include 'header.php'; ?>
         <!-- /Header -->
 
-        <section class="flat-spacing-3 pb-0">
+        <!-- Title Page -->
+        <section class="tf-page-title">
             <div class="container">
-                <div class="flat-title-2 d-xl-flex justify-content-xl-between">
-                    <div class="box-title">
-                        <p class="display-lg-2 fw-medium">
-                            Welcome to Zilly
-                        </p>
-                        <p class="text-xl">
-                            Where Style Meets Everyday Function
-                        </p>
+                <div class="box-title text-center">
+                    <h4 class="title">Contact Us</h4>
+                    <div class="breadcrumb-list">
+                        <a class="breadcrumb-item" href="index.html">Home</a>
+                        <div class="breadcrumb-item dot"><span></span></div>
+                        <div class="breadcrumb-item current">Contact Us</div>
                     </div>
-                    <div class="box-text">
-                        <p class="text-md">
-                            At <span class="fw-medium">Zilly</span>, we design and curate premium bags that combine modern style
-                            with everyday practicality. <br class="d-none d-xl-block">
-                            From chic handbags to versatile backpacks and travel essentials, every piece is crafted with <br
-                                class="d-none d-xl-block">
-                            attention to detail, quality materials, and timeless appeal—perfect for work, travel, and life on the go.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="image radius-16 overflow-hidden banner-about">
-                    <img src="images/section/aboutnew.jpg"
-                        data-src="images/section/aboutnew.jpg"
-                        alt="Zilly Premium Bags Collection"
-                        class="w-100 h-100 object-fit-cover lazyload">
                 </div>
             </div>
         </section>
+        <!-- /Title Page -->
 
-
-        <!-- Why Choose -->
-        <section class="flat-spacing-3">
+        <!-- Contact -->
+        <section class="s-contact flat-spacing-13">
             <div class="container">
-                <div class="flat-title text-center">
-                    <p class="display-md-2 fw-medium">
-                        Why Choose Zilly
-                    </p>
-                    <p class="text-md text-main">
-                        At Zilly, we create bags that blend modern design with everyday functionality. Every piece is thoughtfully
-                        crafted to elevate your style while supporting your daily needs—at work, on the move, or while traveling.
-                    </p>
+                <div class="wg-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27294.62418958524!2d151.25730233429948!3d-33.82005608618041!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b12ab8bc95a137f%3A0x358f04a7f6f5f6a6!2sGrotto%20Point%20Lighthouse!5e0!3m2!1sen!2s!4v1733976867160!5m2!1sen!2s"
+                        class="map" style="border:none;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-
                 <div class="row">
-                    <div class="col-xl-7 col-md-6">
-                        <ul class="list-esd d-md-flex flex-md-column justify-content-md-center h-100">
-                            <li class="item">
-                                <h6>
-                                    Premium Craftsmanship
-                                </h6>
-                                <p class="text-md text-main">
-                                    Each Zilly bag is made using high-quality materials and precise craftsmanship, ensuring
-                                    durability, refined finishes, and long-lasting performance you can rely on every day.
-                                </p>
-                            </li>
-
-                            <li class="item">
-                                <h6>
-                                    Designed for Everyday Life
-                                </h6>
-                                <p class="text-md text-main">
-                                    From spacious totes and elegant handbags to functional backpacks and travel bags, Zilly
-                                    designs combine smart storage with effortless style.
-                                </p>
-                            </li>
-
-                            <li class="item">
-                                <h6>
-                                    Style That Reflects You
-                                </h6>
-                                <p class="text-md text-main">
-                                    Our collections are created for modern individuals who value versatility, confidence, and
-                                    timeless fashion—bags that adapt seamlessly to your lifestyle.
-                                </p>
-                            </li>
-                        </ul>
+                    <div class="col-lg-6">
+                        <div class="content-left">
+                            <div class="title fw-medium display-md-2">
+                                Contact Us
+                            </div>
+                            <p class="sub-title text-main">
+                                Have a question? Please contact us using the customer support <br> channels below.
+                            </p>
+                            <ul class="contact-list">
+                                <li>
+                                    <p>
+                                        Address:
+                                        <a class="link"
+                                            href="https://www.google.com/maps?q=15Yarranst,Punchbowl,NSW,Australia"
+                                            target="_blank">
+                                            15 Yarran st, Punchbowl, NSW, Australia
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Phone number:
+                                        <a class="link" href="tel:123456">
+                                            +1 234 567
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Email:
+                                        <a class="link" href="mailto:contact@vineta.com">
+                                            contact@vineta.com
+                                        </a>
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        Open:
+                                        <span class="text-main">
+                                            8am - 7pm, Mon - Sat
+                                        </span>
+                                    </p>
+                                </li>
+                            </ul>
+                            <ul class="tf-social-icon style-large ">
+                                <li>
+                                    <a href="https://www.facebook.com/" class="social-item social-facebook">
+                                        <i class="icon icon-fb"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/" class="social-item social-instagram">
+                                        <i class="icon icon-instagram"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://x.com/" class="social-item social-x">
+                                        <i class="icon icon-x"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.snapchat.com/" class="social-item social-snapchat"><i
+                                            class="icon icon-snapchat"></i></a>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
-
-                    <div class="col-xl-5 col-md-6">
-                        <div class="image radius-16 overflow-hidden w-100 h-100">
-                            <img src="images/section/aboutnew1.jpg"
-                                data-src="images/section/aboutnew1.jpg"
-                                alt="Zilly Premium Bags"
-                                class="lazyload w-100 h-100 object-fit-cover">
+                    <div class="col-lg-6">
+                        <div class="content-right">
+                            <div class="title fw-medium display-md-2">
+                                Get In Touch
+                            </div>
+                            <p class="sub-title text-main">
+                                Please submit all general enquiries in the contact form below and we look forward to
+                                hearing from you soon.
+                            </p>
+                            <div class="form-contact-wrap">
+                                <form method="post" class="form-default" id="contactform"
+                                    action="https://themesflat.co/html/vineta/contact/contact-process.php">
+                                    <div class="wrap">
+                                        <div class="cols">
+                                            <fieldset>
+                                                <label for="name">Your name*</label>
+                                                <input name="name" id="name" class="radius-8" type="text" required>
+                                            </fieldset>
+                                            <fieldset>
+                                                <label for="email">Your email*</label>
+                                                <input name="email" id="email" class="radius-8" type="email" required>
+                                            </fieldset>
+                                        </div>
+                                        <div class="cols">
+                                            <fieldset class="textarea">
+                                                <label for="message">Message*</label>
+                                                <textarea name="message" id="message" required
+                                                    class="radius-8"></textarea>
+                                            </fieldset>
+                                        </div>
+                                        <div class="button-submit send-wrap">
+                                            <button class="tf-btn animate-btn" type="submit">
+                                                Send
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
+        <!-- /Contact -->
 
-        <!-- /Why Choose -->
 
-        <!-- ================= STYLE CURATED SECTION ================= -->
-        <section class="flat-spacing-3 pt-0">
-            <div class="container">
-                <div class="flat-title-2 d-xl-flex justify-content-xl-between">
-                    <div class="box-title">
-                        <p class="display-md-2 fw-medium">
-                            Bags Curated for Your Lifestyle
-                        </p>
-                        <p class="text-xl">
-                            Designed to Match Your Everyday Journey
-                        </p>
-                    </div>
-                    <div class="box-text">
-                        <p class="text-md">
-                            At <span class="fw-medium">Zilly</span>, we thoughtfully design bags that balance style and function. <br
-                                class="d-none d-xl-block">
-                            From workdays to weekends and travel moments, our collections are crafted to <br
-                                class="d-none d-xl-block">
-                            complement your lifestyle with confidence and ease.
-                        </p>
-                    </div>
-                </div>
 
-                <div dir="ltr" class="swiper tf-swiper" data-swiper='{
-            "slidesPerView": 1,
-            "spaceBetween": 12,
-            "speed": 800,
-            "preventInteractionOnTransition": false,
-            "touchStartPreventDefault": false,
-            "pagination": { "el": ".sw-pagination-iconbox", "clickable": true },
-            "breakpoints": {
-                "575": { "slidesPerView": 2, "spaceBetween": 12 },
-                "992": { "slidesPerView": 3, "spaceBetween": 24 }
-            }
-        }'>
-                    <div class="swiper-wrapper">
 
-                        <!-- item 1 -->
-                        <div class="swiper-slide">
-                            <div class="tf-icon-box style-border">
-                                <div class="box-icon">
-                                    <i class="icon icon-precision"></i>
-                                </div>
-                                <div class="content">
-                                    <h6>Crafted with Precision</h6>
-                                    <p class="text-sm text-main text-line-clamp-4">
-                                        Every Zilly bag is crafted using premium materials with careful attention to stitching,
-                                        structure, and finish—ensuring durability and long-lasting quality.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
 
-                        <!-- item 2 -->
-                        <div class="swiper-slide">
-                            <div class="tf-icon-box style-border">
-                                <div class="box-icon">
-                                    <i class="icon icon-elegance"></i>
-                                </div>
-                                <div class="content">
-                                    <h6>Effortless Style</h6>
-                                    <p class="text-sm text-main text-line-clamp-4">
-                                        Designed with a clean, modern aesthetic, Zilly bags elevate any outfit—whether you're
-                                        heading to work, travel, or a casual day out.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- item 3 -->
-                        <div class="swiper-slide">
-                            <div class="tf-icon-box style-border">
-                                <div class="box-icon">
-                                    <i class="icon icon-fashion-body"></i>
-                                </div>
-                                <div class="content">
-                                    <h6>Made for Every Moment</h6>
-                                    <p class="text-sm text-main text-line-clamp-4">
-                                        From handbags and totes to backpacks and travel bags, our versatile designs adapt
-                                        seamlessly to your everyday needs.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <div class="d-flex d-xl-none sw-dot-default sw-pagination-iconbox justify-content-center"></div>
-                </div>
-            </div>
-        </section>
-
-        <!-- ================= TESTIMONIAL SECTION ================= -->
-        <section class="flat-spacing-13 pt-0">
-            <div class="container">
-                <div class="box-testimonial-quote text-center">
-                    <div class="list-star-default justify-content-center">
-                        <i class="icon-star text-green"></i>
-                        <i class="icon-star text-green"></i>
-                        <i class="icon-star text-green"></i>
-                        <i class="icon-star text-green"></i>
-                        <i class="icon-star text-green"></i>
-                    </div>
-
-                    <p class="text-xl lh-xl-32">
-                        "Zilly bags exceeded my expectations. The quality, design, and fast delivery made the entire
-                        shopping experience seamless. I’ve found my go-to brand for everyday bags!"
-                    </p>
-
-                    <div class="box-author">
-                        <div class="avt">
-                            <img src="images/testimonial/tes-about.jpg" alt="Zilly Customer Review">
-                        </div>
-                        <p class="text-md lh-xl-26 fw-medium">
-                            Zilly Customer
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Footer -->
+    <!-- Footer -->
         <?php include 'footer.php'; ?>
         <!-- /Footer -->
     </div>
-
 
     <!-- modal demo -->
     <div class="modal fade modalDemo" id="modalDemo">
@@ -1340,7 +1266,6 @@
     <!-- /compare  -->
 
 
-
     <!-- Javascript -->
     <script src="js/bootstrap.min.js"></script>
     <script src="js/jquery.min.js"></script>
@@ -1351,8 +1276,7 @@
     <script src="js/count-down.js"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/multiple-modal.js"></script>
-
-
+    <script src="js/jquery-validate.js"></script>
     <script src="js/main.js"></script>
     <script src="js/sibforms.js" defer></script>
     <script>
@@ -1375,4 +1299,6 @@
     </script>
 </body>
 
+
+<!-- Mirrored from themesflat.co/html/vineta/contact-us.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 20 Dec 2025 07:23:40 GMT -->
 </html>

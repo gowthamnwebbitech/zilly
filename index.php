@@ -46,7 +46,7 @@
                                 </div>
                             </div>
                             <div class="box-btn">
-                                <a href="shop-default.html" class="tf-btn btn-white hover-primary">
+                                <a href="product.php" class="tf-btn btn-white hover-primary">
                                     View Collection
                                     <i class="icon icon-arrow-top-left"></i>
                                 </a>
@@ -65,7 +65,7 @@
                                 </div>
                             </div>
                             <div class="box-btn">
-                                <a href="shop-default.html"
+                                <a href="product.php"
                                     class="d-flex align-items-center text-white text-md fw-medium gap-10 link">
                                     <span class="text-transform-none">
                                         Explore Now
@@ -87,7 +87,7 @@
                                 </div>
                             </div>
                             <div class="box-btn">
-                                <a href="shop-default.html"
+                                <a href="product.php"
                                     class="d-flex align-items-center text-white text-md fw-medium gap-10 link">
                                     <span class="text-transform-none">
                                         Explore Now
@@ -109,7 +109,7 @@
                                 </div>
                             </div>
                             <div class="box-btn">
-                                <a href="shop-default.html"
+                                <a href="product.php"
                                     class="d-flex align-items-center text-white text-md fw-medium gap-10 link">
                                     <span class="text-transform-none">
                                         Explore Now
@@ -152,25 +152,30 @@
                             <div class="swiper-slide">
                                 <div class="card-product">
                                     <div class="card-product-wrapper asp-ratio-1">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="img-product lazyload" src="images/products/bags/product1.jpg" alt="Product 1">
-                                            <img class="img-hover lazyload" src="images/products/bags/product2.jpg" alt="Product 1 Hover">
+                                        <a href="product-detail.php" class="product-img">
+                                            <img class="img-product lazyload" src="images/products/bags/product1.jpg"
+                                                alt="Product 1">
+                                            <img class="img-hover lazyload" src="images/products/bags/product2.jpg"
+                                                alt="Product 1 Hover">
                                         </a>
                                         <ul class="list-product-btn">
                                             <li>
-                                                <a href="#quickAdd" data-bs-toggle="modal" class="hover-tooltip tooltip-left box-icon">
+                                                <a href="#quickAdd" data-bs-toggle="modal"
+                                                    class="hover-tooltip tooltip-left box-icon">
                                                     <span class="icon icon-cart2"></span>
                                                     <span class="tooltip">Quick Add</span>
                                                 </a>
                                             </li>
                                             <li class="wishlist">
-                                                <a href="javascript:void(0);" class="hover-tooltip tooltip-left box-icon">
+                                                <a href="javascript:void(0);"
+                                                    class="hover-tooltip tooltip-left box-icon">
                                                     <span class="icon icon-heart2"></span>
                                                     <span class="tooltip">Add to Wishlist</span>
                                                 </a>
                                             </li>
                                             <li>
-                                                <a href="#quickView" data-bs-toggle="modal" class="hover-tooltip tooltip-left box-icon quickview">
+                                                <a href="#quickView" data-bs-toggle="modal"
+                                                    class="hover-tooltip tooltip-left box-icon quickview">
                                                     <span class="icon icon-view"></span>
                                                     <span class="tooltip">Quick View</span>
                                                 </a>
@@ -178,7 +183,7 @@
                                         </ul>
                                     </div>
                                     <div class="card-product-info text-center">
-                                        <a href="product-detail.html" class="name-product fw-medium">Product One</a>
+                                        <a href="product-detail.php" class="name-product fw-medium">Product One</a>
                                         <p class="price-wrap fw-medium">
                                             <span class="price-new text-primary">$120.00</span>
                                             <span class="price-old">$150.00</span>
@@ -191,13 +196,15 @@
                             <div class="swiper-slide">
                                 <div class="card-product">
                                     <div class="card-product-wrapper asp-ratio-1">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="img-product lazyload" src="images/products/bags/product2.jpg" alt="Product 2">
-                                            <img class="img-hover lazyload" src="images/products/bags/product3.jpg" alt="Product 2 Hover">
+                                        <a href="product-detail.php" class="product-img">
+                                            <img class="img-product lazyload" src="images/products/bags/product2.jpg"
+                                                alt="Product 2">
+                                            <img class="img-hover lazyload" src="images/products/bags/product3.jpg"
+                                                alt="Product 2 Hover">
                                         </a>
                                     </div>
                                     <div class="card-product-info text-center">
-                                        <a href="product-detail.html" class="name-product fw-medium">Product Two</a>
+                                        <a href="product-detail.php" class="name-product fw-medium">Product Two</a>
                                         <p class="price-wrap fw-medium">
                                             <span class="price-new text-primary">$125.00</span>
                                             <span class="price-old">$155.00</span>
@@ -210,13 +217,15 @@
                             <div class="swiper-slide">
                                 <div class="card-product">
                                     <div class="card-product-wrapper asp-ratio-1">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="img-product lazyload" src="images/products/bags/product3.jpg" alt="Product 3">
-                                            <img class="img-hover lazyload" src="images/products/bags/product4.jpg" alt="Product 3 Hover">
+                                        <a href="product-detail.php" class="product-img">
+                                            <img class="img-product lazyload" src="images/products/bags/product3.jpg"
+                                                alt="Product 3">
+                                            <img class="img-hover lazyload" src="images/products/bags/product4.jpg"
+                                                alt="Product 3 Hover">
                                         </a>
                                     </div>
                                     <div class="card-product-info text-center">
-                                        <a href="product-detail.html" class="name-product fw-medium">Product Three</a>
+                                        <a href="product-detail.php" class="name-product fw-medium">Product Three</a>
                                         <p class="price-wrap fw-medium">
                                             <span class="price-new text-primary">$130.00</span>
                                             <span class="price-old">$160.00</span>
@@ -229,13 +238,15 @@
                             <div class="swiper-slide">
                                 <div class="card-product">
                                     <div class="card-product-wrapper asp-ratio-1">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="img-product lazyload" src="images/products/bags/product4.jpg" alt="Product 4">
-                                            <img class="img-hover lazyload" src="images/products/bags/product5.jpg" alt="Product 4 Hover">
+                                        <a href="product-detail.php" class="product-img">
+                                            <img class="img-product lazyload" src="images/products/bags/product4.jpg"
+                                                alt="Product 4">
+                                            <img class="img-hover lazyload" src="images/products/bags/product5.jpg"
+                                                alt="Product 4 Hover">
                                         </a>
                                     </div>
                                     <div class="card-product-info text-center">
-                                        <a href="product-detail.html" class="name-product fw-medium">Product Four</a>
+                                        <a href="product-detail.php" class="name-product fw-medium">Product Four</a>
                                         <p class="price-wrap fw-medium">
                                             <span class="price-new text-primary">$135.00</span>
                                             <span class="price-old">$165.00</span>
@@ -248,13 +259,15 @@
                             <div class="swiper-slide">
                                 <div class="card-product">
                                     <div class="card-product-wrapper asp-ratio-1">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="img-product lazyload" src="images/products/bags/product5.jpg" alt="Product 5">
-                                            <img class="img-hover lazyload" src="images/products/bags/product6.jpg" alt="Product 5 Hover">
+                                        <a href="product-detail.php" class="product-img">
+                                            <img class="img-product lazyload" src="images/products/bags/product5.jpg"
+                                                alt="Product 5">
+                                            <img class="img-hover lazyload" src="images/products/bags/product6.jpg"
+                                                alt="Product 5 Hover">
                                         </a>
                                     </div>
                                     <div class="card-product-info text-center">
-                                        <a href="product-detail.html" class="name-product fw-medium">Product Five</a>
+                                        <a href="product-detail.php" class="name-product fw-medium">Product Five</a>
                                         <p class="price-wrap fw-medium">
                                             <span class="price-new text-primary">$140.00</span>
                                             <span class="price-old">$170.00</span>
@@ -267,13 +280,15 @@
                             <div class="swiper-slide">
                                 <div class="card-product">
                                     <div class="card-product-wrapper asp-ratio-1">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="img-product lazyload" src="images/products/bags/product6.jpg" alt="Product 6">
-                                            <img class="img-hover lazyload" src="images/products/bags/product7.jpg" alt="Product 6 Hover">
+                                        <a href="product-detail.php" class="product-img">
+                                            <img class="img-product lazyload" src="images/products/bags/product6.jpg"
+                                                alt="Product 6">
+                                            <img class="img-hover lazyload" src="images/products/bags/product7.jpg"
+                                                alt="Product 6 Hover">
                                         </a>
                                     </div>
                                     <div class="card-product-info text-center">
-                                        <a href="product-detail.html" class="name-product fw-medium">Product Six</a>
+                                        <a href="product-detail.php" class="name-product fw-medium">Product Six</a>
                                         <p class="price-wrap fw-medium">
                                             <span class="price-new text-primary">$145.00</span>
                                             <span class="price-old">$175.00</span>
@@ -286,13 +301,15 @@
                             <div class="swiper-slide">
                                 <div class="card-product">
                                     <div class="card-product-wrapper asp-ratio-1">
-                                        <a href="product-detail.html" class="product-img">
-                                            <img class="img-product lazyload" src="images/products/bags/product7.jpg" alt="Product 7">
-                                            <img class="img-hover lazyload" src="images/products/bags/product7.jpg" alt="Product 7 Hover">
+                                        <a href="product-detail.php" class="product-img">
+                                            <img class="img-product lazyload" src="images/products/bags/product7.jpg"
+                                                alt="Product 7">
+                                            <img class="img-hover lazyload" src="images/products/bags/product7.jpg"
+                                                alt="Product 7 Hover">
                                         </a>
                                     </div>
                                     <div class="card-product-info text-center">
-                                        <a href="product-detail.html" class="name-product fw-medium">Product Seven</a>
+                                        <a href="product-detail.php" class="name-product fw-medium">Product Seven</a>
                                         <p class="price-wrap fw-medium">
                                             <span class="price-new text-primary">$150.00</span>
                                         </p>
@@ -471,13 +488,13 @@
                             <!-- item 1 -->
                             <div class="swiper-slide">
                                 <div class="wg-cls style-abs asp-1 hover-img">
-                                    <a href="shop-default.html" class="image img-style d-block">
+                                    <a href="product.php" class="image img-style d-block">
                                         <img src="images/products/bags/newproduct1.jpg"
-                                            data-src="images/products/bags/newproduct1.jpg"
-                                            alt="Handbags" class="lazyload">
+                                            data-src="images/products/bags/newproduct1.jpg" alt="Handbags"
+                                            class="lazyload">
                                     </a>
                                     <div class="cls-btn text-center">
-                                        <a href="shop-default.html" class="tf-btn btn-cls btn-white hover-dark hover-icon-2">
+                                        <a href="product.php" class="tf-btn btn-cls btn-white hover-dark hover-icon-2">
                                             Classic Handbags <i class="icon icon-arrow-top-left"></i>
                                         </a>
                                     </div>
@@ -487,13 +504,13 @@
                             <!-- item 2 -->
                             <div class="swiper-slide">
                                 <div class="wg-cls style-abs asp-1 hover-img">
-                                    <a href="shop-default.html" class="image img-style d-block">
+                                    <a href="product.php" class="image img-style d-block">
                                         <img src="images/products/bags/newproduct2.jpg"
-                                            data-src="images/products/bags/newproduct2.jpg"
-                                            alt="Backpacks" class="lazyload">
+                                            data-src="images/products/bags/newproduct2.jpg" alt="Backpacks"
+                                            class="lazyload">
                                     </a>
                                     <div class="cls-btn text-center">
-                                        <a href="shop-default.html" class="tf-btn btn-cls btn-white hover-dark hover-icon-2">
+                                        <a href="product.php" class="tf-btn btn-cls btn-white hover-dark hover-icon-2">
                                             Modern Backpacks <i class="icon icon-arrow-top-left"></i>
                                         </a>
                                     </div>
@@ -503,13 +520,13 @@
                             <!-- item 3 -->
                             <div class="swiper-slide">
                                 <div class="wg-cls style-abs asp-1 hover-img">
-                                    <a href="shop-default.html" class="image img-style d-block">
+                                    <a href="product.php" class="image img-style d-block">
                                         <img src="images/products/bags/newproduct3.jpg"
-                                            data-src="images/products/bags/newproduct3.jpg"
-                                            alt="Office Bags" class="lazyload">
+                                            data-src="images/products/bags/newproduct3.jpg" alt="Office Bags"
+                                            class="lazyload">
                                     </a>
                                     <div class="cls-btn text-center">
-                                        <a href="shop-default.html" class="tf-btn btn-cls btn-white hover-dark hover-icon-2">
+                                        <a href="product.php" class="tf-btn btn-cls btn-white hover-dark hover-icon-2">
                                             Office Bags <i class="icon icon-arrow-top-left"></i>
                                         </a>
                                     </div>
@@ -527,9 +544,7 @@
         <section class="flat-spacing-3 pt-0">
             <div class="container">
                 <div class="banner-lookbook">
-                    <img class="img-banner"
-                        src="images/banner/bannernew.jpg"
-                        data-src="images/banner/bannernew.jpg"
+                    <img class="img-banner" src="images/banner/bannernew.jpg" data-src="images/banner/bannernew.jpg"
                         alt="Bag Lookbook">
 
                     <!-- LOOKBOOK ITEM 1 -->
@@ -542,13 +557,12 @@
                             <div class="dropdown-menu">
                                 <div class="loobook-product style-row">
                                     <div class="img-style">
-                                        <img src="images/products/bags/newproduct3.jpg"
-                                            alt="Premium Office Laptop Bag">
+                                        <img src="images/products/bags/newproduct3.jpg" alt="Premium Office Laptop Bag">
                                     </div>
 
                                     <div class="content">
                                         <div class="info">
-                                            <a href="product-detail.html"
+                                            <a href="product-detail.php"
                                                 class="text-md fw-medium text-line-clamp-1 link">
                                                 Premium Office Laptop Bag
                                             </a>
@@ -559,8 +573,7 @@
                                             </p>
                                         </div>
 
-                                        <a href="#quickView" data-bs-toggle="modal"
-                                            class="btn-lookbook hover-tooltip">
+                                        <a href="#quickView" data-bs-toggle="modal" class="btn-lookbook hover-tooltip">
                                             <i class="icon-view"></i>
                                             <span class="tooltip">Quick view</span>
                                         </a>
@@ -580,13 +593,12 @@
                             <div class="dropdown-menu">
                                 <div class="loobook-product style-row">
                                     <div class="img-style">
-                                        <img src="images/products/bags/newproduct1.jpg"
-                                            alt="Classic Leather Handbag">
+                                        <img src="images/products/bags/newproduct1.jpg" alt="Classic Leather Handbag">
                                     </div>
 
                                     <div class="content">
                                         <div class="info">
-                                            <a href="product-detail.html"
+                                            <a href="product-detail.php"
                                                 class="text-md fw-medium text-line-clamp-1 link">
                                                 Classic Leather Handbag
                                             </a>
@@ -597,8 +609,7 @@
                                             </p>
                                         </div>
 
-                                        <a href="#quickView" data-bs-toggle="modal"
-                                            class="btn-lookbook hover-tooltip">
+                                        <a href="#quickView" data-bs-toggle="modal" class="btn-lookbook hover-tooltip">
                                             <i class="icon-view"></i>
                                             <span class="tooltip">Quick view</span>
                                         </a>
@@ -677,7 +688,7 @@
                                                 <img src="images/products/bags/product6.jpg" alt="">
                                             </div>
                                             <div class="box-price">
-                                                <a href="product-detail.html" class="link name-item text-md fw-medium">
+                                                <a href="product-detail.php" class="link name-item text-md fw-medium">
                                                     Premium Office Laptop Bag
                                                 </a>
                                                 <p class="price text-md fw-medium">₹3,999</p>
@@ -703,7 +714,8 @@
 
                                         <p class="text-sm fw-medium">Stylish & Spacious</p>
                                         <p class="text-review text-md text-main">
-                                            Beautiful handbag with great finishing. Spacious enough for daily essentials.
+                                            Beautiful handbag with great finishing. Spacious enough for daily
+                                            essentials.
                                         </p>
 
                                         <div class="box-author">
@@ -722,7 +734,7 @@
                                                 <img src="images/products/bags/product5.jpg" alt="">
                                             </div>
                                             <div class="box-price">
-                                                <a href="product-detail.html" class="link name-item text-md fw-medium">
+                                                <a href="product-detail.php" class="link name-item text-md fw-medium">
                                                     Classic Leather Handbag
                                                 </a>
                                                 <p class="price text-md fw-medium">₹2,799</p>
@@ -768,7 +780,7 @@
                                                 <img src="images/products/bags/product7.jpg" alt="">
                                             </div>
                                             <div class="box-price">
-                                                <a href="product-detail.html" class="link name-item text-md fw-medium">
+                                                <a href="product-detail.php" class="link name-item text-md fw-medium">
                                                     Urban Travel Backpack
                                                 </a>
                                                 <p class="price text-md fw-medium">₹3,199</p>
@@ -811,9 +823,10 @@
                         <div class="swiper-slide">
                             <div class="gallery-item hover-img hover-overlay">
                                 <div class="image img-style">
-                                    <img src="images/gallery/bags/bag1.jpg" data-src="images/gallery/bags/bag1.jpg" alt="Women's Handbag" class="lazyload">
+                                    <img src="images/gallery/bags/bag1.jpg" data-src="images/gallery/bags/bag1.jpg"
+                                        alt="Women's Handbag" class="lazyload">
                                 </div>
-                                <a href="product-detail.html" class="box-icon hover-tooltip">
+                                <a href="product-detail.php" class="box-icon hover-tooltip">
                                     <span class="icon icon-cart2"></span>
                                     <span class="tooltip">View Product</span>
                                 </a>
@@ -824,9 +837,10 @@
                         <div class="swiper-slide">
                             <div class="gallery-item hover-img hover-overlay">
                                 <div class="image img-style">
-                                    <img src="images/gallery/bags/bag2.jpg" data-src="images/gallery/bags/bag2.jpg" alt="Women's Shoulder Bag" class="lazyload">
+                                    <img src="images/gallery/bags/bag2.jpg" data-src="images/gallery/bags/bag2.jpg"
+                                        alt="Women's Shoulder Bag" class="lazyload">
                                 </div>
-                                <a href="product-detail.html" class="box-icon hover-tooltip">
+                                <a href="product-detail.php" class="box-icon hover-tooltip">
                                     <span class="icon icon-cart2"></span>
                                     <span class="tooltip">View Product</span>
                                 </a>
@@ -837,9 +851,10 @@
                         <div class="swiper-slide">
                             <div class="gallery-item hover-img hover-overlay">
                                 <div class="image img-style">
-                                    <img src="images/gallery/bags/bag3.jpg" data-src="images/gallery/bags/bag3.jpg" alt="Women's Tote Bag" class="lazyload">
+                                    <img src="images/gallery/bags/bag3.jpg" data-src="images/gallery/bags/bag3.jpg"
+                                        alt="Women's Tote Bag" class="lazyload">
                                 </div>
-                                <a href="product-detail.html" class="box-icon hover-tooltip">
+                                <a href="product-detail.php" class="box-icon hover-tooltip">
                                     <span class="icon icon-cart2"></span>
                                     <span class="tooltip">View Product</span>
                                 </a>
@@ -850,9 +865,10 @@
                         <div class="swiper-slide">
                             <div class="gallery-item hover-img hover-overlay">
                                 <div class="image img-style">
-                                    <img src="images/gallery/bags/bag4.jpg" data-src="images/gallery/bags/bag4.jpg" alt="Women's Crossbody Bag" class="lazyload">
+                                    <img src="images/gallery/bags/bag4.jpg" data-src="images/gallery/bags/bag4.jpg"
+                                        alt="Women's Crossbody Bag" class="lazyload">
                                 </div>
-                                <a href="product-detail.html" class="box-icon hover-tooltip">
+                                <a href="product-detail.php" class="box-icon hover-tooltip">
                                     <span class="icon icon-cart2"></span>
                                     <span class="tooltip">View Product</span>
                                 </a>
@@ -863,9 +879,10 @@
                         <div class="swiper-slide">
                             <div class="gallery-item hover-img hover-overlay">
                                 <div class="image img-style">
-                                    <img src="images/gallery/bags/bag5.jpg" data-src="images/gallery/bags/bag5.jpg" alt="Women's Evening Bag" class="lazyload">
+                                    <img src="images/gallery/bags/bag5.jpg" data-src="images/gallery/bags/bag5.jpg"
+                                        alt="Women's Evening Bag" class="lazyload">
                                 </div>
-                                <a href="product-detail.html" class="box-icon hover-tooltip">
+                                <a href="product-detail.php" class="box-icon hover-tooltip">
                                     <span class="icon icon-cart2"></span>
                                     <span class="tooltip">View Product</span>
                                 </a>
@@ -953,254 +970,7 @@
         <!-- /Footer -->
     </div>
 
-    <!-- modal demo -->
-    <div class="modal fade modalDemo" id="modalDemo">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="header">
-                    <h5 class="demo-title">Ultimate HTML Theme</h5>
-                    <span class="icon-close icon-close-popup" data-bs-dismiss="modal"></span>
-                </div>
-                <div class="mega-menu">
-                    <div class="row-demo">
-                        <div class="demo-item">
-                            <a href="index.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/fashion-1.jpg"
-                                    src="images/demo/fashion-1.jpg" alt="home-fashion">
-                                <div class="demo-label">
-                                    <span>New</span>
-                                    <span class="demo-hot">Hot</span>
-                                </div>
-                            </a>
-                            <a href="index.html" class="demo-name link">Fashion Style 1</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-fashion-02.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/fashion-2.jpg"
-                                    src="images/demo/fashion-2.jpg" alt="home-fashion">
-                            </a>
-                            <a href="home-fashion-02.html" class="demo-name link">Fashion Style
-                                2</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-florist.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/florist.jpg" src="images/demo/florist.jpg"
-                                    alt="home-florist">
-                            </a>
-                            <a href="home-florist.html" class="demo-name link">Florist</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-ergonic-chair.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/ergonic-chair.jpg"
-                                    src="images/demo/ergonic-chair.jpg" alt="home-chair">
-                            </a>
-                            <a href="home-ergonic-chair.html" class="demo-name link">Ergonic Chair</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-travel.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/travel.jpg" src="images/demo/travel.jpg"
-                                    alt="travel">
-                            </a>
-                            <a href="home-travel.html" class="demo-name link">Travel</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-book.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/books.jpg" src="images/demo/books.jpg"
-                                    alt="travel">
-                            </a>
-                            <a href="home-book.html" class="demo-name link">Books</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-watch.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/watch.jpg" src="images/demo/watch.jpg"
-                                    alt="travel">
-                            </a>
-                            <a href="home-watch.html" class="demo-name link">Watch</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-electronic.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/electronic.jpg"
-                                    src="images/demo/electronic.jpg" alt="home-electronic">
-                            </a>
-                            <a href="home-electronic.html" class="demo-name link">Electronic</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-furniture.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/furniture.jpg"
-                                    src="images/demo/furniture.jpg" alt="home-furniture">
-                            </a>
-                            <a href="home-furniture.html" class="demo-name link">Furniture</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-fashion-women.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/women-fashion.jpg"
-                                    src="images/demo/women-fashion.jpg" alt="home-women-fashion">
-                                <div class="demo-label">
-                                    <span>New</span>
-                                    <span class="demo-hot">Hot</span>
-                                </div>
-                            </a>
-                            <a href="home-fashion-women.html" class="demo-name link">Women
-                                Fashion</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-skincare.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/comestic.jpg" src="images/demo/comestic.jpg"
-                                    alt="home-comestic">
-                            </a>
-                            <a href="home-skincare.html" class="demo-name link">Skincare</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-bicycle.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/bicycle.jpg" src="images/demo/bicycle.jpg"
-                                    alt="home-bicycle">
-                                <div class="demo-label"><span>New</span></div>
-                            </a>
-                            <a href="home-bicycle.html" class="demo-name link">Bicycle</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-phonecase.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/phonecase.jpg"
-                                    src="images/demo/phonecase.jpg" alt="home-phonecase">
-                            </a>
-                            <a href="home-phonecase.html" class="demo-name link">Phone Case</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-pet-accessories.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/pet-accessories.jpg"
-                                    src="images/demo/pet-accessories.jpg" alt="home-pet">
-                            </a>
-                            <a href="home-pet-accessories.html" class="demo-name link">Pet
-                                Accessories</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-sportwear.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/sportwear.jpg"
-                                    src="images/demo/sportwear.jpg" alt="home-bicycle">
-                            </a>
-                            <a href="home-sportwear.html" class="demo-name link">Sportwear</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-jewelry.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/jewelry.jpg" src="images/demo/jewelry.jpg"
-                                    alt="home-jewelry">
-                            </a>
-                            <a href="home-jewelry.html" class="demo-name link">Jewelry</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-electric-accessories.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/eletric-accessories.jpg"
-                                    src="images/demo/eletric-accessories.jpg" alt="home-electric-accessories">
-                                <div class="demo-label">
-                                    <span>New</span>
-                                    <span class="demo-hot">Hot</span>
-                                </div>
-                            </a>
-                            <a href="home-electric-accessories.html" class="demo-name link">Electric Accessories</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-mega-electronic.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/mega-shop.jpg"
-                                    src="images/demo/mega-shop.jpg" alt="home-mega-electronic">
-                            </a>
-                            <a href="home-mega-electronic.html" class="demo-name link">Mega Shop</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-vegetable.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/supermarket.jpg"
-                                    src="images/demo/supermarket.jpg" alt="home-supermarket">
-                            </a>
-                            <a href="home-vegetable.html" class="demo-name link">Supermarket</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-pod.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/pod.jpg" src="images/demo/pod.jpg"
-                                    alt="home-pod">
-                            </a>
-                            <a href="home-pod.html" class="demo-name link">Print On Demand</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-baby.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/baby.jpg" src="images/demo/baby.jpg"
-                                    alt="home-baby">
-                                <div class="demo-label">
-                                    <span>New</span>
-                                </div>
-                            </a>
-                            <a href="home-baby.html" class="demo-name link">Baby</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-plant.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/plant.jpg" src="images/demo/plant.jpg"
-                                    alt="home-plant">
-                            </a>
-                            <a href="home-plant.html" class="demo-name link">Plant</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-jewelry2.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/jewelry2.jpg" src="images/demo/jewelry2.jpg"
-                                    alt="home-jewelry">
-                            </a>
-                            <a href="home-jewelry2.html" class="demo-name link">Jewelry 2</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-pickleball.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/pickleball.jpg"
-                                    src="images/demo/pickleball.jpg" alt="home-pickleball">
-                            </a>
-                            <a href="home-pickleball.html" class="demo-name link">Pickleball</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-handcraft.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/handcraft.jpg"
-                                    src="images/demo/handcraft.jpg" alt="home-handcraft">
-                            </a>
-                            <a href="home-handcraft.html" class="demo-name link">Handcraft</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-furniture2.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/furniture2.jpg"
-                                    src="images/demo/furniture2.jpg" alt="home-furniture">
-                            </a>
-                            <a href="home-furniture2.html" class="demo-name link">Furniture 2</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-skincare2.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/skincare2.jpg"
-                                    src="images/demo/skincare2.jpg" alt="home-skincare">
-                            </a>
-                            <a href="home-skincare2.html" class="demo-name link">Skincare 2</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-supplement.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/supplement.jpg"
-                                    src="images/demo/supplement.jpg" alt="home-skincare">
-                                <div class="demo-label"><span>New</span></div>
-                            </a>
-                            <a href="home-supplement.html" class="demo-name link">Supplement</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-footwear.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/footwear.jpg" src="images/demo/footwear.jpg"
-                                    alt="home-skincare">
-                                <div class="demo-label"><span>New</span></div>
-                            </a>
-                            <a href="home-footwear.html" class="demo-name link">Footwear</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-glasses.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/glasses.jpg" src="images/demo/glasses.jpg"
-                                    alt="home-skincare">
-                                <div class="demo-label"><span>New</span></div>
-                            </a>
-                            <a href="home-glasses.html" class="demo-name link">Glasses</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /modal demo -->
+
 
     <!-- mobile menu -->
     <div class="offcanvas offcanvas-start canvas-mb" id="mobileMenu">
@@ -1300,7 +1070,7 @@
             </a>
         </div>
         <div class="toolbar-item">
-            <a href="shop-default.html">
+            <a href="product.php">
                 <div class="toolbar-icon">
                     <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path fill-rule="evenodd" clip-rule="evenodd"
@@ -1370,7 +1140,8 @@
                 <button class="icon-close icon-close-popup" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="canvas-body popup-inner">
-                <form action="https://themesflat.co/html/vineta/account-page.html" accept-charset="utf-8" class="form-login">
+                <form action="https://themesflat.co/html/vineta/account-page.html" accept-charset="utf-8"
+                    class="form-login">
                     <div>
                         <fieldset class="email mb_12">
                             <input type="email" class="" placeholder="Email*" required>
@@ -1509,369 +1280,7 @@
     <!-- /Reset pass -->
 
     <!-- search -->
-    <div class="modal fade popup-search" id="search">
-        <div class="modal-dialog modal-fullscreen">
-            <div class="modal-content">
-                <div class="header">
-                    <button class="icon-close icon-close-popup" data-bs-dismiss="modal"></button>
-                </div>
-                <div class="container">
-                    <div class="row justify-content-center">
-                        <div class="col-lg-8">
-                            <div class="looking-for-wrap">
-                                <div class="heading">What are you looking for?</div>
-                                <form class="form-search">
-                                    <fieldset class="text">
-                                        <input type="text" placeholder="Search" class="" name="text" tabindex="0"
-                                            value="" aria-required="true" required="">
-                                    </fieldset>
-                                    <button class="" type="submit">
-                                        <i class="icon icon-search"></i>
-                                    </button>
-                                </form>
-                                <div class="popular-searches justify-content-md-center">
-                                    <div class="text fw-medium">Popular searches:</div>
-                                    <ul>
-                                        <li><a class="link" href="#">Featured</a></li>
-                                        <li><a class="link" href="#">Trendy</a></li>
-                                        <li><a class="link" href="#">New</a></li>
-                                        <li><a class="link" href="#">Sale</a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-12">
-                            <div class="featured-product">
-                                <div class="text-xl-2 fw-medium featured-product-heading">Featured product</div>
-                                <div dir="ltr" class="swiper tf-swiper wrap-sw-over" data-swiper='{
-                                        "slidesPerView": 2,
-                                        "spaceBetween": 12,
-                                        "speed": 800,
-                                        "observer": true,
-                                        "observeParents": true,
-                                        "slidesPerGroup": 2,
-                                        "pagination": { "el": ".sw-pagination-search", "clickable": true },
-                                        "breakpoints": {
-                                        "768": { "slidesPerView": 3, "spaceBetween": 12, "slidesPerGroup": 3 },
-                                        "1200": { "slidesPerView": 4, "spaceBetween": 24, "slidesPerGroup": 4}
-                                        }
-                                    }'>
-                                    <div class="swiper-wrapper">
-                                        <div class="swiper-slide">
-                                            <div class="card-product">
-                                                <div class="card-product-wrapper asp-ratio-1">
-                                                    <a href="product-detail.html" class="product-img">
-                                                        <img class="img-product lazyload"
-                                                            data-src="images/products/footwear/product-1.jpg"
-                                                            src="images/products/footwear/product-1.jpg"
-                                                            alt="image-product">
-                                                        <img class="img-hover lazyload"
-                                                            data-src="images/products/footwear/product-2.jpg"
-                                                            src="images/products/footwear/product-2.jpg"
-                                                            alt="image-product">
-                                                    </a>
-                                                    <ul class="list-product-btn">
-                                                        <li>
-                                                            <a href="#quickAdd" data-bs-toggle="modal"
-                                                                class="hover-tooltip tooltip-left box-icon">
-                                                                <span class="icon icon-cart2"></span>
-                                                                <span class="tooltip">Quick Add</span>
-                                                            </a>
-                                                        </li>
-                                                        <li class="wishlist">
-                                                            <a href="javascript:void(0);"
-                                                                class="hover-tooltip tooltip-left box-icon">
-                                                                <span class="icon icon-heart2"></span>
-                                                                <span class="tooltip">Add to Wishlist</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#quickView" data-bs-toggle="modal"
-                                                                class="hover-tooltip tooltip-left box-icon quickview">
-                                                                <span class="icon icon-view"></span>
-                                                                <span class="tooltip">Quick View</span>
-                                                            </a>
-                                                        </li>
-                                                        <li class="compare">
-                                                            <a href="#compare" data-bs-toggle="modal"
-                                                                aria-controls="compare"
-                                                                class="hover-tooltip tooltip-left box-icon">
-                                                                <span class="icon icon-compare"></span>
-                                                                <span class="tooltip">Add to Compare</span>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="card-product-info text-center">
-                                                    <a href="product-detail.html"
-                                                        class="name-product link fw-medium text-md">Nike Air Force 1
-                                                        '07</a>
-                                                    <p class="price-wrap fw-medium">
-                                                        <span class="price-new text-xl text-primary">$125.00</span>
-                                                        <span class="price-old">$145.00</span>
-                                                    </p>
-                                                    <ul class="list-color-product style-2 justify-content-center">
-                                                        <li
-                                                            class="list-color-item hover-tooltip tooltip-bot line color-swatch active">
-                                                            <span class="tooltip color-filter">White</span>
-                                                            <span class="swatch-value bg-white"></span>
-                                                            <img class=" lazyload"
-                                                                data-src="images/products/footwear/product-1.jpg"
-                                                                src="images/products/footwear/product-1.jpg"
-                                                                alt="image-product">
-                                                        </li>
-                                                        <li
-                                                            class="list-color-item color-swatch hover-tooltip tooltip-bot">
-                                                            <span class="tooltip color-filter">Black</span>
-                                                            <span class="swatch-value bg-dark-2"></span>
-                                                            <img class=" lazyload"
-                                                                data-src="images/products/footwear/product-2.jpg"
-                                                                src="images/products/footwear/product-2.jpg"
-                                                                alt="image-product">
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="card-product">
-                                                <div class="card-product-wrapper asp-ratio-1">
-                                                    <a href="product-detail.html" class="product-img">
-                                                        <img class="img-product lazyload"
-                                                            data-src="images/products/footwear/product-3.jpg"
-                                                            src="images/products/footwear/product-3.jpg"
-                                                            alt="image-product">
-                                                        <img class="img-hover lazyload"
-                                                            data-src="images/products/footwear/product-4.jpg"
-                                                            src="images/products/footwear/product-4.jpg"
-                                                            alt="image-product">
-                                                    </a>
-                                                    <ul class="list-product-btn">
-                                                        <li>
-                                                            <a href="#quickAdd" data-bs-toggle="modal"
-                                                                class="hover-tooltip tooltip-left box-icon">
-                                                                <span class="icon icon-cart2"></span>
-                                                                <span class="tooltip">Quick Add</span>
-                                                            </a>
-                                                        </li>
-                                                        <li class="wishlist">
-                                                            <a href="javascript:void(0);"
-                                                                class="hover-tooltip tooltip-left box-icon">
-                                                                <span class="icon icon-heart2"></span>
-                                                                <span class="tooltip">Add to Wishlist</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#quickView" data-bs-toggle="modal"
-                                                                class="hover-tooltip tooltip-left box-icon quickview">
-                                                                <span class="icon icon-view"></span>
-                                                                <span class="tooltip">Quick View</span>
-                                                            </a>
-                                                        </li>
-                                                        <li class="compare">
-                                                            <a href="#compare" data-bs-toggle="modal"
-                                                                aria-controls="compare"
-                                                                class="hover-tooltip tooltip-left box-icon">
-                                                                <span class="icon icon-compare"></span>
-                                                                <span class="tooltip">Add to Compare</span>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="card-product-info text-center">
-                                                    <a href="product-detail.html"
-                                                        class="name-product link fw-medium text-md">Nike P-6000</a>
-                                                    <p class="price-wrap fw-medium">
-                                                        <span class="price-new text-xl text-primary">$120.00</span>
-                                                        <span class="price-old">$140.00</span>
-                                                    </p>
-                                                    <ul class="list-color-product style-2 justify-content-center">
-                                                        <li
-                                                            class="list-color-item hover-tooltip tooltip-bot line color-swatch active">
-                                                            <span class="tooltip color-filter">White</span>
-                                                            <span class="swatch-value bg-white"></span>
-                                                            <img class=" lazyload"
-                                                                data-src="images/products/footwear/product-3.jpg"
-                                                                src="images/products/footwear/product-3.jpg"
-                                                                alt="image-product">
-                                                        </li>
-                                                        <li
-                                                            class="list-color-item color-swatch hover-tooltip tooltip-bot">
-                                                            <span class="tooltip color-filter">Brown</span>
-                                                            <span class="swatch-value bg-brown-9"></span>
-                                                            <img class=" lazyload"
-                                                                data-src="images/products/footwear/product-4.jpg"
-                                                                src="images/products/footwear/product-4.jpg"
-                                                                alt="image-product">
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="card-product">
-                                                <div class="card-product-wrapper asp-ratio-1">
-                                                    <a href="product-detail.html" class="product-img">
-                                                        <img class="img-product lazyload"
-                                                            data-src="images/products/footwear/product-5.jpg"
-                                                            src="images/products/footwear/product-5.jpg"
-                                                            alt="image-product">
-                                                        <img class="img-hover lazyload"
-                                                            data-src="images/products/footwear/product-6.jpg"
-                                                            src="images/products/footwear/product-6.jpg"
-                                                            alt="image-product">
-                                                    </a>
-                                                    <ul class="list-product-btn">
-                                                        <li>
-                                                            <a href="#quickAdd" data-bs-toggle="modal"
-                                                                class="hover-tooltip tooltip-left box-icon">
-                                                                <span class="icon icon-cart2"></span>
-                                                                <span class="tooltip">Quick Add</span>
-                                                            </a>
-                                                        </li>
-                                                        <li class="wishlist">
-                                                            <a href="javascript:void(0);"
-                                                                class="hover-tooltip tooltip-left box-icon">
-                                                                <span class="icon icon-heart2"></span>
-                                                                <span class="tooltip">Add to Wishlist</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#quickView" data-bs-toggle="modal"
-                                                                class="hover-tooltip tooltip-left box-icon quickview">
-                                                                <span class="icon icon-view"></span>
-                                                                <span class="tooltip">Quick View</span>
-                                                            </a>
-                                                        </li>
-                                                        <li class="compare">
-                                                            <a href="#compare" data-bs-toggle="modal"
-                                                                aria-controls="compare"
-                                                                class="hover-tooltip tooltip-left box-icon">
-                                                                <span class="icon icon-compare"></span>
-                                                                <span class="tooltip">Add to Compare</span>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="card-product-info text-center">
-                                                    <a href="product-detail.html"
-                                                        class="name-product link fw-medium text-md">Nike Air Max
-                                                        Plus</a>
-                                                    <p class="price-wrap fw-medium">
-                                                        <span class="price-new text-xl text-primary">$140.00</span>
-                                                        <span class="price-old">$160.00</span>
-                                                    </p>
-                                                    <ul class="list-color-product style-2 justify-content-center">
-                                                        <li
-                                                            class="list-color-item hover-tooltip tooltip-bot line color-swatch active">
-                                                            <span class="tooltip color-filter">Orange</span>
-                                                            <span class="swatch-value bg-light-orange-5"></span>
-                                                            <img class=" lazyload"
-                                                                data-src="images/products/footwear/product-5.jpg"
-                                                                src="images/products/footwear/product-5.jpg"
-                                                                alt="image-product">
-                                                        </li>
-                                                        <li
-                                                            class="list-color-item color-swatch hover-tooltip tooltip-bot">
-                                                            <span class="tooltip color-filter">Black</span>
-                                                            <span class="swatch-value bg-dark"></span>
-                                                            <img class=" lazyload"
-                                                                data-src="images/products/footwear/product-6.jpg"
-                                                                src="images/products/footwear/product-6.jpg"
-                                                                alt="image-product">
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="swiper-slide">
-                                            <div class="card-product">
-                                                <div class="card-product-wrapper asp-ratio-1">
-                                                    <a href="product-detail.html" class="product-img">
-                                                        <img class="img-product lazyload"
-                                                            data-src="images/products/footwear/product-7.jpg"
-                                                            src="images/products/footwear/product-7.jpg"
-                                                            alt="image-product">
-                                                        <img class="img-hover lazyload"
-                                                            data-src="images/products/footwear/product-8.jpg"
-                                                            src="images/products/footwear/product-8.jpg"
-                                                            alt="image-product">
-                                                    </a>
-                                                    <ul class="list-product-btn">
-                                                        <li>
-                                                            <a href="#quickAdd" data-bs-toggle="modal"
-                                                                class="hover-tooltip tooltip-left box-icon">
-                                                                <span class="icon icon-cart2"></span>
-                                                                <span class="tooltip">Quick Add</span>
-                                                            </a>
-                                                        </li>
-                                                        <li class="wishlist">
-                                                            <a href="javascript:void(0);"
-                                                                class="hover-tooltip tooltip-left box-icon">
-                                                                <span class="icon icon-heart2"></span>
-                                                                <span class="tooltip">Add to Wishlist</span>
-                                                            </a>
-                                                        </li>
-                                                        <li>
-                                                            <a href="#quickView" data-bs-toggle="modal"
-                                                                class="hover-tooltip tooltip-left box-icon quickview">
-                                                                <span class="icon icon-view"></span>
-                                                                <span class="tooltip">Quick View</span>
-                                                            </a>
-                                                        </li>
-                                                        <li class="compare">
-                                                            <a href="#compare" data-bs-toggle="modal"
-                                                                aria-controls="compare"
-                                                                class="hover-tooltip tooltip-left box-icon">
-                                                                <span class="icon icon-compare"></span>
-                                                                <span class="tooltip">Add to Compare</span>
-                                                            </a>
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                                <div class="card-product-info text-center">
-                                                    <a href="product-detail.html"
-                                                        class="name-product link fw-medium text-md">Nike Victori One</a>
-                                                    <p class="price-wrap fw-medium">
-                                                        <span class="price-new text-xl text-primary">$135.00</span>
-                                                        <span class="price-old">$155.00</span>
-                                                    </p>
-                                                    <ul class="list-color-product style-2 justify-content-center">
-                                                        <li
-                                                            class="list-color-item hover-tooltip tooltip-bot line color-swatch active">
-                                                            <span class="tooltip color-filter">Brown</span>
-                                                            <span class="swatch-value bg-brown-7"></span>
-                                                            <img class=" lazyload"
-                                                                data-src="images/products/footwear/product-7.jpg"
-                                                                src="images/products/footwear/product-7.jpg"
-                                                                alt="image-product">
-                                                        </li>
-                                                        <li
-                                                            class="list-color-item color-swatch hover-tooltip tooltip-bot">
-                                                            <span class="tooltip color-filter">Black</span>
-                                                            <span class="swatch-value bg-dark"></span>
-                                                            <img class=" lazyload"
-                                                                data-src="images/products/footwear/product-8.jpg"
-                                                                src="images/products/footwear/product-8.jpg"
-                                                                alt="image-product">
-                                                        </li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div
-                                        class="d-flex d-xl-none sw-dot-default sw-pagination-search justify-content-center">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-    </div>
+    <?php include 'searchmodal.php'; ?>
     <!-- /search -->
 
     <!-- shoppingCart -->
@@ -1899,14 +1308,14 @@
                             <div class="tf-mini-cart-items">
                                 <div class="tf-mini-cart-item file-delete">
                                     <div class="tf-mini-cart-image">
-                                        <a href="product-detail.html">
+                                        <a href="product-detail.php">
                                             <img class="lazyload" data-src="images/products/footwear/product-1.jpg"
                                                 src="images/products/footwear/product-1.jpg" alt="img-product">
                                         </a>
                                     </div>
                                     <div class="tf-mini-cart-info">
                                         <div class="d-flex justify-content-between">
-                                            <a class="title link text-md fw-medium" href="product-detail.html">Nike Air
+                                            <a class="title link text-md fw-medium" href="product-detail.php">Nike Air
                                                 Force 1 '07</a>
                                             <i class="icon icon-close remove fs-12"></i>
                                         </div>
@@ -1924,14 +1333,14 @@
                                 </div>
                                 <div class="tf-mini-cart-item file-delete">
                                     <div class="tf-mini-cart-image">
-                                        <a href="product-detail.html">
+                                        <a href="product-detail.php">
                                             <img class="lazyload" data-src="images/products/footwear/product-2.jpg"
                                                 src="images/products/footwear/product-2.jpg" alt="img-product">
                                         </a>
                                     </div>
                                     <div class="tf-mini-cart-info">
                                         <div class="d-flex justify-content-between">
-                                            <a class="title link text-md fw-medium" href="product-detail.html">Nike
+                                            <a class="title link text-md fw-medium" href="product-detail.php">Nike
                                                 P-6000</a>
                                             <i class="icon icon-close remove fs-12"></i>
                                         </div>
@@ -1977,7 +1386,7 @@
                                         <div class="swiper-slide">
                                             <div class="tf-mini-cart-item line radius-16">
                                                 <div class="tf-mini-cart-image">
-                                                    <a href="product-detail.html">
+                                                    <a href="product-detail.php">
                                                         <img class="lazyload"
                                                             data-src="images/products/footwear/product-3.jpg"
                                                             src="images/products/footwear/product-3.jpg"
@@ -1986,7 +1395,7 @@
                                                 </div>
                                                 <div class="tf-mini-cart-info justify-content-center">
                                                     <a class="title link text-md fw-medium"
-                                                        href="product-detail.html">Nike Air Max Plus</a>
+                                                        href="product-detail.php">Nike Air Max Plus</a>
                                                     <p class="price-wrap text-sm fw-medium">
                                                         <span class="new-price text-primary">$120.00</span>
                                                         <span
@@ -2001,7 +1410,7 @@
                                         <div class="swiper-slide">
                                             <div class="tf-mini-cart-item line radius-16">
                                                 <div class="tf-mini-cart-image">
-                                                    <a href="product-detail.html">
+                                                    <a href="product-detail.php">
                                                         <img class="lazyload"
                                                             data-src="images/products/footwear/product-4.jpg"
                                                             src="images/products/footwear/product-4.jpg"
@@ -2010,7 +1419,7 @@
                                                 </div>
                                                 <div class="tf-mini-cart-info justify-content-center">
                                                     <a class="title link text-md fw-medium"
-                                                        href="product-detail.html">Nike Victori One</a>
+                                                        href="product-detail.php">Nike Victori One</a>
                                                     <p class="price-wrap text-sm fw-medium">
                                                         <span class="new-price text-primary">$100.00</span>
                                                         <span
@@ -2217,7 +1626,7 @@
                 <div class="tf-product-info-wrap">
                     <div class="tf-product-info-inner">
                         <div class="tf-product-heading">
-                            <h6 class="product-name"><a href="product-detail.html" class="link">Nike Air Force 1 '07</a>
+                            <h6 class="product-name"><a href="product-detail.php" class="link">Nike Air Force 1 '07</a>
                             </h6>
                             <div class="product-price">
                                 <h6 class="price-new price-on-sale">$80.00</h6>
@@ -2244,7 +1653,7 @@
                             <a href="checkout.html" class="tf-btn w-100 animate-btn paypal btn-primary">Buy It Now</a>
                             <a href="checkout.html" class="more-choose-payment link">More payment options</a>
                         </div>
-                        <a href="product-detail.html" class="view-details link">View full details <i
+                        <a href="product-detail.php" class="view-details link">View full details <i
                                 class="icon icon-arrow-right"></i></a>
                     </div>
                 </div>
@@ -2265,7 +1674,7 @@
                                 src="images/products/footwear/product-2.jpg" alt="image-product">
                         </div>
                         <div class="content-box">
-                            <a href="product-detail.html" class="name-product link text-lg">Nike Air Force 1 '07</a>
+                            <a href="product-detail.php" class="name-product link text-lg">Nike Air Force 1 '07</a>
                             <div class="price-show-badge">
                                 <div class="price-wrap">
                                     <span class="price-new">$3,000.00</span>
@@ -2327,13 +1736,13 @@
                         <div class="tf-compare-list">
                             <div class="tf-compare-item file-delete">
                                 <span class="icon-close remove"></span>
-                                <a href="product-detail.html" class="image">
+                                <a href="product-detail.php" class="image">
                                     <img class="lazyload" data-src="images/products/footwear/product-1.jpg"
                                         src="images/products/footwear/product-1.jpg" alt="">
                                 </a>
                                 <div class="content">
                                     <div class="text-title">
-                                        <a class="link text-line-clamp-2" href="product-detail.html">Nike Air Force 1
+                                        <a class="link text-line-clamp-2" href="product-detail.php">Nike Air Force 1
                                             '07</a>
                                     </div>
                                     <p class="price-wrap">
@@ -2344,13 +1753,13 @@
                             </div>
                             <div class="tf-compare-item file-delete">
                                 <span class="icon-close remove"></span>
-                                <a href="product-detail.html" class="image">
+                                <a href="product-detail.php" class="image">
                                     <img class="lazyload" data-src="images/products/footwear/product-2.jpg"
                                         src="images/products/footwear/product-2.jpg" alt="">
                                 </a>
                                 <div class="content">
                                     <div class="text-title">
-                                        <a class="link text-line-clamp-2" href="product-detail.html">Nike P-6000</a>
+                                        <a class="link text-line-clamp-2" href="product-detail.php">Nike P-6000</a>
                                     </div>
                                     <p class="price-wrap">
                                         <span class="new-price">$60.00</span>
@@ -2359,13 +1768,13 @@
                             </div>
                             <div class="tf-compare-item file-delete">
                                 <span class="icon-close remove"></span>
-                                <a href="product-detail.html" class="image">
+                                <a href="product-detail.php" class="image">
                                     <img class="lazyload" data-src="images/products/footwear/product-3.jpg"
                                         src="images/products/footwear/product-3.jpg" alt="">
                                 </a>
                                 <div class="content">
                                     <div class="text-title">
-                                        <a class="link text-line-clamp-2" href="product-detail.html">Nike Air Max
+                                        <a class="link text-line-clamp-2" href="product-detail.php">Nike Air Max
                                             Plus</a>
                                     </div>
                                     <p class="price-wrap">
