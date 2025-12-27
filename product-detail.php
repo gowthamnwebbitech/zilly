@@ -501,14 +501,21 @@
 
                         <!-- PRODUCT INFO -->
                         <div class="tf-sticky-atc-product d-flex align-items-center">
+
                             <div class="tf-sticky-atc-img">
-                                <img class="lazyload" data-src="images/products/bags/product1.jpg"
-                                    src="images/products/bags/product1.jpg" alt="Premium Leather Office Bag">
+                                <img
+                                    class="lazyload"
+                                    src="images/products/bags/zilly-everyday-tote.jpg"
+                                    data-src="images/products/bags/zilly-everyday-tote.jpg"
+                                    alt="Zilly Everyday Tote Bag – Vegan Leather Handcrafted Tote">
                             </div>
+
                             <div class="tf-sticky-atc-title fw-5 d-xl-block d-none">
-                                Premium Leather Office Bag
+                                Zilly Everyday Tote Bag
                             </div>
+
                         </div>
+
 
                         <!-- ACTION AREA -->
                         <div class="tf-sticky-atc-infos">
@@ -517,9 +524,9 @@
                                 <!-- VARIANT / PRICE -->
                                 <div class="tf-sticky-atc-variant-price text-center tf-select">
                                     <select>
-                                        <option selected="selected">Black – ₹2,499</option>
-                                        <option>Brown – ₹2,499</option>
-                                        <option>Tan – ₹2,499</option>
+                                        <option selected="selected">Black – ₹1,999</option>
+                                        <option>Tan – ₹1,999</option>
+                                        <option>Brown – ₹1,999</option>
                                     </select>
                                 </div>
 
@@ -530,15 +537,21 @@
                                     <div class="tf-product-info-quantity">
                                         <div class="wg-quantity">
                                             <button type="button" class="btn-quantity minus-btn">-</button>
-                                            <input class="quantity-product font-4" type="text" value="1">
+                                            <input
+                                                class="quantity-product font-4"
+                                                type="text"
+                                                value="1"
+                                                min="1">
                                             <button type="button" class="btn-quantity plus-btn">+</button>
                                         </div>
                                     </div>
 
                                     <!-- ADD TO CART -->
-                                    <a href="#shoppingCart" data-bs-toggle="offcanvas"
+                                    <a
+                                        href="#shoppingCart"
+                                        data-bs-toggle="offcanvas"
                                         class="tf-btn animate-btn d-inline-flex justify-content-center">
-                                        Add to cart
+                                        Add to Cart
                                     </a>
 
                                 </div>
@@ -557,116 +570,170 @@
 
                 <!-- DESCRIPTION -->
                 <div class="widget-accordion wd-product-descriptions">
-                    <div class="accordion-title collapsed" data-bs-target="#description" data-bs-toggle="collapse"
-                        aria-expanded="true" aria-controls="description" role="button">
-                        <span>Descriptions</span>
+                    <div class="accordion-title collapsed"
+                        data-bs-target="#description"
+                        data-bs-toggle="collapse"
+                        aria-expanded="true"
+                        aria-controls="description"
+                        role="button">
+                        <span>Description</span>
                         <span class="icon icon-arrow-down"></span>
                     </div>
+
                     <div id="description" class="collapse">
                         <div class="accordion-body widget-desc">
+
                             <div class="item">
-                                <p class="fw-medium title">Product Details</p>
+                                <p class="fw-medium title">Product Overview</p>
+                                <p>
+                                    Proudly Indian and thoughtfully designed, the <strong>Everyday Tote Bag</strong> is a refined
+                                    essential crafted to bring effortless organization to your daily life.
+                                </p>
+                                <p>
+                                    Featuring two generously sized main compartments with smooth zipper closures, this tote
+                                    offers structured and segregated storage. A front slip pocket allows quick access to
+                                    essentials, while an inner zip pocket keeps valuables secure.
+                                </p>
+                                <p>
+                                    Designed for versatility and sophistication, it transitions seamlessly from casual outings
+                                    to curated events.
+                                </p>
+                            </div>
+
+                            <div class="item">
+                                <p class="fw-medium title">Ideal Usage</p>
                                 <ul>
-                                    <li>Premium quality leather travel & office bag</li>
-                                    <li>Durable stitching with reinforced handles</li>
-                                    <li>Spacious compartments for daily essentials</li>
+                                    <li>Casual outings and lifestyle events</li>
+                                    <li>Daily work or everyday carry</li>
+                                    <li>Fits a water bottle, small tiffin, iPad/tablet, diary & essentials</li>
                                 </ul>
                             </div>
 
                             <div class="item">
-                                <p class="fw-medium title">Features</p>
+                                <p class="fw-medium title">Water Resistance</p>
                                 <ul>
-                                    <li>Water-resistant inner lining</li>
-                                    <li>Smooth metal zippers</li>
-                                    <li>Adjustable shoulder strap</li>
-                                    <li>Lightweight & easy to carry</li>
+                                    <li>Water-resistant inner lining for added protection</li>
                                 </ul>
                             </div>
 
-                            <div class="item">
-                                <p class="fw-medium title">Usage</p>
-                                <ul>
-                                    <li>Office & business travel</li>
-                                    <li>Daily casual use</li>
-                                    <li>Weekend trips & outings</li>
-                                </ul>
-                            </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- MATERIAL -->
+                <!-- MATERIAL & CARE -->
                 <div class="widget-accordion wd-product-descriptions">
-                    <div class="accordion-title collapsed" data-bs-target="#material" data-bs-toggle="collapse"
-                        aria-expanded="true" aria-controls="material" role="button">
-                        <span>Materials</span>
+                    <div class="accordion-title collapsed"
+                        data-bs-target="#material"
+                        data-bs-toggle="collapse"
+                        aria-expanded="true"
+                        aria-controls="material"
+                        role="button">
+                        <span>Material & Care</span>
                         <span class="icon icon-arrow-down"></span>
                     </div>
+
                     <div id="material" class="collapse">
                         <div class="accordion-body widget-material">
+
                             <div class="item">
-                                <p class="fw-medium title">Material & Care</p>
+                                <p class="fw-medium title">Materials Used</p>
                                 <ul>
-                                    <li>Main Material: Genuine PU / Leather</li>
-                                    <li>Lining: Polyester fabric</li>
-                                    <li>Care: Wipe clean with dry cloth</li>
-                                    <li>Do not wash or bleach</li>
-                                    <li>Store in a dry place</li>
+                                    <li>External: Premium Vegan Leather & Handcrafted Fabric</li>
+                                    <li>Inner Lining: Water-resistant fabric</li>
+                                    <li>Accessories: High-quality metal hardware</li>
                                 </ul>
                             </div>
+
+                            <div class="item">
+                                <p class="fw-medium title">Care Instructions</p>
+                                <ul>
+                                    <li>Wipe vegan leather gently with a damp cotton pad</li>
+                                    <li>For fabric areas, clean lightly using mild soap & water</li>
+                                    <li>Blot inner lining immediately in case of spills</li>
+                                    <li>Allow to air dry completely before use or storage</li>
+                                    <li>Avoid washing, bleaching, or prolonged sun exposure</li>
+                                </ul>
+                                <p class="text-sm mt-2">
+                                    Refer to our <strong>Quick Care Guide</strong> for detailed assistance.
+                                </p>
+                            </div>
+
                         </div>
                     </div>
                 </div>
 
                 <!-- RETURN POLICIES -->
                 <div class="widget-accordion wd-product-descriptions">
-                    <div class="accordion-title collapsed" data-bs-target="#returnPolicies" data-bs-toggle="collapse"
-                        aria-expanded="true" aria-controls="returnPolicies" role="button">
+                    <div class="accordion-title collapsed"
+                        data-bs-target="#returnPolicies"
+                        data-bs-toggle="collapse"
+                        aria-expanded="false"
+                        aria-controls="returnPolicies"
+                        role="button">
                         <span>Return Policies</span>
                         <span class="icon icon-arrow-down"></span>
                     </div>
+
                     <div id="returnPolicies" class="collapse">
                         <div class="accordion-body">
                             <ul class="list-policies">
-                                <li>7 Days easy return</li>
-                                <li>Product must be unused & with tags</li>
-                                <li>Refund processed within 5–7 business days</li>
-                                <li>Exchange available for damaged items</li>
+                                <li>7 days easy return from the date of delivery</li>
+                                <li>Product must be unused, unwashed, and with original tags intact</li>
+                                <li>Refunds are processed within 5–7 business days after inspection</li>
+                                <li>Exchange is applicable only for damaged or defective products</li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
+
                 <!-- ADDITIONAL INFORMATION -->
                 <div class="widget-accordion wd-product-descriptions">
-                    <div class="accordion-title collapsed" data-bs-target="#addInformation" data-bs-toggle="collapse"
-                        aria-expanded="true" aria-controls="addInformation" role="button">
+                    <div class="accordion-title collapsed"
+                        data-bs-target="#addInformation"
+                        data-bs-toggle="collapse"
+                        aria-expanded="true"
+                        aria-controls="addInformation"
+                        role="button">
                         <span>Additional Information</span>
                         <span class="icon icon-arrow-down"></span>
                     </div>
+
                     <div id="addInformation" class="collapse">
                         <div class="accordion-body">
                             <table class="tb-info-product text-md">
                                 <tbody>
                                     <tr>
-                                        <th>Material</th>
-                                        <td>PU Leather</td>
+                                        <th>Brand</th>
+                                        <td>Zilly</td>
                                     </tr>
                                     <tr>
-                                        <th>Color</th>
-                                        <td>Black, Brown, Tan</td>
+                                        <th>Material</th>
+                                        <td>Premium Vegan Leather & Handcrafted Fabric</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Pattern</th>
+                                        <td>Motif</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Compartments</th>
+                                        <td>2 Main Compartments</td>
+                                    </tr>
+                                    <tr>
+                                        <th>Pockets</th>
+                                        <td>1 Slip Pocket, 2 Zipper Pockets</td>
                                     </tr>
                                     <tr>
                                         <th>Closure Type</th>
                                         <td>Zipper</td>
                                     </tr>
                                     <tr>
-                                        <th>Compartments</th>
-                                        <td>3 Main Compartments</td>
+                                        <th>Weight</th>
+                                        <td>515 grams</td>
                                     </tr>
                                     <tr>
-                                        <th>Brand</th>
-                                        <td>Zilly</td>
+                                        <th>Country of Origin</th>
+                                        <td>India</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -676,37 +743,48 @@
 
                 <!-- REVIEWS -->
                 <div class="widget-accordion wd-product-descriptions">
-                    <div class="accordion-title collapsed" data-bs-target="#reviews" data-bs-toggle="collapse"
-                        aria-expanded="true" aria-controls="reviews" role="button">
+                    <div class="accordion-title collapsed"
+                        data-bs-target="#reviews"
+                        data-bs-toggle="collapse"
+                        aria-expanded="true"
+                        aria-controls="reviews"
+                        role="button">
                         <span>Reviews</span>
                         <span class="icon icon-arrow-down"></span>
                     </div>
+
                     <div id="reviews" class="collapse">
                         <div class="accordion-body wd-customer-review">
+
                             <h6 class="title">Customer Reviews</h6>
 
                             <ul class="review-list">
                                 <li class="review-item">
                                     <div class="review-content">
                                         <strong>Ravi K.</strong>
-                                        <p class="text-sm">Excellent bag quality! Spacious and looks premium.</p>
+                                        <p class="text-sm">
+                                            Spacious, premium finish and very comfortable to carry.
+                                        </p>
                                     </div>
                                 </li>
                                 <li class="review-item">
                                     <div class="review-content">
                                         <strong>Anjali S.</strong>
-                                        <p class="text-sm">Perfect for office use. Strong straps and neat finish.</p>
+                                        <p class="text-sm">
+                                            Beautiful design and great quality. Perfect for daily use.
+                                        </p>
                                     </div>
                                 </li>
                             </ul>
 
                             <form class="form-review">
-                                <h6 class="title">Write a review</h6>
+                                <h6 class="title">Write a Review</h6>
                                 <input type="text" placeholder="Name *">
                                 <input type="email" placeholder="Email *">
                                 <textarea placeholder="Your review *"></textarea>
                                 <button type="submit" class="tf-btn animate-btn">Submit</button>
                             </form>
+
                         </div>
                     </div>
                 </div>

@@ -41,7 +41,7 @@
                 <div class="box-title text-center">
                     <h4 class="title">My Wishlist</h4>
                     <div class="breadcrumb-list">
-                        <a class="breadcrumb-item" href="index.html">Home</a>
+                        <a class="breadcrumb-item" href="index.php">Home</a>
                         <div class="breadcrumb-item dot"><span></span></div>
                         <div class="breadcrumb-item current">Wishlist</div>
                     </div>
@@ -58,7 +58,7 @@
                     <div class="card-product style-wishlist style-3 card-product-size">
                         <i class="icon icon-close remove"></i>
                         <div class="card-product-wrapper">
-                            <a href="product-detail.html" class="product-img">
+                            <a href="product-detail.php" class="product-img">
                                 <img class="img-product lazyload"
                                     data-src="images/products/bags/product1.jpg"
                                     src="images/products/bags/product1.jpg" alt="image-product">
@@ -90,7 +90,7 @@
                             </ul>
                         </div>
                         <div class="card-product-info">
-                            <a href="product-detail.html" class="name-product link fw-medium text-md"> Zilly Urban Backpack</a>
+                            <a href="product-detail.php" class="name-product link fw-medium text-md"> Zilly Urban Backpack</a>
                             <p class="price-wrap fw-medium">
                                 <span class="price-new">$120.00</span>
                                 <span class="price-old">$150.00</span>
@@ -124,7 +124,7 @@
                     <div class="card-product style-wishlist style-3 out-of-stock">
                         <i class="icon icon-close remove"></i>
                         <div class="card-product-wrapper">
-                            <a href="product-detail.html" class="product-img">
+                            <a href="product-detail.php" class="product-img">
                                 <img class="img-product lazyload"
                                     data-src="images/products/bags/product3.jpg"
                                     src="images/products/bags/product3.jpg" alt="image-product">
@@ -134,7 +134,7 @@
                             </a>
                         </div>
                         <div class="card-product-info">
-                            <a href="product-detail.html" class="name-product link fw-medium text-md">Zilly Office Laptop Bag</a>
+                            <a href="product-detail.php" class="name-product link fw-medium text-md">Zilly Office Laptop Bag</a>
                             <p class="price-wrap fw-medium">
                                 <span class="price-new">$130.00</span>
                             </p>
@@ -144,7 +144,7 @@
                     <div class="card-product style-wishlist style-3 card-product-size">
                         <i class="icon icon-close remove"></i>
                         <div class="card-product-wrapper">
-                            <a href="product-detail.html" class="product-img">
+                            <a href="product-detail.php" class="product-img">
                                 <img class="img-product lazyload"
                                     data-src="images/products/bags/product4.jpg"
                                     src="images/products/bags/product4.jpg" alt="image-product">
@@ -180,7 +180,7 @@
                             </div>
                         </div>
                         <div class="card-product-info">
-                            <a href="product-detail.html" class="name-product link fw-medium text-md"> Zilly Travel Duffel Bag</a>
+                            <a href="product-detail.php" class="name-product link fw-medium text-md"> Zilly Travel Duffel Bag</a>
                             <p class="price-wrap fw-medium">
                                 <span class="price-new">$60.00</span>
                                 <span class="price-old">$70.00</span>
@@ -208,7 +208,7 @@
                     <div class="card-product style-wishlist style-3 card-product-size">
                         <i class="icon icon-close remove"></i>
                         <div class="card-product-wrapper">
-                            <a href="product-detail.html" class="product-img">
+                            <a href="product-detail.php" class="product-img">
                                 <img class="img-product lazyload"
                                     data-src="images/products/bags/product6.jpg"
                                     src="images/products/bags/product6.jpg" alt="image-product">
@@ -240,7 +240,7 @@
                             </ul>
                         </div>
                         <div class="card-product-info">
-                            <a href="product-detail.html" class="name-product link fw-medium text-md"> Zilly Leather Handbag
+                            <a href="product-detail.php" class="name-product link fw-medium text-md"> Zilly Leather Handbag
                             </a>
                             <p class="price-wrap fw-medium">
                                 <span class="price-new">$80.00</span>
@@ -269,7 +269,7 @@
                     <div class="card-product style-wishlist style-3 card-product-size">
                         <i class="icon icon-close remove"></i>
                         <div class="card-product-wrapper">
-                            <a href="product-detail.html" class="product-img">
+                            <a href="product-detail.php" class="product-img">
                                 <img class="img-product lazyload"
                                     data-src="images/products/bags/product2.jpg"
                                     src="images/products/bags/product2.jpg" alt="image-product">
@@ -301,7 +301,7 @@
                             </ul>
                         </div>
                         <div class="card-product-info">
-                            <a href="product-detail.html" class="name-product link fw-medium text-md"> Zilly Mini Sling Bag
+                            <a href="product-detail.php" class="name-product link fw-medium text-md"> Zilly Mini Sling Bag
                             </a>
                             <p class="price-wrap fw-medium">
                                 <span class="price-new">$40.00</span>
@@ -377,7 +377,7 @@
                             <div class="swiper-slide">
                                 <div class="card-product style-2 card-product-size">
                                     <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
+                                        <a href="product-detail.php" class="product-img">
                                             <img class="img-product lazyload"
                                                 data-src="images/products/fashion/product-5.jpg"
                                                 src="images/products/fashion/product-5.jpg" alt="image-product">
@@ -427,7 +427,7 @@
                                         </div>
                                     </div>
                                     <div class="card-product-info">
-                                        <a href="product-detail.html"
+                                        <a href="product-detail.php"
                                             class="name-product link fw-medium text-md">Turtleneck T-shirt</a>
                                         <p class="price-wrap fw-medium">
                                             <span class="price-new">$80.00</span>
@@ -460,7 +460,7 @@
                             <div class="swiper-slide">
                                 <div class="card-product style-2">
                                     <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
+                                        <a href="product-detail.php" class="product-img">
                                             <img class="img-product lazyload"
                                                 data-src="images/products/fashion/product-12.jpg"
                                                 src="images/products/fashion/product-12.jpg" alt="image-product">
@@ -502,7 +502,7 @@
                                         </div>
                                     </div>
                                     <div class="card-product-info">
-                                        <a href="product-detail.html" class="name-product link fw-medium text-md">Loose
+                                        <a href="product-detail.php" class="name-product link fw-medium text-md">Loose
                                             Fit Tee</a>
                                         <p class="price-wrap fw-medium">
                                             <span class="price-new">$65.00</span>
@@ -529,7 +529,7 @@
                             <div class="swiper-slide">
                                 <div class="card-product style-2">
                                     <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
+                                        <a href="product-detail.php" class="product-img">
                                             <img class="img-product lazyload"
                                                 data-src="images/products/fashion/product-11.jpg"
                                                 src="images/products/fashion/product-11.jpg" alt="image-product">
@@ -575,7 +575,7 @@
                                         </div>
                                     </div>
                                     <div class="card-product-info">
-                                        <a href="product-detail.html" class="name-product link fw-medium text-md">Crop
+                                        <a href="product-detail.php" class="name-product link fw-medium text-md">Crop
                                             T-shirt</a>
                                         <p class="price-wrap fw-medium">
                                             <span class="price-new">$45.00</span>
@@ -607,7 +607,7 @@
                             <div class="swiper-slide">
                                 <div class="card-product style-2">
                                     <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
+                                        <a href="product-detail.php" class="product-img">
                                             <img class="img-product lazyload"
                                                 data-src="images/products/fashion/product-31.jpg"
                                                 src="images/products/fashion/product-31.jpg" alt="image-product">
@@ -649,7 +649,7 @@
                                         </div>
                                     </div>
                                     <div class="card-product-info">
-                                        <a href="product-detail.html" class="name-product link fw-medium text-md">Short
+                                        <a href="product-detail.php" class="name-product link fw-medium text-md">Short
                                             Sleeve Sweat</a>
                                         <p class="price-wrap fw-medium">
                                             <span class="price-new">$130.00</span>
@@ -676,7 +676,7 @@
                             <div class="swiper-slide">
                                 <div class="card-product style-2">
                                     <div class="card-product-wrapper">
-                                        <a href="product-detail.html" class="product-img">
+                                        <a href="product-detail.php" class="product-img">
                                             <img class="img-product lazyload"
                                                 data-src="images/products/fashion/product-30.jpg"
                                                 src="images/products/fashion/product-30.jpg" alt="image-product">
@@ -715,7 +715,7 @@
                                         </ul>
                                     </div>
                                     <div class="card-product-info">
-                                        <a href="product-detail.html" class="name-product link fw-medium text-md">Breeze
+                                        <a href="product-detail.php" class="name-product link fw-medium text-md">Breeze
                                             Soft Tee</a>
                                         <p class="price-wrap fw-medium">
                                             <span class="price-new">$50.00</span>

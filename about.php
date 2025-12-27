@@ -32,24 +32,24 @@
         <?php include 'header.php'; ?>
         <!-- /Header -->
 
+
         <section class="flat-spacing-3 pb-0">
             <div class="container">
                 <div class="flat-title-2 d-xl-flex justify-content-xl-between">
                     <div class="box-title">
                         <p class="display-lg-2 fw-medium">
-                            Welcome to Zilly
+                            Bags for Your Outfit
                         </p>
                         <p class="text-xl">
-                            Where Style Meets Everyday Function
+                            Designer Handbags Rooted in Indian Artistry
                         </p>
                     </div>
                     <div class="box-text">
                         <p class="text-md">
-                            At <span class="fw-medium">Zilly</span>, we design and curate premium bags that combine modern style
-                            with everyday practicality. <br class="d-none d-xl-block">
-                            From chic handbags to versatile backpacks and travel essentials, every piece is crafted with <br
-                                class="d-none d-xl-block">
-                            attention to detail, quality materials, and timeless appeal—perfect for work, travel, and life on the go.
+                            At <span class="fw-medium">Zilly</span>, every bag is a celebration of heritage and conscious luxury. <br class="d-none d-xl-block">
+                            Inspired by the colours of Kanchipuram pattu sarees and the soul of Tamil Nadu, <br class="d-none d-xl-block">
+                            our handcrafted, vegan designs blend timeless tradition with modern elegance— <br class="d-none d-xl-block">
+                            thoughtfully created to complement your outfit and elevate everyday living.
                         </p>
                     </div>
                 </div>
@@ -57,7 +57,7 @@
                 <div class="image radius-16 overflow-hidden banner-about">
                     <img src="images/section/aboutnew.jpg"
                         data-src="images/section/aboutnew.jpg"
-                        alt="Zilly Premium Bags Collection"
+                        alt="Zilly Designer Vegan Handbags"
                         class="w-100 h-100 object-fit-cover lazyload">
                 </div>
             </div>
@@ -72,8 +72,9 @@
                         Why Choose Zilly
                     </p>
                     <p class="text-md text-main">
-                        At Zilly, we create bags that blend modern design with everyday functionality. Every piece is thoughtfully
-                        crafted to elevate your style while supporting your daily needs—at work, on the move, or while traveling.
+                        Zilly handbags are thoughtfully created where heritage meets modern design.
+                        Every piece reflects conscious craftsmanship, cultural depth, and effortless elegance—
+                        designed to complement your outfit and your values.
                     </p>
                 </div>
 
@@ -82,31 +83,34 @@
                         <ul class="list-esd d-md-flex flex-md-column justify-content-md-center h-100">
                             <li class="item">
                                 <h6>
-                                    Premium Craftsmanship
+                                    Handcrafted with Purpose
                                 </h6>
                                 <p class="text-md text-main">
-                                    Each Zilly bag is made using high-quality materials and precise craftsmanship, ensuring
-                                    durability, refined finishes, and long-lasting performance you can rely on every day.
+                                    Each Zilly bag is carefully handcrafted using cruelty-free, vegan materials,
+                                    inspired by the rich artistry of India—ensuring refined finishes, durability,
+                                    and a story woven into every detail.
                                 </p>
                             </li>
 
                             <li class="item">
                                 <h6>
-                                    Designed for Everyday Life
+                                    Designed to Complement Your Outfit
                                 </h6>
                                 <p class="text-md text-main">
-                                    From spacious totes and elegant handbags to functional backpacks and travel bags, Zilly
-                                    designs combine smart storage with effortless style.
+                                    From elegant handbags to versatile everyday styles,
+                                    our designs are created to pair effortlessly with your wardrobe—
+                                    adding femininity, confidence, and timeless charm.
                                 </p>
                             </li>
 
                             <li class="item">
                                 <h6>
-                                    Style That Reflects You
+                                    Rooted in Heritage, Made for Today
                                 </h6>
                                 <p class="text-md text-main">
-                                    Our collections are created for modern individuals who value versatility, confidence, and
-                                    timeless fashion—bags that adapt seamlessly to your lifestyle.
+                                    Inspired by Tamil Nadu’s cultural richness and the colours of Kanchipuram pattu sarees,
+                                    Zilly blends tradition with modern lifestyles—creating bags that feel meaningful,
+                                    responsible, and enduring.
                                 </p>
                             </li>
                         </ul>
@@ -116,15 +120,65 @@
                         <div class="image radius-16 overflow-hidden w-100 h-100">
                             <img src="images/section/aboutnew1.jpg"
                                 data-src="images/section/aboutnew1.jpg"
-                                alt="Zilly Premium Bags"
+                                alt="Zilly Vegan Handcrafted Bags"
                                 class="lazyload w-100 h-100 object-fit-cover">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-
         <!-- /Why Choose -->
+
+        <!-- ================= ZILLY HERITAGE STORY ================= -->
+        <section class="zilly-heritage-section">
+            <div class="zilly-heritage-overlay"></div>
+
+            <div class="container">
+                <div class="zilly-heritage-wrapper">
+
+                    <!-- Left: Brand Story -->
+                    <div class="zilly-heritage-story">
+                        <span class="zilly-heritage-tag">Brand Story</span>
+
+                        <h2 class="zilly-heritage-title">
+                            Luxury, Rooted in Trust
+                        </h2>
+
+                        <p class="zilly-heritage-text">
+                            “Founded on intuition and trust, Zilly was created with one simple belief—
+                            <strong>Every Zilly bag is made to be trusted, worn effortlessly,
+                                and loved beyond trends.</strong>”
+                        </p>
+                    </div>
+
+                    <!-- Right: Founder Note Card -->
+                    <div class="zilly-founder-card">
+                        <span class="zilly-heritage-tag">Founder’s Note</span>
+
+                        <p class="zilly-founder-text">
+                            I built this brand from a quiet belief — that our roots are our greatest luxury.
+                            Why look outward, when our own land holds stories of heritage,
+                            craftsmanship, and soul?
+                            <br><br>
+                            In a world chasing international labels that often cost our planet
+                            and its animals dearly, I chose a different path —
+                            one that honours origin, respects life, and sustainability.
+                            <br><br>
+                            This brand is my promise to preserve where we come from,
+                            and to prove that true luxury is not imported —
+                            <strong>it is inherited.</strong>
+                        </p>
+
+                        <div class="zilly-founder-sign">
+                            — HAZIL
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- ================= /ZILLY HERITAGE STORY ================= -->
+
 
         <!-- ================= STYLE CURATED SECTION ================= -->
         <section class="flat-spacing-3 pt-0">
@@ -132,19 +186,19 @@
                 <div class="flat-title-2 d-xl-flex justify-content-xl-between">
                     <div class="box-title">
                         <p class="display-md-2 fw-medium">
-                            Bags Curated for Your Lifestyle
+                            Bags Curated for Your Outfit
                         </p>
                         <p class="text-xl">
-                            Designed to Match Your Everyday Journey
+                            Designed with Heritage, Styled for Today
                         </p>
                     </div>
                     <div class="box-text">
                         <p class="text-md">
-                            At <span class="fw-medium">Zilly</span>, we thoughtfully design bags that balance style and function. <br
+                            At <span class="fw-medium">Zilly</span>, every bag is thoughtfully designed to balance culture and contemporary living. <br
                                 class="d-none d-xl-block">
-                            From workdays to weekends and travel moments, our collections are crafted to <br
+                            Inspired by Indian artistry and handcrafted with care, our vegan collections are created to <br
                                 class="d-none d-xl-block">
-                            complement your lifestyle with confidence and ease.
+                            complement your outfit—bringing confidence, femininity, and ease to every moment.
                         </p>
                     </div>
                 </div>
@@ -170,10 +224,10 @@
                                     <i class="icon icon-precision"></i>
                                 </div>
                                 <div class="content">
-                                    <h6>Crafted with Precision</h6>
+                                    <h6>Handcrafted with Care</h6>
                                     <p class="text-sm text-main text-line-clamp-4">
-                                        Every Zilly bag is crafted using premium materials with careful attention to stitching,
-                                        structure, and finish—ensuring durability and long-lasting quality.
+                                        Each Zilly bag is carefully handcrafted using cruelty-free materials,
+                                        inspired by traditional Indian craftsmanship and finished with precision and purpose.
                                     </p>
                                 </div>
                             </div>
@@ -186,10 +240,10 @@
                                     <i class="icon icon-elegance"></i>
                                 </div>
                                 <div class="content">
-                                    <h6>Effortless Style</h6>
+                                    <h6>Effortless Everyday Elegance</h6>
                                     <p class="text-sm text-main text-line-clamp-4">
-                                        Designed with a clean, modern aesthetic, Zilly bags elevate any outfit—whether you're
-                                        heading to work, travel, or a casual day out.
+                                        Designed to enhance your outfit, Zilly bags blend timeless elegance with modern silhouettes—
+                                        perfect for workdays, weekends, and everything in between.
                                     </p>
                                 </div>
                             </div>
@@ -202,10 +256,10 @@
                                     <i class="icon icon-fashion-body"></i>
                                 </div>
                                 <div class="content">
-                                    <h6>Made for Every Moment</h6>
+                                    <h6>Created for Every Moment</h6>
                                     <p class="text-sm text-main text-line-clamp-4">
-                                        From handbags and totes to backpacks and travel bags, our versatile designs adapt
-                                        seamlessly to your everyday needs.
+                                        From statement handbags to versatile everyday styles,
+                                        our collections adapt seamlessly to your lifestyle—travel, work, and beyond.
                                     </p>
                                 </div>
                             </div>
@@ -252,255 +306,6 @@
         <!-- /Footer -->
     </div>
 
-
-    <!-- modal demo -->
-    <div class="modal fade modalDemo" id="modalDemo">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="header">
-                    <h5 class="demo-title">Ultimate HTML Theme</h5>
-                    <span class="icon-close icon-close-popup" data-bs-dismiss="modal"></span>
-                </div>
-                <div class="mega-menu">
-                    <div class="row-demo">
-                        <div class="demo-item">
-                            <a href="index.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/fashion-1.jpg"
-                                    src="images/demo/fashion-1.jpg" alt="home-fashion">
-                                <div class="demo-label">
-                                    <span>New</span>
-                                    <span class="demo-hot">Hot</span>
-                                </div>
-                            </a>
-                            <a href="index.html" class="demo-name link">Fashion Style 1</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-fashion-02.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/fashion-2.jpg"
-                                    src="images/demo/fashion-2.jpg" alt="home-fashion">
-                            </a>
-                            <a href="home-fashion-02.html" class="demo-name link">Fashion Style
-                                2</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-florist.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/florist.jpg" src="images/demo/florist.jpg"
-                                    alt="home-florist">
-                            </a>
-                            <a href="home-florist.html" class="demo-name link">Florist</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-ergonic-chair.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/ergonic-chair.jpg"
-                                    src="images/demo/ergonic-chair.jpg" alt="home-chair">
-                            </a>
-                            <a href="home-ergonic-chair.html" class="demo-name link">Ergonic Chair</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-travel.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/travel.jpg" src="images/demo/travel.jpg"
-                                    alt="travel">
-                            </a>
-                            <a href="home-travel.html" class="demo-name link">Travel</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-book.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/books.jpg" src="images/demo/books.jpg"
-                                    alt="travel">
-                            </a>
-                            <a href="home-book.html" class="demo-name link">Books</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-watch.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/watch.jpg" src="images/demo/watch.jpg"
-                                    alt="travel">
-                            </a>
-                            <a href="home-watch.html" class="demo-name link">Watch</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-electronic.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/electronic.jpg"
-                                    src="images/demo/electronic.jpg" alt="home-electronic">
-                            </a>
-                            <a href="home-electronic.html" class="demo-name link">Electronic</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-furniture.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/furniture.jpg"
-                                    src="images/demo/furniture.jpg" alt="home-furniture">
-                            </a>
-                            <a href="home-furniture.html" class="demo-name link">Furniture</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-fashion-women.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/women-fashion.jpg"
-                                    src="images/demo/women-fashion.jpg" alt="home-women-fashion">
-                                <div class="demo-label">
-                                    <span>New</span>
-                                    <span class="demo-hot">Hot</span>
-                                </div>
-                            </a>
-                            <a href="home-fashion-women.html" class="demo-name link">Women
-                                Fashion</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-skincare.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/comestic.jpg" src="images/demo/comestic.jpg"
-                                    alt="home-comestic">
-                            </a>
-                            <a href="home-skincare.html" class="demo-name link">Skincare</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-bicycle.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/bicycle.jpg" src="images/demo/bicycle.jpg"
-                                    alt="home-bicycle">
-                                <div class="demo-label"><span>New</span></div>
-                            </a>
-                            <a href="home-bicycle.html" class="demo-name link">Bicycle</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-phonecase.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/phonecase.jpg"
-                                    src="images/demo/phonecase.jpg" alt="home-phonecase">
-                            </a>
-                            <a href="home-phonecase.html" class="demo-name link">Phone Case</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-pet-accessories.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/pet-accessories.jpg"
-                                    src="images/demo/pet-accessories.jpg" alt="home-pet">
-                            </a>
-                            <a href="home-pet-accessories.html" class="demo-name link">Pet
-                                Accessories</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-sportwear.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/sportwear.jpg"
-                                    src="images/demo/sportwear.jpg" alt="home-bicycle">
-                            </a>
-                            <a href="home-sportwear.html" class="demo-name link">Sportwear</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-jewelry.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/jewelry.jpg" src="images/demo/jewelry.jpg"
-                                    alt="home-jewelry">
-                            </a>
-                            <a href="home-jewelry.html" class="demo-name link">Jewelry</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-electric-accessories.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/eletric-accessories.jpg"
-                                    src="images/demo/eletric-accessories.jpg" alt="home-electric-accessories">
-                                <div class="demo-label">
-                                    <span>New</span>
-                                    <span class="demo-hot">Hot</span>
-                                </div>
-                            </a>
-                            <a href="home-electric-accessories.html" class="demo-name link">Electric Accessories</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-mega-electronic.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/mega-shop.jpg"
-                                    src="images/demo/mega-shop.jpg" alt="home-mega-electronic">
-                            </a>
-                            <a href="home-mega-electronic.html" class="demo-name link">Mega Shop</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-vegetable.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/supermarket.jpg"
-                                    src="images/demo/supermarket.jpg" alt="home-supermarket">
-                            </a>
-                            <a href="home-vegetable.html" class="demo-name link">Supermarket</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-pod.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/pod.jpg" src="images/demo/pod.jpg"
-                                    alt="home-pod">
-                            </a>
-                            <a href="home-pod.html" class="demo-name link">Print On Demand</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-baby.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/baby.jpg" src="images/demo/baby.jpg"
-                                    alt="home-baby">
-                                <div class="demo-label">
-                                    <span>New</span>
-                                </div>
-                            </a>
-                            <a href="home-baby.html" class="demo-name link">Baby</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-plant.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/plant.jpg" src="images/demo/plant.jpg"
-                                    alt="home-plant">
-                            </a>
-                            <a href="home-plant.html" class="demo-name link">Plant</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-jewelry2.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/jewelry2.jpg" src="images/demo/jewelry2.jpg"
-                                    alt="home-jewelry">
-                            </a>
-                            <a href="home-jewelry2.html" class="demo-name link">Jewelry 2</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-pickleball.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/pickleball.jpg"
-                                    src="images/demo/pickleball.jpg" alt="home-pickleball">
-                            </a>
-                            <a href="home-pickleball.html" class="demo-name link">Pickleball</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-handcraft.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/handcraft.jpg"
-                                    src="images/demo/handcraft.jpg" alt="home-handcraft">
-                            </a>
-                            <a href="home-handcraft.html" class="demo-name link">Handcraft</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-furniture2.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/furniture2.jpg"
-                                    src="images/demo/furniture2.jpg" alt="home-furniture">
-                            </a>
-                            <a href="home-furniture2.html" class="demo-name link">Furniture 2</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-skincare2.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/skincare2.jpg"
-                                    src="images/demo/skincare2.jpg" alt="home-skincare">
-                            </a>
-                            <a href="home-skincare2.html" class="demo-name link">Skincare 2</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-supplement.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/supplement.jpg"
-                                    src="images/demo/supplement.jpg" alt="home-skincare">
-                                <div class="demo-label"><span>New</span></div>
-                            </a>
-                            <a href="home-supplement.html" class="demo-name link">Supplement</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-footwear.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/footwear.jpg" src="images/demo/footwear.jpg"
-                                    alt="home-skincare">
-                                <div class="demo-label"><span>New</span></div>
-                            </a>
-                            <a href="home-footwear.html" class="demo-name link">Footwear</a>
-                        </div>
-                        <div class="demo-item">
-                            <a href="home-glasses.html" class="demo-image">
-                                <img class="lazyload" data-src="images/demo/glasses.jpg" src="images/demo/glasses.jpg"
-                                    alt="home-skincare">
-                                <div class="demo-label"><span>New</span></div>
-                            </a>
-                            <a href="home-glasses.html" class="demo-name link">Glasses</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- /modal demo -->
 
     <!-- mobile menu -->
     <?php include 'mobilemenu.php'; ?>
@@ -556,7 +361,7 @@
     <?php include 'shoppingcart.php'; ?>
     <!-- /shoppingcart -->
 
- <!-- modal quickView -->
+    <!-- modal quickView -->
     <?php include 'modalquickview.php'; ?>
     <!-- /modal quickView -->
 

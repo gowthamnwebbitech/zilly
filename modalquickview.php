@@ -4,6 +4,7 @@
         <div class="modal-content">
             <span class="icon-close icon-close-popup" data-bs-dismiss="modal"></span>
 
+            <!-- Product Images -->
             <div class="tf-product-media-wrap">
                 <div dir="ltr" class="swiper tf-single-slide">
                     <div class="swiper-wrapper">
@@ -11,27 +12,27 @@
                         <div class="swiper-slide" data-color="black">
                             <div class="item">
                                 <img class="lazyload"
-                                     data-src="images/products/bags/product1.jpg"
-                                     src="images/products/bags/product1.jpg"
-                                     alt="Zilly Laptop Bag Black">
+                                     data-src="images/products/bags/newproduct1.jpg"
+                                     src="images/products/bags/newproduct1.jpg"
+                                     alt="Zilly Everyday Tote Bag Black">
                             </div>
                         </div>
 
                         <div class="swiper-slide" data-color="brown">
                             <div class="item">
                                 <img class="lazyload"
-                                     data-src="images/products/bags/product2.jpg"
-                                     src="images/products/bags/product2.jpg"
-                                     alt="Zilly Laptop Bag Brown">
+                                     data-src="images/products/bags/newproduct2.jpg"
+                                     src="images/products/bags/newproduct2.jpg"
+                                     alt="Zilly Everyday Tote Bag Brown">
                             </div>
                         </div>
 
                         <div class="swiper-slide" data-color="navy">
                             <div class="item">
                                 <img class="lazyload"
-                                     data-src="images/products/bags/product3.jpg"
-                                     src="images/products/bags/product3.jpg"
-                                     alt="Zilly Laptop Bag Navy">
+                                     data-src="images/products/bags/newproduct3.jpg"
+                                     src="images/products/bags/newproduct3.jpg"
+                                     alt="Zilly Everyday Tote Bag Navy">
                             </div>
                         </div>
 
@@ -42,29 +43,31 @@
                 </div>
             </div>
 
+            <!-- Product Info -->
             <div class="tf-product-info-wrap">
                 <div class="tf-product-info-inner">
 
                     <div class="tf-product-heading">
                         <h6 class="product-name">
                             <a class="link" href="product-detail.php">
-                                Zilly Premium Laptop Bag
+                                Zilly Everyday Tote Bag
                             </a>
                         </h6>
 
                         <div class="product-price">
-                            <h6 class="price-new price-on-sale">₹2,999</h6>
-                            <h6 class="price-old">₹3,999</h6>
-                            <span class="badge-sale">25% Off</span>
+                            <h6 class="price-new price-on-sale">₹1,999</h6>
+                            <h6 class="price-old">₹2,499</h6>
+                            <span class="badge-sale">20% Off</span>
                         </div>
 
                         <p class="text">
-                            Premium quality Zilly laptop bag with padded laptop compartment,
-                            durable material, and multiple storage sections — perfect for office
-                            and daily use.
+                            Proudly Indian and thoughtfully designed, the Zilly Everyday Tote Bag
+                            features dual zippered compartments, water-resistant lining, and premium
+                            vegan leather craftsmanship—perfect for everyday elegance and effortless organization.
                         </p>
                     </div>
 
+                    <!-- Variants -->
                     <div class="tf-product-variant">
 
                         <!-- Color -->
@@ -95,19 +98,18 @@
                             <div class="variant-picker-label">
                                 <div>
                                     Size:
-                                    <span class="variant-picker-label-value value-currentSize">15.6 Inch</span>
+                                    <span class="variant-picker-label-value value-currentSize">1</span>
                                 </div>
                             </div>
 
                             <div class="variant-picker-values">
-                                <span class="size-btn active" data-size="14-inch">14</span>
-                                <span class="size-btn" data-size="15-6-inch">15.6</span>
-                                <span class="size-btn" data-size="17-inch">17</span>
+                                <span class="size-btn active" data-size="one-size">1</span>
                             </div>
                         </div>
 
                     </div>
 
+                    <!-- Quantity & CTA -->
                     <div class="tf-product-total-quantity">
                         <div class="group-btn">
                             <div class="wg-quantity">

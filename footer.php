@@ -36,6 +36,7 @@
     <div class="footer-body">
         <div class="container">
             <div class="row-footer">
+
                 <!-- Business Contact -->
                 <div class="footer-col-block s1">
                     <div class="footer-heading footer-heading-mobile text-xl fw-medium">
@@ -44,32 +45,41 @@
                     <div class="tf-collapse-content">
                         <div class="footer-contact">
                             <ul class="footer-info">
+
                                 <li class="item">
                                     <span class="box-icon">
                                         <i class="icon icon-location"></i>
                                     </span>
                                     <a target="_blank"
-                                        href="https://www.google.com/maps?q=Chennai,Tamil+Nadu,India">
-                                        Zilly Bags, Chennai, Tamil Nadu, India
+                                       href="https://www.google.com/maps?q=ZAYN+Importique,+Nava+India,+Coimbatore">
+                                        <strong>ZAYN Importique</strong><br>
+                                        No. 21, 3rd Floor,<br>
+                                        Mani High School Teachers Layout,<br>
+                                        SNR College Road, Nava India,<br>
+                                        Coimbatore – 641004
                                     </a>
                                 </li>
+
                                 <li class="item">
                                     <span class="box-icon">
                                         <i class="icon icon-phone"></i>
                                     </span>
-                                    <a href="tel:+919876543210">+91 98765 43210</a>
+                                    <a href="tel:+918667873341">+91 86678 73341</a>
                                 </li>
+
                                 <li class="item">
                                     <span class="box-icon">
                                         <i class="icon icon-mail"></i>
                                     </span>
                                     <a href="mailto:support@zillybags.com">support@zillybags.com</a>
                                 </li>
+
                             </ul>
-                            <a href="https://www.google.com/maps?q=Chennai,Tamil+Nadu,India"
-                                class="tf-btn btn-line-dark fw-normal">
+
+                            <a href="https://www.google.com/maps?q=ZAYN+Importique,+Nava+India,+Coimbatore"
+                               class="tf-btn btn-line-dark fw-normal">
                                 <span class="text-sm text-transform-none">
-                                    Get direction
+                                    Get Direction
                                 </span>
                                 <i class="icon-arrow-top-left fs-8"></i>
                             </a>
@@ -88,7 +98,6 @@
                                 Subscribe to Zilly Bags for exclusive offers, latest collections,
                                 and fashion updates. We respect your inbox.
                             </p>
-                            <!-- Newsletter form kept exactly same -->
                         </div>
                     </div>
                 </div>

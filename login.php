@@ -28,7 +28,7 @@
                 </form>
                 <div class="other-login">
                     <p class="text-sm text-center text-main-2">Or sign in with:</p>
-                    <a href="account-page.html" class="w-100 text-md mb_8">
+                    <a href="account-page.php" class="w-100 text-md mb_8">
                         <svg class="icon" width="32" height="32" viewBox="0 0 32 32" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <circle cx="16" cy="16" r="16" fill="#3B5998" />
@@ -38,7 +38,7 @@
                         </svg>
                         FACEBOOK
                     </a>
-                    <a href="account-page.html" class="w-100 text-md bg-dark">
+                    <a href="account-page.php" class="w-100 text-md bg-dark">
                         <svg class="icon" width="32" height="32" viewBox="0 0 32 32" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <g clip-path="url(#clip0_235_18876)">
