@@ -125,12 +125,12 @@
                             </a>
                         </div>
 
-                        <a href="checkout.html"
+                        <a href="checkout.php"
                            class="tf-btn w-100 animate-btn paypal btn-primary">
                             Buy It Now
                         </a>
 
-                        <a href="checkout.html" class="more-choose-payment link">
+                        <a href="checkout.php" class="more-choose-payment link">
                             More payment options
                         </a>
                     </div>

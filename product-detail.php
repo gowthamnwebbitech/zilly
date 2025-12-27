@@ -304,9 +304,9 @@
                                             <a href="#shoppingCart" data-bs-toggle="offcanvas"
                                                 class="tf-btn animate-btn btn-add-to-cart">Add to cart</a>
                                         </div>
-                                        <a href="checkout.html" class="tf-btn btn-primary w-100 animate-btn">Buy it
+                                        <a href="checkout.php" class="tf-btn btn-primary w-100 animate-btn">Buy it
                                             now</a>
-                                        <a href="checkout.html" class="more-choose-payment link">More payment
+                                        <a href="checkout.php" class="more-choose-payment link">More payment
                                             options</a>
                                     </div>
                                     <div class="tf-product-extra-link">

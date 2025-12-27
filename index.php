@@ -1082,9 +1082,9 @@
                             cart</a>
                         <a href="wish-list.html" class="box-icon"><i class="icon icon-heart"></i></a>
                         <a href="javascript:void(0);" class="box-icon btn-compare"><i class="icon icon-compare"></i></a>
-                        <a href="checkout.html" class="tf-btn btn-primary animate-btn w-100">Buy It Now</a>
+                        <a href="checkout.php" class="tf-btn btn-primary animate-btn w-100">Buy It Now</a>
                     </div>
-                    <a href="checkout.html" class="tf-btn btn-line-dark payment-link">More payment options</a>
+                    <a href="checkout.php" class="tf-btn btn-line-dark payment-link">More payment options</a>
                 </div>
             </div>
         </div>
